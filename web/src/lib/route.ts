@@ -1,8 +1,30 @@
 import { useEffect, useState } from "react";
 
-export type Screen = "generator" | "export" | "brand-baru" | "bandingkan" | "uji" | "panduan";
+export type Screen =
+  | "generator"
+  | "export"
+  | "brand-baru"
+  | "bandingkan"
+  | "uji"
+  | "panduan"
+  | "logo"
+  | "logo-keluarga"
+  | "logo-panduan";
 
-const SCREENS: Screen[] = ["generator", "export", "brand-baru", "bandingkan", "uji", "panduan"];
+const SCREENS: Screen[] = [
+  "generator",
+  "export",
+  "brand-baru",
+  "bandingkan",
+  "uji",
+  "panduan",
+  "logo",
+  "logo-keluarga",
+  "logo-panduan",
+];
+
+/** Screens of the product-logo workspace (the rest belong to the brand icon workspace). */
+export const isLogoScreen = (s: Screen) => s.startsWith("logo");
 
 export interface Route {
   screen: Screen;

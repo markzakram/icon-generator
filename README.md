@@ -32,6 +32,17 @@ Buka http://localhost:5173. Layar yang tersedia:
 
 Tombol **Icon v2 / v1** di header memilih versi default; brand dipilih sekali di header dan berlaku di semua layar.
 
+Pengalih **Icon brand | Logo app** di header membuka ruang kerja kedua, generator logo aplikasi internal (keluarga
+Product: Freelance, Knowledge, Momentum, Track):
+
+| Menu | Untuk |
+| --- | --- |
+| Buat logo | Nama app, piktogram (saran otomatis, 1.857 ikon Lucide, SVG sendiri, atau brief untuk Claude), pasangan warna; pratinjau semua varian dan unduh paket ZIP |
+| Keluarga logo | Semua logo app, bandingkan dengan file asli, cek warna yang mirip, ekspor/impor JSON |
+| Panduan logo | Aturan, anatomi, tabel warna, brief Claude |
+
+Logo buatan sendiri tersimpan di browser (localStorage); pakai Ekspor JSON untuk membagikan atau memindahkannya.
+
 Kalau icon sumber atau `catalog/brands.json` berubah, ekspor ulang data untuk web (butuh Python, lihat di bawah):
 
 ```bash
@@ -51,6 +62,8 @@ Untuk deploy ke Vercel, set **Root Directory** ke `web`. Vercel akan mendeteksi 
 | `build/` | Hasil antara, boleh dihapus dan dibuat ulang |
 | `reports/fase0/` | Laporan uji coba dan demo |
 | `reports/v2/` | Gambar set icon v2 untuk dokumentasi |
+| `Logo app produk/` | Logo asli aplikasi internal (PNG, jangan diubah) |
+| `pipeline/logo/` | Ekspor data generator logo: kerning font, pustaka Lucide, logo asli untuk pembanding |
 
 ## Menjalankan Fase 0
 
@@ -92,3 +105,22 @@ Menambah icon v2:
 4. Detail yang boleh hilang di ukuran kecil dibungkus `<g class="fine">…</g>` (jangan ada `<g>` lain di dalamnya).
 5. Cek di menu Panduan v2 (tombol 32 px) dan Bandingkan untuk beberapa brand, termasuk JadiPolisi (primer kuning)
    dan JadiPrajurit (aksen putih).
+
+## Logo app
+
+Kode di `web/src/lib/logo/`:
+
+| File | Isi |
+| --- | --- |
+| `geometry.ts` | Kotak isometrik (proporsi diukur dari 4 logo asli), panel, pegangan, dan pemetaan piktogram 24×24 ke panel |
+| `palette.ts` | 12 pasangan warna (4 pertama = warna app yang ada), warna gelap otomatis, varian latar gelap |
+| `picto.ts` | 4 piktogram asli, pustaka Lucide, kata kunci Indonesia untuk saran, pembersih SVG tempelan, brief Claude |
+| `text.ts` | Gabarito Black (OFL) diubah jadi outline dengan opentype.js |
+| `compose.ts` | Logo, lockup dua/satu baris, teks saja, ikon aplikasi, favicon |
+| `export.ts` | Paket ZIP: SVG 4 skema warna, PNG, iOS, Android (adaptive + monochrome), favicon .ico/.svg, PWA |
+
+Data di `web/public/data/logo/` dibuat oleh `npm run export-logo-data` (butuh `fonttools` dan `pillow`). opentype.js tidak
+bisa membaca kerning Gabarito (lookup GPOS extension), jadi pasangan kerningnya diratakan ke `kern.json` oleh skrip itu.
+
+Menambah piktogram bawaan: tambah entri di `BUILTIN_PICTOS` (`picto.ts`), grid 24, `{B}` untuk warna terang dan `{D}`
+untuk detail gelap, garis sekitar 2,4 unit dengan ujung bulat.

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import { DataProvider } from "./state";
 import "./styles.css";
+import "./logo.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

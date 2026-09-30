@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { hrefFor, type Screen } from "../lib/route";
+import { hrefFor, isLogoScreen, type Screen } from "../lib/route";
 import type { Version } from "../lib/types";
 import { useData } from "../state";
 import { Swatches } from "./Bits";
@@ -11,6 +11,12 @@ const NAV: [Screen, string][] = [
   ["bandingkan", "Bandingkan"],
   ["uji", "Uji 5 detik"],
   ["panduan", "Panduan v2"],
+];
+
+const LOGO_NAV: [Screen, string][] = [
+  ["logo", "Buat logo"],
+  ["logo-keluarga", "Keluarga logo"],
+  ["logo-panduan", "Panduan logo"],
 ];
 
 function BrandSwitcher() {
@@ -95,26 +101,37 @@ function VersionToggle() {
 }
 
 export function Header({ screen }: { screen: Screen }) {
+  const logoMode = isLogoScreen(screen);
   return (
     <header className="topbar">
-      <a className="logo" href={hrefFor("generator")}>
+      <a className="logo" href={hrefFor(logoMode ? "logo" : "generator")}>
         <svg viewBox="0 0 32 32" aria-hidden>
           <path d="M16 3l11 6.5v13L16 29 5 22.5v-13z" fill="#482171" />
           <path d="M16 9l6 3.5v7L16 23l-6-3.5v-7z" fill="#CB0560" />
         </svg>
-        <span>Icon Generator</span>
+        <span>{logoMode ? "Logo Generator" : "Icon Generator"}</span>
       </a>
+      <div className="workspace" role="group" aria-label="Ruang kerja">
+        <a href={hrefFor("generator")} className={logoMode ? "" : "on"} aria-current={logoMode ? undefined : "true"}>
+          Icon brand
+        </a>
+        <a href={hrefFor("logo")} className={logoMode ? "on" : ""} aria-current={logoMode ? "true" : undefined}>
+          Logo app
+        </a>
+      </div>
       <nav aria-label="Menu utama">
-        {NAV.map(([s, label]) => (
+        {(logoMode ? LOGO_NAV : NAV).map(([s, label]) => (
           <a key={s} href={hrefFor(s)} className={screen === s ? "active" : ""} aria-current={screen === s ? "page" : undefined}>
             {label}
           </a>
         ))}
       </nav>
-      <div className="topbar-right">
-        <VersionToggle />
-        <BrandSwitcher />
-      </div>
+      {!logoMode && (
+        <div className="topbar-right">
+          <VersionToggle />
+          <BrandSwitcher />
+        </div>
+      )}
     </header>
   );
 }
