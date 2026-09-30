@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
-export type Screen = "generator" | "bandingkan" | "brand-baru" | "export";
+export type Screen = "generator" | "export" | "brand-baru" | "bandingkan" | "uji" | "panduan";
 
-const SCREENS: Screen[] = ["generator", "bandingkan", "brand-baru", "export"];
+const SCREENS: Screen[] = ["generator", "export", "brand-baru", "bandingkan", "uji", "panduan"];
 
 export interface Route {
   screen: Screen;

@@ -81,3 +81,33 @@ export function completeRoles(given: Partial<Roles> & { primary: string }): Role
 export function inkOn(hex: string): string {
   return rgbToLab(hexToRgb(hex))[0] > 62 ? "#14161A" : "#FFFFFF";
 }
+
+/** WCAG relative luminance. */
+export function luminance(hex: string): number {
+  const [r, g, b] = hexToRgb(hex).map(toLinear);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+/** WCAG contrast ratio, 1 to 21. */
+export function contrast(a: string, b: string): number {
+  const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x);
+  return (hi + 0.05) / (lo + 0.05);
+}
+
+/** Lightness, chroma, hue (degrees). */
+export function lch(hex: string): [number, number, number] {
+  const [L, a, b] = rgbToLab(hexToRgb(hex));
+  return [L, Math.hypot(a, b), ((Math.atan2(b, a) * 180) / Math.PI + 360) % 360];
+}
+
+export function hueDiff(h1: number, h2: number): number {
+  const d = Math.abs(h1 - h2) % 360;
+  return d > 180 ? 360 - d : d;
+}
+
+/** Straight RGB mix: t = 0 gives a, t = 1 gives b. */
+export function mix(a: string, b: string, t: number): string {
+  const A = hexToRgb(a);
+  const B = hexToRgb(b);
+  return rgbToHex([0, 1, 2].map((i) => A[i] + (B[i] - A[i]) * t) as RGB);
+}

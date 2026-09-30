@@ -1,52 +1,67 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { BrandSelect } from "../components/Bits";
+import { IconView } from "../components/IconView";
 import { downloadBlob } from "../lib/download";
-import { sourceFor } from "../lib/render";
+import { effectiveVersion, hasV2, sourceFor } from "../lib/render";
 import { sortDefault } from "../lib/search";
-import { ANDROID, buildZip, filesPerGlyph, UMUM_SIZES, type Presets } from "../lib/zip";
+import type { Glyph, Version } from "../lib/types";
+import { ANDROID, buildZip, fileBase, filesPerIcon, UMUM_SIZES, type Presets, type ZipItem } from "../lib/zip";
 import { useData } from "../state";
 
-type SetKind = "standar" | "semua" | "kosong";
+type Source = "daftar" | "standar" | "v2" | "semua" | "kosong";
 
 export function Export({ params }: { params: URLSearchParams }) {
-  const { brands, brandBySlug, glyphs, glyphById, catalog, roles } = useData();
-  const [slug, setSlug] = useState(params.get("brand") ?? "jadipcpm");
-  const brand = brandBySlug.get(slug) ?? brands[0];
-  const [kind, setKind] = useState<SetKind>("standar");
-  const [presets, setPresets] = useState<Presets>({ umum: true, android: true, ios: true, web: true });
+  const { brands, brand, setBrand, glyphs, glyphById, catalog, roles, tray, version: globalVersion } = useData();
+  const [source, setSource] = useState<Source>(() =>
+    params.get("sumber") === "daftar" && tray.length ? "daftar" : "standar",
+  );
+  const [version, setVersion] = useState<Version>(globalVersion);
+  const [presets, setPresets] = useState<Presets>({ umum: true, android: true, ios: true, web: true, svg: true });
   const [base, setBase] = useState(64);
-  const [perGlyph, setPerGlyph] = useState(0);
   const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    filesPerGlyph(presets).then(setPerGlyph);
-  }, [presets]);
+  const items: ZipItem[] = useMemo(() => {
+    const plain = (list: Glyph[]) => list.map((glyph) => ({ glyph }));
+    switch (source) {
+      case "daftar":
+        return tray.map((t) => ({ glyph: glyphById.get(t.id)!, badge: t.badge })).filter((t) => t.glyph);
+      case "standar":
+        return plain(catalog.standard.map((id) => glyphById.get(id)).filter((g): g is Glyph => !!g));
+      case "v2":
+        return plain(sortDefault(glyphs.filter(hasV2), catalog.standard));
+      case "semua":
+        return plain(sortDefault(glyphs, catalog.standard));
+      default:
+        return plain(
+          sortDefault(
+            glyphs.filter((g) => sourceFor(g, brand) === "generate"),
+            catalog.standard,
+          ),
+        );
+    }
+  }, [source, tray, glyphById, catalog.standard, glyphs, brand]);
 
-  const list = useMemo(() => {
-    if (kind === "standar") return catalog.standard.map((id) => glyphById.get(id)).filter((g) => g !== undefined);
-    const all = sortDefault(glyphs, catalog.standard);
-    return kind === "semua" ? all : all.filter((g) => sourceFor(g, brand) === "generate");
-  }, [kind, glyphs, glyphById, catalog.standard, brand]);
-
-  const nOfficial = list.filter((g) => sourceFor(g, brand) === "resmi").length;
+  const nV2 = items.filter((t) => effectiveVersion(t.glyph, version) === "v2").length;
+  const nFiles = items.reduce((s, t) => s + filesPerIcon(presets, effectiveVersion(t.glyph, version) === "v2"), 0);
   const anyPreset = Object.values(presets).some(Boolean);
-  const sample = list[0];
-  const name = sample ? `${brand.slug}_${sample.id}` : `${brand.slug}_materi`;
+  const sample = items[0] ?? { glyph: glyphById.get("materi")! };
+  const name = fileBase(brand, sample.glyph, sample.badge);
 
   async function run() {
     setError(null);
-    setProgress({ done: 0, total: list.length });
+    setProgress({ done: 0, total: items.length });
     try {
       const blob = await buildZip({
         brand,
-        glyphs: list,
+        items,
         roles,
         presets,
         base,
+        version,
         onProgress: (done, total) => setProgress({ done, total }),
       });
-      downloadBlob(blob, `${brand.slug}_icon_${kind}.zip`);
+      downloadBlob(blob, `${brand.slug}_icon_${source}.zip`);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
@@ -55,28 +70,45 @@ export function Export({ params }: { params: URLSearchParams }) {
   }
 
   const toggle = (k: keyof Presets) => setPresets((p) => ({ ...p, [k]: !p[k] }));
+  const sources: [Source, string, number][] = [
+    ["daftar", "Daftar unduhan", tray.length],
+    ["standar", "16 menu utama", catalog.standard.length],
+    ["v2", "Semua icon v2", glyphs.filter(hasV2).length],
+    ["semua", "Semua glyph", glyphs.length],
+    ["kosong", "Yang belum ada icon resminya", glyphs.filter((g) => sourceFor(g, brand) === "generate").length],
+  ];
 
   return (
     <div className="page export">
       <section className="panel form">
-        <h1>Export</h1>
-        <p className="lead">Unduh icon satu brand sekaligus, lengkap dengan ukuran untuk Android, iOS, dan web.</p>
-        <BrandSelect brands={brands} selected={brand.slug} onSelect={setSlug} />
+        <h1>Unduh set</h1>
+        <p className="lead">Unduh banyak icon sekaligus untuk satu brand, lengkap untuk Android, iOS, web, dan SVG.</p>
+        <BrandSelect brands={brands} selected={brand.slug} onSelect={setBrand} />
 
         <fieldset>
           <legend>Icon yang diunduh</legend>
-          {(
-            [
-              ["standar", `16 icon standar`],
-              ["semua", `Semua ${glyphs.length} glyph`],
-              ["kosong", "Hanya yang belum ada icon resminya"],
-            ] as [SetKind, string][]
-          ).map(([k, label]) => (
-            <label key={k} className="radio">
-              <input type="radio" name="set" checked={kind === k} onChange={() => setKind(k)} />
-              <span>{label}</span>
+          {sources.map(([k, label, n]) => (
+            <label key={k} className={`radio${n === 0 ? " disabled" : ""}`}>
+              <input type="radio" name="sumber" checked={source === k} disabled={n === 0} onChange={() => setSource(k)} />
+              <span>
+                {label} <em>{n} icon</em>
+              </span>
             </label>
           ))}
+        </fieldset>
+
+        <fieldset>
+          <legend>Versi</legend>
+          <label className="radio">
+            <input type="radio" name="versi" checked={version === "v2"} onChange={() => setVersion("v2")} />
+            <span>
+              Pakai v2 bila ada <em>sisanya v1</em>
+            </span>
+          </label>
+          <label className="radio">
+            <input type="radio" name="versi" checked={version === "v1"} onChange={() => setVersion("v1")} />
+            <span>Hanya v1 (icon lama)</span>
+          </label>
         </fieldset>
 
         <fieldset>
@@ -105,6 +137,12 @@ export function Export({ params }: { params: URLSearchParams }) {
               Web <em>1x dan 2x, PNG dan WebP</em>
             </span>
           </label>
+          <label className="check">
+            <input type="checkbox" checked={presets.svg} onChange={() => toggle("svg")} />
+            <span>
+              SVG <em>hanya icon v2, versi detail dan kecil</em>
+            </span>
+          </label>
         </fieldset>
 
         <label className="field narrow">
@@ -117,35 +155,42 @@ export function Export({ params }: { params: URLSearchParams }) {
             onChange={(e) => setBase(Math.max(16, Math.min(512, Number(e.target.value) || 64)))}
           />
         </label>
+        {base <= 48 && <p className="hint-line">Ukuran ini memakai versi sederhana icon v2 (detail halus dihilangkan).</p>}
 
         <p className="summary">
-          {list.length} icon × {perGlyph} file = <strong>{list.length * perGlyph} file</strong>. {nOfficial} icon resmi,{" "}
-          {list.length - nOfficial} dibuat generator.
+          {items.length} icon ({nV2} v2) = <strong>{nFiles} file</strong>.
         </p>
-        <button type="button" className="btn btn-primary" disabled={!!progress || !anyPreset || !list.length} onClick={run}>
+        <button type="button" className="btn btn-primary" disabled={!!progress || !anyPreset || !items.length} onClick={run}>
           {progress ? `Menyiapkan ${progress.done}/${progress.total}…` : "Buat ZIP"}
         </button>
         {progress && <progress value={progress.done} max={progress.total} />}
         {error && <p className="error">{error}</p>}
       </section>
 
-      <section className="panel">
+      <section className="panel side">
+        <h2>Isi unduhan</h2>
+        <div className="mini-grid">
+          {items.slice(0, 40).map((t) => (
+            <span key={t.glyph.id} title={t.glyph.nama}>
+              <IconView glyph={t.glyph} brand={brand} size={44} version={version} badge={t.badge} />
+            </span>
+          ))}
+          {items.length > 40 && <span className="more">+{items.length - 40}</span>}
+        </div>
         <h2>Struktur file</h2>
         <pre className="tree">
           {[
-            `${brand.slug}_icon_${kind}.zip`,
+            `${brand.slug}_icon_${source}.zip`,
             presets.umum && `├─ umum/${name}_512.png  (juga 1024, 256, 128)`,
             presets.android && `├─ android/drawable-xxhdpi/ic_${name}.png  (mdpi … xxxhdpi)`,
             presets.ios && `├─ ios/${name}.imageset/${name}@2x.png  (+ @1x, @3x, Contents.json)`,
             presets.web && `├─ web/${name}.png  (+ @2x, .webp)`,
-            "└─ README.txt  (daftar icon: resmi atau generate)",
+            presets.svg && `├─ svg/${name}.svg  (+ _kecil.svg, icon v2)`,
+            "└─ README.txt  (daftar icon: v2, resmi, atau generate)",
           ]
             .filter(Boolean)
             .join("\n")}
         </pre>
-        <p className="hint-line">
-          Nama file mengikuti PRD: huruf kecil, angka, dan garis bawah, sehingga aman sebagai nama resource Android.
-        </p>
       </section>
     </div>
   );

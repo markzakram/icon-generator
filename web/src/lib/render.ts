@@ -1,6 +1,10 @@
 import { hexToRgb, type RGB } from "./color";
 import { dataUrl } from "./data";
-import { ROLE_NAMES, type Brand, type Glyph, type RoleName, type RolesData } from "./types";
+import { ROLE_NAMES, type Brand, type Glyph, type RoleName, type RolesData, type Version } from "./types";
+import type { Badge } from "./v2/badges";
+import { V2_BY_ID } from "./v2/glyphs";
+import { badgeSvg, SIMPLE_MAX, svgImage, v2Svg } from "./v2/svg";
+import { v2Tokens } from "./v2/tokens";
 
 export type Surface = HTMLCanvasElement | OffscreenCanvas;
 type Ctx = CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D;
@@ -155,6 +159,86 @@ export function resizeTo(src: Surface | ImageBitmap, size: number): Surface {
     cur = drawScaled(cur, w);
   }
   return w === size && isSurface(cur) ? cur : drawScaled(cur, size);
+}
+
+/** Like resizeTo, but never hands back `src` itself, so the result can be drawn on. */
+export function resizeCopy(src: Surface, size: number): Surface {
+  const out = resizeTo(src, size);
+  return out === src ? drawScaled(src, size) : out;
+}
+
+// ---------------------------------------------------------------- v1 + v2 in one place
+
+export function hasV2(glyph: Glyph): boolean {
+  return V2_BY_ID.has(glyph.id);
+}
+
+/** The version actually drawn: v2 only exists for some glyphs, the rest fall back to v1. */
+export function effectiveVersion(glyph: Glyph, version: Version): Version {
+  return version === "v2" && hasV2(glyph) ? "v2" : "v1";
+}
+
+/** What the user sees on a card: new v2 drawing, official v1 icon, or v1 made by the generator. */
+export function iconKind(glyph: Glyph, brand: Brand, version: Version, force = false): "v2" | Source {
+  return effectiveVersion(glyph, version) === "v2" ? "v2" : sourceFor(glyph, brand, force);
+}
+
+export function displayName(glyph: Glyph, version: Version): string {
+  return (effectiveVersion(glyph, version) === "v2" && V2_BY_ID.get(glyph.id)?.nama) || glyph.nama;
+}
+
+export interface IconOpts {
+  version: Version;
+  /** v1 only: show the generated drawing even when an official icon exists. */
+  force?: boolean;
+  badge?: Badge | null;
+}
+
+/** SVG document of a v2 icon (null when the glyph has no v2 drawing). */
+export function v2SvgFor(glyph: Glyph, brand: Brand, badge: Badge | null | undefined, size = 96, simple = false): string | null {
+  const def = V2_BY_ID.get(glyph.id);
+  return def ? v2Svg(def, v2Tokens(brand), { size, simple, badge }) : null;
+}
+
+/**
+ * Returns a function that renders the icon at any pixel size. v1 icons are painted once at 1024 px
+ * and scaled down; v2 icons are drawn straight from the vector at each size.
+ */
+export async function iconRenderer(
+  glyph: Glyph,
+  brand: Brand,
+  roles: RolesData,
+  opts: IconOpts,
+): Promise<(size: number, simple?: boolean) => Promise<Surface>> {
+  const tokens = v2Tokens(brand);
+  if (effectiveVersion(glyph, opts.version) === "v2") {
+    const def = V2_BY_ID.get(glyph.id)!;
+    return async (size, simple = size <= SIMPLE_MAX) => {
+      const img = await svgImage(v2Svg(def, tokens, { size, simple, badge: opts.badge }));
+      const c = makeCanvas(size, size);
+      ctx2d(c).drawImage(img, 0, 0, size, size);
+      return c;
+    };
+  }
+  const { surface } = await renderBase(glyph, brand, roles, { thumb: false, force: opts.force });
+  return async (size) => {
+    const out = resizeCopy(surface, size);
+    if (opts.badge) {
+      const img = await svgImage(badgeSvg(opts.badge, tokens, size));
+      ctx2d(out).drawImage(img, 0, 0, size, size);
+    }
+    return out;
+  };
+}
+
+export async function renderIconAt(
+  glyph: Glyph,
+  brand: Brand,
+  roles: RolesData,
+  size: number,
+  opts: IconOpts,
+): Promise<Surface> {
+  return (await iconRenderer(glyph, brand, roles, opts))(size);
 }
 
 let encoder: HTMLCanvasElement | null = null;

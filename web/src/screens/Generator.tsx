@@ -1,128 +1,243 @@
-import { useCallback, useMemo } from "react";
-import { BrandList, BrandSelect, SearchBox, SourceBadge } from "../components/Bits";
-import { IconCanvas } from "../components/IconCanvas";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { SearchBox } from "../components/Bits";
+import { GlyphCard } from "../components/GlyphCard";
 import { PreviewPanel } from "../components/PreviewPanel";
-import { sourceFor } from "../lib/render";
-import { hrefFor, replaceParams } from "../lib/route";
-import { searchGlyphs } from "../lib/search";
-import { CATEGORY_LABELS } from "../lib/types";
+import { Tray } from "../components/Tray";
+import { hasV2 } from "../lib/render";
+import { replaceParams } from "../lib/route";
+import type { Glyph } from "../lib/types";
 import { useData } from "../state";
 
-const EXAMPLES = ["course", "tryout", "kebanksentralan", "psikotes", "TWK", "numerik"];
-const CATS = ["semua", "standar", ...Object.keys(CATEGORY_LABELS)];
+const EXAMPLES = ["course", "tryout", "psikotes", "TWK", "kebanksentralan", "jadwal"];
+const COLLAPSED = 8;
+
+interface Section {
+  key: string;
+  title: string;
+  hint?: string;
+  test: (g: Glyph, standard: Set<string>) => boolean;
+}
+
+const SECTIONS: Section[] = [
+  { key: "menu", title: "Menu utama", hint: "paling sering dipakai", test: (g, s) => s.has(g.id) },
+  { key: "subtes", title: "Subtes & tes", test: (g) => g.kategori === "subtes" },
+  { key: "mapel", title: "Mata pelajaran", test: (g) => g.kategori === "mapel" },
+  { key: "profesi_bidang", title: "Profesi & bidang", test: (g) => g.kategori === "profesi_bidang" },
+  {
+    key: "lainnya",
+    title: "Lainnya",
+    hint: "menu lain, lembaga, orang",
+    test: (g, s) => ["menu", "lembaga", "orang", "lainnya"].includes(g.kategori) && !s.has(g.id),
+  },
+];
 
 export function Generator({ params }: { params: URLSearchParams }) {
-  const { brands, brandBySlug, glyphs, glyphById, fuse, catalog } = useData();
-  const brand = brandBySlug.get(params.get("brand") ?? "jadipcpm") ?? brands[0];
+  const { brand, brandBySlug, setBrand, version, glyphs, glyphById, fuse, catalog, recent, tray } = useData();
   const q = params.get("q") ?? "";
   const cat = params.get("cat") ?? "semua";
   const gid = params.get("g");
+  const onlyV2 = params.get("v2") === "1";
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+  const searchRef = useRef<HTMLInputElement>(null);
+  const standard = useMemo(() => new Set(catalog.standard), [catalog.standard]);
 
   const set = useCallback(
     (patch: Record<string, string | null>) =>
-      replaceParams("generator", { brand: brand.slug, q, cat: cat === "semua" ? null : cat, g: gid, ...patch }),
-    [brand.slug, q, cat, gid],
+      replaceParams("generator", { q, cat: cat === "semua" ? null : cat, g: gid, v2: onlyV2 ? "1" : null, ...patch }),
+    [q, cat, gid, onlyV2],
   );
 
-  const found = useMemo(() => searchGlyphs(fuse, glyphs, q, catalog.standard), [fuse, glyphs, q, catalog.standard]);
-  const counts = useMemo(() => {
-    const c: Record<string, number> = { semua: found.length, standar: 0 };
-    for (const g of found) {
-      c[g.kategori] = (c[g.kategori] ?? 0) + 1;
-      if (catalog.standard.includes(g.id)) c.standar++;
+  // a shared link may carry ?brand=...: adopt it once, then drop it from the address
+  useEffect(() => {
+    const b = params.get("brand");
+    if (b && brandBySlug.has(b)) {
+      if (b !== brand.slug) setBrand(b);
+      set({});
     }
-    return c;
-  }, [found, catalog.standard]);
-  const results = useMemo(() => {
-    if (cat === "semua") return found;
-    if (cat === "standar") return found.filter((g) => catalog.standard.includes(g.id));
-    return found.filter((g) => g.kategori === cat);
-  }, [found, cat, catalog.standard]);
+  }, [params, brandBySlug, brand.slug, setBrand, set]);
 
-  const selected = (gid ? glyphById.get(gid) : undefined) ?? results[0];
-  const nOfficial = results.filter((g) => sourceFor(g, brand) === "resmi").length;
+  // "/" jumps to search from anywhere on the page
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement;
+      if (e.key === "/" && !["INPUT", "TEXTAREA", "SELECT"].includes(t.tagName)) {
+        e.preventDefault();
+        searchRef.current?.focus();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  const pool = useMemo(() => (onlyV2 ? glyphs.filter(hasV2) : glyphs), [glyphs, onlyV2]);
+  const found = useMemo(() => {
+    if (!q.trim()) return null;
+    const ok = new Set(pool.map((g) => g.id));
+    return fuse
+      .search(q.trim())
+      .map((r) => r.item)
+      .filter((g) => ok.has(g.id));
+  }, [q, pool, fuse]);
+
+  const ordered = useCallback(
+    (list: Glyph[], key: string) => {
+      if (key === "menu") return catalog.standard.map((id) => glyphById.get(id)).filter((g): g is Glyph => !!g && list.includes(g));
+      return [...list].sort(
+        (a, b) =>
+          Number(version === "v2" && hasV2(b)) - Number(version === "v2" && hasV2(a)) ||
+          b.brandCount - a.brandCount ||
+          a.nama.localeCompare(b.nama, "id"),
+      );
+    },
+    [catalog.standard, glyphById, version],
+  );
+
+  const sections = useMemo(
+    () =>
+      SECTIONS.map((s) => ({ ...s, items: ordered(pool.filter((g) => s.test(g, standard)), s.key) })).filter(
+        (s) => s.items.length > 0,
+      ),
+    [pool, standard, ordered],
+  );
+  const recentGlyphs = useMemo(
+    () => recent.map((id) => glyphById.get(id)).filter((g): g is Glyph => !!g && pool.includes(g)),
+    [recent, glyphById, pool],
+  );
+
+  // typing a query shows the best match right away
+  useEffect(() => {
+    if (found && found.length && found[0].id !== gid) set({ g: found[0].id });
+    // only when the query changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q]);
+
+  const explicit = gid ? glyphById.get(gid) : undefined;
+  const selected = explicit ?? found?.[0] ?? glyphById.get(catalog.standard[0]);
+  const select = (id: string) => {
+    set({ g: id });
+    if (window.matchMedia("(max-width: 860px)").matches) window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const grid = (list: Glyph[]) => (
+    <div className="grid">
+      {list.map((g) => (
+        <GlyphCard key={g.id} glyph={g} brand={brand} version={version} selected={selected?.id === g.id} onSelect={select} />
+      ))}
+    </div>
+  );
+
+  const v2Count = glyphs.filter(hasV2).length;
 
   return (
-    <div className="gen-layout">
-      <aside className="panel brand-panel" aria-label="Pilih brand">
-        <div className="panel-title">
-          <span>Brand</span>
-          <span className="hint">icon resmi</span>
-        </div>
-        <BrandList brands={brands} selected={brand.slug} onSelect={(s) => set({ brand: s })} />
-        <a className="btn btn-ghost btn-block" href={hrefFor("brand-baru")}>
-          + Brand baru
-        </a>
-      </aside>
-
+    <div className={`gen-layout${tray.length ? " with-tray" : ""}`}>
       <section className="main-col">
         <div className="toolbar">
-          <BrandSelect
-            className="only-narrow"
-            brands={brands}
-            selected={brand.slug}
-            onSelect={(s) => set({ brand: s })}
-          />
           <SearchBox
+            ref={searchRef}
             value={q}
-            placeholder="Cari icon: course, tryout, kebanksentralan…"
-            onChange={(v) => set({ q: v || null, g: null })}
+            placeholder="Cari icon: course, tryout, psikotes, jadwal…"
+            onChange={(v) => set({ q: v || null })}
           />
+          <button
+            type="button"
+            className={`chip chip-toggle${onlyV2 ? " on" : ""}`}
+            aria-pressed={onlyV2}
+            onClick={() => set({ v2: onlyV2 ? null : "1", g: null })}
+          >
+            Hanya v2 <span className="count">{v2Count}</span>
+          </button>
         </div>
-        <div className="examples">
-          <span>Contoh:</span>
-          {EXAMPLES.map((e) => (
-            <button key={e} type="button" className="link" onClick={() => set({ q: e, g: null, cat: null })}>
-              {e}
-            </button>
-          ))}
-        </div>
-        <div className="chips" role="tablist" aria-label="Kategori">
-          {CATS.filter((c) => c === "semua" || counts[c]).map((c) => (
-            <button
-              key={c}
-              type="button"
-              role="tab"
-              aria-selected={cat === c}
-              className={`chip${cat === c ? " on" : ""}`}
-              onClick={() => set({ cat: c === "semua" ? null : c, g: null })}
-            >
-              {c === "semua" ? "Semua" : c === "standar" ? "16 standar" : CATEGORY_LABELS[c]}
-              <span className="count">{counts[c] ?? 0}</span>
-            </button>
-          ))}
-        </div>
-        <p className="result-meta">
-          {results.length} icon untuk <strong>{brand.name}</strong>: {nOfficial} resmi, {results.length - nOfficial}{" "}
-          dibuat generator
-        </p>
-        {results.length === 0 ? (
-          <div className="empty">
-            Tidak ada icon yang cocok dengan “{q}”. Coba kata lain, misalnya “materi” atau “ujian”.
-          </div>
-        ) : (
-          <div className="grid">
-            {results.map((g) => (
+
+        {!q && (
+          <div className="chips" role="tablist" aria-label="Kategori">
+            {[{ key: "semua", title: "Semua", items: pool }, ...sections].map((s) => (
               <button
-                key={g.id}
+                key={s.key}
                 type="button"
-                className={`card${selected?.id === g.id ? " selected" : ""}`}
-                aria-pressed={selected?.id === g.id}
-                onClick={() => {
-                  set({ g: g.id });
-                  if (window.matchMedia("(max-width: 860px)").matches) window.scrollTo({ top: 0, behavior: "smooth" });
-                }}
+                role="tab"
+                aria-selected={cat === s.key}
+                className={`chip${cat === s.key ? " on" : ""}`}
+                onClick={() => set({ cat: s.key === "semua" ? null : s.key })}
               >
-                <IconCanvas glyph={g} brand={brand} size={84} />
-                <span className="card-name">{g.nama}</span>
-                <SourceBadge source={sourceFor(g, brand)} />
+                {s.title}
+                <span className="count">{s.items.length}</span>
               </button>
             ))}
           </div>
         )}
+
+        {found ? (
+          <section className="group">
+            <header className="group-head">
+              <h2>
+                {found.length} hasil untuk “{q}”
+              </h2>
+            </header>
+            {found.length ? (
+              grid(found.slice(0, 60))
+            ) : (
+              <div className="empty">
+                Tidak ada icon yang cocok. Coba kata lain:{" "}
+                {EXAMPLES.map((e, i) => (
+                  <span key={e}>
+                    {i > 0 && ", "}
+                    <button type="button" className="link" onClick={() => set({ q: e })}>
+                      {e}
+                    </button>
+                  </span>
+                ))}
+              </div>
+            )}
+          </section>
+        ) : (
+          <>
+            {cat === "semua" && recentGlyphs.length > 0 && (
+              <section className="group">
+                <header className="group-head">
+                  <h2>Terakhir dipakai</h2>
+                </header>
+                {grid(recentGlyphs.slice(0, COLLAPSED))}
+              </section>
+            )}
+            {sections
+              .filter((s) => cat === "semua" || cat === s.key)
+              .map((s) => {
+                const open = cat !== "semua" || s.key === "menu" || expanded[s.key];
+                const list = open ? s.items : s.items.slice(0, COLLAPSED);
+                return (
+                  <section key={s.key} className="group">
+                    <header className="group-head">
+                      <h2>
+                        {s.title} <span className="group-count">{s.items.length}</span>
+                      </h2>
+                      {s.hint && <span className="hint">{s.hint}</span>}
+                      {cat === "semua" && s.key !== "menu" && s.items.length > COLLAPSED && (
+                        <button
+                          type="button"
+                          className="link"
+                          onClick={() => setExpanded((e) => ({ ...e, [s.key]: !e[s.key] }))}
+                        >
+                          {open ? "Ringkas" : `Lihat semua ${s.items.length}`}
+                        </button>
+                      )}
+                    </header>
+                    {grid(list)}
+                  </section>
+                );
+              })}
+          </>
+        )}
       </section>
 
-      {selected && <PreviewPanel glyph={selected} brand={brand} />}
+      {selected && (
+        <PreviewPanel
+          key={`${selected.id}|${brand.slug}`}
+          glyph={selected}
+          brand={brand}
+          onClose={explicit ? () => set({ g: null }) : undefined}
+        />
+      )}
+      <Tray onSelect={select} />
     </div>
   );
 }

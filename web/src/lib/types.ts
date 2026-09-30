@@ -10,6 +10,9 @@ export const ROLE_NAMES = [
 ] as const;
 
 export type RoleName = (typeof ROLE_NAMES)[number];
+
+/** v2 = new vector icon set (where a glyph has one); v1 = the original raster icons. */
+export type Version = "v2" | "v1";
 export type Roles = Record<RoleName, string>;
 
 export interface Brand {

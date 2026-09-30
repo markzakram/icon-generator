@@ -1,14 +1,16 @@
 import { useMemo, useState } from "react";
 import { BrandSelect, ColorField, Swatches } from "../components/Bits";
-import { IconCanvas } from "../components/IconCanvas";
+import { IconView } from "../components/IconView";
 import { brandFromParams, brandJson, brandToParams, makeCustomBrand } from "../lib/brands";
 import { copyText, downloadBlob } from "../lib/download";
+import { displayName, hasV2 } from "../lib/render";
 import { go, hrefFor } from "../lib/route";
 import { sortDefault } from "../lib/search";
-import { ROLE_LABELS, ROLE_NAMES, type RoleName, type Roles } from "../lib/types";
+import { ROLE_LABELS, type RoleName, type Roles, type Version } from "../lib/types";
+import { TOKEN_LABELS, TOKEN_NAMES, v2Tokens } from "../lib/v2/tokens";
 import { useData } from "../state";
 
-/** How each well-covered brand treats details, to help pick a style reference. */
+/** How each well-covered brand treats details in v1, to help pick a style reference. */
 const STYLE_HINTS: Record<string, string> = {
   jadipcpm: "detail putih, sisi 3D warna aksen",
   jadipppk: "detail putih, sisi 3D warna aksen",
@@ -23,16 +25,15 @@ const STYLE_HINTS: Record<string, string> = {
   jadisekdin: "detail warna aksen",
 };
 
-const ADVANCED: RoleName[] = ["primary_shade", "accent_shade", "primary_alt", "light"];
+const ADVANCED: RoleName[] = ["primary_shade", "accent_shade", "light"];
 
 export function NewBrand({ params }: { params: URLSearchParams }) {
-  const { builtin, catalog, glyphs, glyphById, saveCustom } = useData();
+  const { builtin, catalog, glyphs, saveCustom, setBrand } = useData();
   const initial = useMemo(() => brandFromParams(params), [params]);
   const [name, setName] = useState(initial?.name ?? "JadiHakim");
-  const [colors, setColors] = useState<Partial<Roles>>(
-    initial?.given ?? { primary: "#1F4E79", accent: "#F2B705" },
-  );
+  const [colors, setColors] = useState<Partial<Roles>>(initial?.given ?? { primary: "#1F4E79", accent: "#F2B705" });
   const [styleRef, setStyleRef] = useState(initial?.styleRef ?? "jadipcpm");
+  const [version, setVersion] = useState<Version>("v2");
   const [showAll, setShowAll] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 
@@ -40,14 +41,12 @@ export function NewBrand({ params }: { params: URLSearchParams }) {
     () => makeCustomBrand(name, { ...colors, primary: colors.primary ?? "#1F4E79" }, styleRef),
     [name, colors, styleRef],
   );
+  const tokens = useMemo(() => v2Tokens(brand), [brand]);
   const refs = builtin.filter((b) => b.official >= 10);
-  const list = useMemo(
-    () =>
-      showAll
-        ? sortDefault(glyphs, catalog.standard)
-        : catalog.standard.map((id) => glyphById.get(id)).filter((g) => g !== undefined),
-    [showAll, glyphs, glyphById, catalog.standard],
-  );
+  const list = useMemo(() => {
+    const pool = version === "v2" && !showAll ? glyphs.filter(hasV2) : glyphs;
+    return showAll ? sortDefault(pool, catalog.standard) : sortDefault(pool, catalog.standard).slice(0, version === "v2" ? 24 : 16);
+  }, [version, showAll, glyphs, catalog.standard]);
 
   const setColor = (role: RoleName, v: string | undefined) =>
     setColors((prev) => {
@@ -63,27 +62,18 @@ export function NewBrand({ params }: { params: URLSearchParams }) {
     <div className="page newbrand">
       <section className="panel form">
         <h1>Brand baru</h1>
-        <p className="lead">
-          Masukkan warna brand dan pilih brand yang gayanya mau ditiru. Seluruh set icon langsung jadi.
-        </p>
+        <p className="lead">Masukkan dua warna brand. Semua icon v2 langsung jadi mengikuti Panduan v2.</p>
         <label className="field">
           <span>Nama brand</span>
-          <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Misal: JadiHakim" />
+          <input value={name} onChange={(e) => setName(e.target.value)} placeholder="JadiHakim" />
         </label>
         <div className="two">
           <ColorField label="Warna primer" value={colors.primary} onChange={(v) => setColor("primary", v)} />
           <ColorField label="Warna aksen" value={colors.accent} onChange={(v) => setColor("accent", v)} />
         </div>
-        <BrandSelect
-          label="Gaya referensi"
-          brands={refs}
-          selected={styleRef}
-          onSelect={(s) => setStyleRef(s)}
-        />
-        <p className="hint-line">{STYLE_HINTS[styleRef] ?? ""}</p>
         <details className="advanced">
           <summary>Warna lanjutan</summary>
-          <p className="hint-line">Kosongkan untuk dihitung otomatis dari warna primer dan aksen.</p>
+          <p className="hint-line">Kosongkan untuk dihitung otomatis.</p>
           <div className="two">
             {ADVANCED.map((r) => (
               <ColorField
@@ -91,19 +81,20 @@ export function NewBrand({ params }: { params: URLSearchParams }) {
                 optional
                 label={ROLE_LABELS[r]}
                 value={colors[r]}
-                placeholder={brand.roles[r]}
+                placeholder={r === "primary_shade" ? tokens.PD : r === "accent_shade" ? tokens.AD : brand.roles[r]}
                 onChange={(v) => setColor(r, v)}
               />
             ))}
           </div>
+          <BrandSelect label="Gaya referensi untuk icon v1" brands={refs} selected={styleRef} onSelect={setStyleRef} />
+          <p className="hint-line">{STYLE_HINTS[styleRef] ?? ""}</p>
         </details>
-        <div className="token-table" aria-label="Token warna lengkap">
-          {ROLE_NAMES.map((r) => (
-            <div key={r} className="token">
-              <span className="sw" style={{ background: brand.roles[r] }} />
-              <span className="name">{ROLE_LABELS[r]}</span>
-              {!brand.given[r] && <em>otomatis</em>}
-              <code>{brand.roles[r]}</code>
+        <div className="token-table" aria-label="Token warna v2">
+          {TOKEN_NAMES.map((t) => (
+            <div key={t} className="token">
+              <span className="sw" style={{ background: tokens[t] }} />
+              <span className="name">{TOKEN_LABELS[t]}</span>
+              <code>{tokens[t]}</code>
             </div>
           ))}
         </div>
@@ -113,32 +104,27 @@ export function NewBrand({ params }: { params: URLSearchParams }) {
             className="btn btn-primary"
             onClick={() => {
               const stored = saveCustom(brand);
-              go("generator", { brand: stored.slug });
+              setBrand(stored.slug);
+              go("generator");
             }}
           >
-            Simpan &amp; pakai di Generator
+            Simpan dan pakai
           </button>
-          <button
-            type="button"
-            className="btn"
-            onClick={async () => setMessage((await copyText(link)) ? "Link disalin." : link)}
-          >
+          <button type="button" className="btn" onClick={async () => setMessage((await copyText(link)) ? "Link disalin." : link)}>
             Salin link
           </button>
           <button
             type="button"
             className="btn"
-            onClick={() =>
-              downloadBlob(new Blob([brandJson(brand)], { type: "application/json" }), `${brand.slug}.brand.json`)
-            }
+            onClick={() => downloadBlob(new Blob([brandJson(brand)], { type: "application/json" }), `${brand.slug}.brand.json`)}
           >
             Unduh brand.json
           </button>
         </div>
         {message && <p className="note">{message}</p>}
         <p className="hint-line">
-          Brand baru disimpan di browser ini. Supaya resmi untuk seluruh tim, kirim <code>brand.json</code> ke
-          developer untuk ditambahkan ke <code>catalog/brands.json</code>.
+          Tersimpan di browser ini. Supaya resmi untuk seluruh tim, kirim <code>brand.json</code> ke developer untuk
+          ditambahkan ke <code>catalog/brands.json</code>.
         </p>
       </section>
 
@@ -147,20 +133,27 @@ export function NewBrand({ params }: { params: URLSearchParams }) {
           <div className="set-title">
             <Swatches brand={brand} size={14} />
             <strong>{brand.name}</strong>
-            <span className="hint">
-              {list.length} icon, gaya {builtin.find((b) => b.slug === styleRef)?.name}
-            </span>
+            <span className="hint">{list.length} icon</span>
           </div>
-          <label className="toggle">
-            <input type="checkbox" checked={showAll} onChange={(e) => setShowAll(e.target.checked)} />
-            <span>Semua {glyphs.length} glyph</span>
-          </label>
+          <div className="page-tools">
+            <div className="seg-group" role="group" aria-label="Versi preview">
+              {(["v2", "v1"] as Version[]).map((v) => (
+                <button key={v} type="button" className={version === v ? "on" : ""} aria-pressed={version === v} onClick={() => setVersion(v)}>
+                  {v === "v2" ? "Icon v2" : "v1"}
+                </button>
+              ))}
+            </div>
+            <label className="toggle">
+              <input type="checkbox" checked={showAll} onChange={(e) => setShowAll(e.target.checked)} />
+              <span>Semua {glyphs.length} glyph</span>
+            </label>
+          </div>
         </header>
         <div className="grid grid-small">
           {list.map((g) => (
             <figure key={g.id} className="mini">
-              <IconCanvas glyph={g} brand={brand} size={80} />
-              <figcaption>{g.nama}</figcaption>
+              <IconView glyph={g} brand={brand} size={76} version={version} />
+              <figcaption>{displayName(g, version)}</figcaption>
             </figure>
           ))}
         </div>

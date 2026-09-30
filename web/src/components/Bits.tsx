@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import { isHex, normHex } from "../lib/color";
-import type { Source } from "../lib/render";
 import type { Brand } from "../lib/types";
 
 export function Swatches({ brand, size = 12 }: { brand: Brand; size?: number }) {
@@ -14,37 +13,11 @@ export function Swatches({ brand, size = 12 }: { brand: Brand; size?: number }) 
   );
 }
 
-export function SourceBadge({ source }: { source: Source }) {
-  return <span className={`badge badge-${source}`}>{source === "resmi" ? "resmi" : "generate"}</span>;
-}
+const KIND_TEXT = { v2: "v2", resmi: "resmi", generate: "generate" } as const;
 
-export function BrandList({
-  brands,
-  selected,
-  onSelect,
-}: {
-  brands: Brand[];
-  selected: string;
-  onSelect: (slug: string) => void;
-}) {
-  return (
-    <div className="brand-list" role="listbox" aria-label="Brand">
-      {brands.map((b) => (
-        <button
-          key={b.slug}
-          type="button"
-          role="option"
-          aria-selected={b.slug === selected}
-          className={`brand-item${b.slug === selected ? " active" : ""}`}
-          onClick={() => onSelect(b.slug)}
-        >
-          <Swatches brand={b} />
-          <span className="brand-name">{b.name}</span>
-          <span className="brand-meta">{b.custom ? "baru" : `${b.official}`}</span>
-        </button>
-      ))}
-    </div>
-  );
+/** Small label: new v2 drawing, official v1 icon, or v1 made by the generator. */
+export function KindLabel({ kind }: { kind: keyof typeof KIND_TEXT }) {
+  return <span className={`kind kind-${kind}`}>{KIND_TEXT[kind]}</span>;
 }
 
 export function BrandSelect({
@@ -107,7 +80,6 @@ export function ColorField({
         />
         <input
           type="text"
-          inputMode="text"
           spellCheck={false}
           aria-label={`${label}, kode hex`}
           placeholder={placeholder ? `otomatis ${placeholder}` : "#RRGGBB"}
@@ -129,22 +101,16 @@ export function ColorField({
   );
 }
 
-export function SearchBox({
-  value,
-  onChange,
-  placeholder,
-  autoFocus,
-}: {
-  value: string;
-  onChange: (v: string) => void;
-  placeholder: string;
-  autoFocus?: boolean;
-}) {
+/** Search box that reports the typed text after a short pause; "/" anywhere focuses it. */
+export const SearchBox = forwardRef<
+  HTMLInputElement,
+  { value: string; onChange: (v: string) => void; placeholder: string; onEnter?: () => void }
+>(function SearchBox({ value, onChange, placeholder, onEnter }, ref) {
   const [text, setText] = useState(value);
   useEffect(() => setText(value), [value]);
   useEffect(() => {
     if (text === value) return;
-    const t = window.setTimeout(() => onChange(text), 160);
+    const t = window.setTimeout(() => onChange(text), 140);
     return () => window.clearTimeout(t);
   }, [text, value, onChange]);
   return (
@@ -154,13 +120,28 @@ export function SearchBox({
         <path d="M20 20l-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       </svg>
       <input
+        ref={ref}
         type="search"
-        aria-label="Cari glyph"
+        aria-label="Cari icon"
         placeholder={placeholder}
         value={text}
-        autoFocus={autoFocus}
         onChange={(e) => setText(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            onChange(text);
+            onEnter?.();
+          }
+          if (e.key === "Escape") setText("");
+        }}
       />
+      {text && (
+        <button type="button" className="search-clear" aria-label="Hapus pencarian" onClick={() => setText("")}>
+          ×
+        </button>
+      )}
+      <kbd className="search-kbd" aria-hidden>
+        /
+      </kbd>
     </div>
   );
-}
+});
