@@ -1,0 +1,657 @@
+{
+ "catatan": "16 glyph menu standar, dipetakan manual dari audit 30 Sep 2026. Grup JadiPCPM (gambar keluarga) sengaja dikeluarkan karena beda glyph.",
+ "glyphs": {
+  "materi": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Materi.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Materi-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Materi.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Materi.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Materi.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/icon_Materi.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Mater.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Materi.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Materi.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Materi.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_Course.png"
+   }
+  ],
+  "tryout": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Tryout.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Tryout-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Tryout.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Tryout.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Tryout.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/TryOut.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Tryout.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Tryout.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Tryout.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_TryOut.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_TryOut.png"
+   },
+   {
+    "brand": "JadiPolisi",
+    "file": "JadiPolisi/icon_Latsol.png"
+   }
+  ],
+  "latsol": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Latsol.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Latsol-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Latsol.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Latsol.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Latsol.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/Latsol.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Latsol.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Latsol.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Latsol.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Latsol.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_Latsol.png"
+   }
+  ],
+  "rapor": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/icon_rapor.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/icon_rapor.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/icon_rapor.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/icon_rapor.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Rapot.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/Rapor.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_rapor.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_rapor.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_rapor.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_rapor.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_rapor.png"
+   },
+   {
+    "brand": "JadiPolisi",
+    "file": "JadiPolisi/icon_rapor.png"
+   },
+   {
+    "brand": "JadiBeasiswa",
+    "file": "JadiBeasiswa/icon_rapor.png"
+   },
+   {
+    "brand": "Psikotes kerja",
+    "file": "Psikotes kerja/icon_rapor.png"
+   }
+  ],
+  "lapor_masalah": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Lapor.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Masalah-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Lapor.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_masalah.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Masalah.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/Masalah.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Masalah.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Masalah.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Laporkan masalah.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Masalah .png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_Masalah .png"
+   }
+  ],
+  "pdf": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Pdf.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/PDF-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Pdf.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_PDF gratis.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-PDF.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/PDF.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_PDF.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_PDF.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_PDF.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_PDF.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_PDF.png"
+   }
+  ],
+  "promo": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Promo.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Promo-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Promo.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Promo.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Promo.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/Promo.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Promo.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Promo.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Promo.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Promo.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_Promo.png"
+   }
+  ],
+  "kalender": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Kalender.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Kalender-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Kalender.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Kalender.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Kalender.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/icon_Kalender.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Kalender.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Kalender.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Kalender.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Kalender.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_Kalender.png"
+   }
+  ],
+  "live_class": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Live.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Live-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Live.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Live Class.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Live.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/Live class.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Live class.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Live class.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Live class.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Live class.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_Live class.png"
+   }
+  ],
+  "grup": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Group.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Group-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Group.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Grup gratis.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Group.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/icon_Grup.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Grup & PDF.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Grup dan PDF & jejaring kerja.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Grup.png"
+   }
+  ],
+  "journey": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Journey.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Journey-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Journey.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Dibimbing.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Journey.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/Dibimbing.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Journey.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Journey.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Dibimbing.png"
+   }
+  ],
+  "info": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Info.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Info-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Info.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/9.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Info.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Info.png"
+   }
+  ],
+  "tips": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Tips.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Tips-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Tips.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/11.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-Tips.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/icon_Verbal silogisme.png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Bahasa dan komunikasi.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_Latsol TPA verbal.png"
+   }
+  ],
+  "link": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Menu-Link.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/Link-Icon.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/Menu-Link.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/7.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/icon_Gabungan bagian.png"
+   }
+  ],
+  "drilling_soal": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/Drilling soal Jadi ASN.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/Drilling soal.png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/Drilling soal Jadi PCPM Revisi.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/Drilling soal Jago TPA.png"
+   }
+  ],
+  "kertas_soal": [
+   {
+    "brand": "JadiASN",
+    "file": "JadiASN/icon-TO.png"
+   },
+   {
+    "brand": "JadiBUMN",
+    "file": "JadiBUMN/icon_TO.png"
+   },
+   {
+    "brand": "JadiPrajurit",
+    "file": "JadiPrajurit/icon_tes.png"
+   },
+   {
+    "brand": "JadiPPG",
+    "file": "JadiPPG/Icon_Latsol pedagogik.png"
+   },
+   {
+    "brand": "Cerebrum",
+    "file": "Cerebrum/Icon-TO.png"
+   },
+   {
+    "brand": "JadiOJK",
+    "file": "JadiOJK/icon_Uji kemampuan 1&2.png"
+   },
+   {
+    "brand": "JadiSekdin",
+    "file": "JadiSekdin/icon_Latihan soal tes .png"
+   },
+   {
+    "brand": "JadiPPPK",
+    "file": "JadiPPPK/icon_Tryout PPPK .png"
+   },
+   {
+    "brand": "JadiPCPM",
+    "file": "JadiPCPM/icon_Uji kemampuan.png"
+   },
+   {
+    "brand": "Jago TPA",
+    "file": "Jago TPA/icon_TO Gratis Tes Potensi Akademik.png"
+   },
+   {
+    "brand": "TOEFL Academy",
+    "file": "TOEFL Academy/icon_latsol Structure and Written Expression.png"
+   }
+  ]
+ }
+}

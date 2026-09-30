@@ -1,0 +1,225 @@
+{
+ "version": 1,
+ "dibuat": "2026-09-30",
+ "catatan": "Token warna per peran. Diekstrak otomatis dari icon yang ada (Fase 0), dikurasi manual. Satu warna boleh mengisi lebih dari satu peran (mis. PCPM memakai magenta untuk aksen sekaligus sisi 3D). Peran yang kosong (null) diturunkan otomatis saat generate. Peran dark hanya untuk hitam/abu netral.",
+ "peran": {
+  "primary": "Warna badan utama (sekitar 50% area)",
+  "primary_shade": "Sisi 3D / bayangan bentuk berwarna primer",
+  "primary_alt": "Variasi primer untuk bagian tertentu (lipatan kertas, rel papan)",
+  "accent": "Warna kedua untuk bentuk pendamping",
+  "accent_shade": "Sisi 3D bentuk berwarna aksen",
+  "light": "Putih / terang: kertas, garis teks, label",
+  "light_alt": "Terang kedua bila brand punya dua putih",
+  "dark": "Hitam/abu gelap netral untuk garis kecil"
+ },
+ "brands": {
+  "JadiASN": {
+   "slug": "jadiasn",
+   "gen": 1,
+   "roles": {
+    "primary": "#3D6E99",
+    "primary_shade": "#052C5F",
+    "primary_alt": "#4C8FC1",
+    "accent": "#E8B41E",
+    "accent_shade": "#876000",
+    "light": "#F9F3F1",
+    "light_alt": null,
+    "dark": null
+   }
+  },
+  "JadiBUMN": {
+   "slug": "jadibumn",
+   "gen": 1,
+   "roles": {
+    "primary": "#0193AD",
+    "primary_shade": "#1F2855",
+    "primary_alt": "#00BBCE",
+    "accent": "#FFC000",
+    "accent_shade": "#755400",
+    "light": "#F9F3F1",
+    "light_alt": null,
+    "dark": "#39393B"
+   }
+  },
+  "JadiPrajurit": {
+   "slug": "jadiprajurit",
+   "gen": 2,
+   "roles": {
+    "primary": "#24643F",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#1A4D2E",
+    "accent": "#FFFFFF",
+    "accent_shade": "#6B6C6F",
+    "light": "#FFFFFF",
+    "light_alt": "#F9F3F1",
+    "dark": "#221F1F"
+   }
+  },
+  "JadiPPG": {
+   "slug": "jadippg",
+   "gen": 2,
+   "roles": {
+    "primary": "#008ED2",
+    "primary_shade": "#39393B",
+    "primary_alt": "#0175DA",
+    "accent": "#FBBB2B",
+    "accent_shade": "#FB8921",
+    "light": "#FFFFFF",
+    "light_alt": "#F2F3F5",
+    "dark": "#39393B"
+   }
+  },
+  "Cerebrum": {
+   "slug": "cerebrum",
+   "gen": 1,
+   "roles": {
+    "primary": "#DE2C2C",
+    "primary_shade": "#133744",
+    "primary_alt": "#A9292D",
+    "accent": "#F7BB2A",
+    "accent_shade": "#A57916",
+    "light": "#FCD47C",
+    "light_alt": null,
+    "dark": null
+   }
+  },
+  "JadiOJK": {
+   "slug": "jadiojk",
+   "gen": 2,
+   "roles": {
+    "primary": "#ED2224",
+    "primary_shade": "#821517",
+    "primary_alt": "#B01818",
+    "accent": "#821517",
+    "accent_shade": "#5E0B0D",
+    "light": "#FFFFFF",
+    "light_alt": null,
+    "dark": null
+   }
+  },
+  "JadiSekdin": {
+   "slug": "jadisekdin",
+   "gen": 2,
+   "roles": {
+    "primary": "#292E81",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#22487C",
+    "accent": "#68BDEA",
+    "accent_shade": null,
+    "light": "#FFFFFF",
+    "light_alt": "#91CFD2",
+    "dark": "#221F1F"
+   }
+  },
+  "JadiPPPK": {
+   "slug": "jadipppk",
+   "gen": 2,
+   "roles": {
+    "primary": "#062172",
+    "primary_shade": "#CC9A36",
+    "primary_alt": "#22487C",
+    "accent": "#CC9A36",
+    "accent_shade": "#69500F",
+    "light": "#FFFFFF",
+    "light_alt": null,
+    "dark": "#221F1F"
+   }
+  },
+  "JadiPCPM": {
+   "slug": "jadipcpm",
+   "gen": 2,
+   "roles": {
+    "primary": "#482171",
+    "primary_shade": "#CB0560",
+    "primary_alt": "#290746",
+    "accent": "#CB0560",
+    "accent_shade": "#6A002D",
+    "light": "#FFFFFF",
+    "light_alt": null,
+    "dark": "#221F1F"
+   }
+  },
+  "Jago TPA": {
+   "slug": "jago_tpa",
+   "gen": 2,
+   "roles": {
+    "primary": "#421817",
+    "primary_shade": "#B46011",
+    "primary_alt": "#7F5755",
+    "accent": "#FFAA5C",
+    "accent_shade": "#B46011",
+    "light": "#FFFFFF",
+    "light_alt": null,
+    "dark": null
+   }
+  },
+  "TOEFL Academy": {
+   "slug": "toefl_academy",
+   "gen": 2,
+   "roles": {
+    "primary": "#EE2B2E",
+    "primary_shade": "#6D0000",
+    "primary_alt": "#A12428",
+    "accent": "#272663",
+    "accent_shade": "#007CAD",
+    "light": "#F2F3F5",
+    "light_alt": "#FFFFFF",
+    "dark": null
+   }
+  },
+  "JadiPolisi": {
+   "slug": "jadipolisi",
+   "gen": 2,
+   "roles": {
+    "primary": "#FFCE03",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#FFDD4D",
+    "accent": "#494949",
+    "accent_shade": null,
+    "light": null,
+    "light_alt": null,
+    "dark": "#221F1F"
+   }
+  },
+  "JadiBeasiswa": {
+   "slug": "jadibeasiswa",
+   "gen": 2,
+   "roles": {
+    "primary": "#F2952D",
+    "primary_shade": null,
+    "primary_alt": null,
+    "accent": "#F6EE31",
+    "accent_shade": null,
+    "light": null,
+    "light_alt": null,
+    "dark": null
+   }
+  },
+  "Psikotes kerja": {
+   "slug": "psikotes_kerja",
+   "gen": 2,
+   "roles": {
+    "primary": "#158BAB",
+    "primary_shade": null,
+    "primary_alt": null,
+    "accent": "#F15F2C",
+    "accent_shade": null,
+    "light": null,
+    "light_alt": null,
+    "dark": null
+   }
+  }
+ },
+ "warna_tetap": {
+  "catatan": "Dipakai hampir semua brand dan tidak ikut diganti: kulit, rambut, punggung buku rapor, titik kalender.",
+  "hex": [
+   "#694B4B",
+   "#F0C087",
+   "#E6AF78",
+   "#5A4146",
+   "#D29B6E",
+   "#39393B",
+   "#DEDBEE"
+  ]
+ }
+}

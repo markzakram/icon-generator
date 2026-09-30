@@ -1,0 +1,623 @@
+[
+ {
+  "glyph": "materi",
+  "brand": "JadiPCPM",
+  "area_correct": 0.8951,
+  "pixels_off": 0.1025,
+  "align_iou": 0.9984,
+  "regions": 4,
+  "wrong_regions": [
+   {
+    "id": 3,
+    "area": 0.10486,
+    "pred": "#CB0560",
+    "actual": "#290746"
+   }
+  ],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "materi",
+  "brand": "JadiASN",
+  "area_correct": 1.0,
+  "pixels_off": 0.0014,
+  "align_iou": 0.9992,
+  "regions": 4,
+  "wrong_regions": [],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "materi",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.8954,
+  "pixels_off": 0.1024,
+  "align_iou": 0.9984,
+  "regions": 4,
+  "wrong_regions": [
+   {
+    "id": 3,
+    "area": 0.10464,
+    "pred": "#6D0000",
+    "actual": "#A12428"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "tryout",
+  "brand": "JadiPCPM",
+  "area_correct": 0.8307,
+  "pixels_off": 0.1877,
+  "align_iou": 0.9997,
+  "regions": 11,
+  "wrong_regions": [
+   {
+    "id": 2,
+    "area": 0.12708,
+    "pred": "#CB0560",
+    "actual": "#FFFFFF"
+   },
+   {
+    "id": 7,
+    "area": 0.02831,
+    "pred": "#CB0560",
+    "actual": "#221F1F"
+   },
+   {
+    "id": 10,
+    "area": 0.01395,
+    "pred": "#6A002D",
+    "actual": "#CB0560"
+   }
+  ],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "tryout",
+  "brand": "JadiASN",
+  "area_correct": 0.9835,
+  "pixels_off": 0.0392,
+  "align_iou": 0.9996,
+  "regions": 11,
+  "wrong_regions": [
+   {
+    "id": 4,
+    "area": 0.00154,
+    "pred": "#4C8FC1",
+    "actual": "#E8B41E"
+   },
+   {
+    "id": 5,
+    "area": 0.0132,
+    "pred": "#4C8FC1",
+    "actual": "#052C5F"
+   },
+   {
+    "id": 8,
+    "area": 0.00172,
+    "pred": "#052C5F",
+    "actual": "#4C8FC1"
+   }
+  ],
+  "nearest_style": "JadiPolisi"
+ },
+ {
+  "glyph": "tryout",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9065,
+  "pixels_off": 0.111,
+  "align_iou": 0.9997,
+  "regions": 11,
+  "wrong_regions": [
+   {
+    "id": 3,
+    "area": 0.09349,
+    "pred": "#272663",
+    "actual": "#FFFFFF"
+   }
+  ],
+  "nearest_style": "JadiPolisi"
+ },
+ {
+  "glyph": "latsol",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0,
+  "pixels_off": 0.0205,
+  "align_iou": 0.9992,
+  "regions": 11,
+  "wrong_regions": [],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "latsol",
+  "brand": "JadiASN",
+  "area_correct": 0.7116,
+  "pixels_off": 0.3027,
+  "align_iou": 0.9907,
+  "regions": 11,
+  "wrong_regions": [
+   {
+    "id": 2,
+    "area": 0.28845,
+    "pred": "#E8B41E",
+    "actual": "#4C8FC1"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "latsol",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9462,
+  "pixels_off": 0.0708,
+  "align_iou": 0.9992,
+  "regions": 11,
+  "wrong_regions": [
+   {
+    "id": 6,
+    "area": 0.05378,
+    "pred": "#272663",
+    "actual": "#FFFFFF"
+   }
+  ],
+  "nearest_style": "JadiASN"
+ },
+ {
+  "glyph": "rapor",
+  "brand": "JadiPCPM",
+  "area_correct": 0.8746,
+  "pixels_off": 0.1423,
+  "align_iou": 1.0,
+  "regions": 3,
+  "wrong_regions": [
+   {
+    "id": 2,
+    "area": 0.12536,
+    "pred": "#CB0560",
+    "actual": "#FFFFFF"
+   }
+  ],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "rapor",
+  "brand": "JadiASN",
+  "area_correct": 1.0,
+  "pixels_off": 0.0224,
+  "align_iou": 1.0,
+  "regions": 3,
+  "wrong_regions": [],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "rapor",
+  "brand": "TOEFL Academy",
+  "area_correct": 1.0,
+  "pixels_off": 0.0245,
+  "align_iou": 1.0,
+  "regions": 3,
+  "wrong_regions": [],
+  "nearest_style": "JadiBUMN"
+ },
+ {
+  "glyph": "lapor_masalah",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0,
+  "pixels_off": 0.0132,
+  "align_iou": 1.0,
+  "regions": 13,
+  "wrong_regions": [],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "lapor_masalah",
+  "brand": "JadiASN",
+  "area_correct": 0.9467,
+  "pixels_off": 0.0621,
+  "align_iou": 0.989,
+  "regions": 12,
+  "wrong_regions": [
+   {
+    "id": 2,
+    "area": 0.00603,
+    "pred": "#3D6E99",
+    "actual": "#E8B41E"
+   },
+   {
+    "id": 3,
+    "area": 0.0013,
+    "pred": "#3D6E99",
+    "actual": "#E8B41E"
+   },
+   {
+    "id": 5,
+    "area": 0.02672,
+    "pred": "#E8B41E",
+    "actual": "#3D6E99"
+   },
+   {
+    "id": 7,
+    "area": 0.00569,
+    "pred": "#E8B41E",
+    "actual": "#052C5F"
+   },
+   {
+    "id": 8,
+    "area": 0.00495,
+    "pred": "#E8B41E",
+    "actual": "#3D6E99"
+   },
+   {
+    "id": 10,
+    "area": 0.00858,
+    "pred": "#052C5F",
+    "actual": "#3D6E99"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "lapor_masalah",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9915,
+  "pixels_off": 0.0218,
+  "align_iou": 0.9992,
+  "regions": 13,
+  "wrong_regions": [
+   {
+    "id": 6,
+    "area": 0.00855,
+    "pred": "#EE2B2E",
+    "actual": "#6D0000"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "pdf",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0,
+  "pixels_off": 0.0154,
+  "align_iou": 0.999,
+  "regions": 4,
+  "wrong_regions": [],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "pdf",
+  "brand": "JadiASN",
+  "area_correct": 1.0,
+  "pixels_off": 0.0219,
+  "align_iou": 0.9999,
+  "regions": 4,
+  "wrong_regions": [],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "pdf",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9703,
+  "pixels_off": 0.0464,
+  "align_iou": 0.9998,
+  "regions": 4,
+  "wrong_regions": [
+   {
+    "id": 3,
+    "area": 0.02969,
+    "pred": "#007CAD",
+    "actual": "#6D0000"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "promo",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0,
+  "pixels_off": 0.0189,
+  "align_iou": 1.0,
+  "regions": 8,
+  "wrong_regions": [],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "promo",
+  "brand": "JadiASN",
+  "area_correct": 0.951,
+  "pixels_off": 0.0606,
+  "align_iou": 0.999,
+  "regions": 8,
+  "wrong_regions": [
+   {
+    "id": 2,
+    "area": 0.00459,
+    "pred": "#3D6E99",
+    "actual": "#876000"
+   },
+   {
+    "id": 4,
+    "area": 0.01014,
+    "pred": "#E8B41E",
+    "actual": "#876000"
+   },
+   {
+    "id": 6,
+    "area": 0.03423,
+    "pred": "#052C5F",
+    "actual": "#3D6E99"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "promo",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9479,
+  "pixels_off": 0.0666,
+  "align_iou": 0.9989,
+  "regions": 8,
+  "wrong_regions": [
+   {
+    "id": 2,
+    "area": 0.03426,
+    "pred": "#EE2B2E",
+    "actual": "#6D0000"
+   },
+   {
+    "id": 7,
+    "area": 0.01781,
+    "pred": "#007CAD",
+    "actual": "#6D0000"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "kalender",
+  "brand": "JadiPCPM",
+  "area_correct": 0.9947,
+  "pixels_off": 0.0332,
+  "align_iou": 1.0,
+  "regions": 10,
+  "wrong_regions": [
+   {
+    "id": 6,
+    "area": 0.00534,
+    "pred": "#CB0560",
+    "actual": "#68BDEA"
+   }
+  ],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "kalender",
+  "brand": "JadiASN",
+  "area_correct": 0.9689,
+  "pixels_off": 0.0576,
+  "align_iou": 0.999,
+  "regions": 10,
+  "wrong_regions": [
+   {
+    "id": 4,
+    "area": 0.02293,
+    "pred": "#E8B41E",
+    "actual": "#235B50"
+   },
+   {
+    "id": 8,
+    "area": 0.00818,
+    "pred": "#39393B",
+    "actual": "#876000"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "kalender",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.8773,
+  "pixels_off": 0.1456,
+  "align_iou": 0.9983,
+  "regions": 10,
+  "wrong_regions": [
+   {
+    "id": 4,
+    "area": 0.05541,
+    "pred": "#272663",
+    "actual": "#007CAD"
+   },
+   {
+    "id": 5,
+    "area": 0.02728,
+    "pred": "#272663",
+    "actual": "#F2F3F5"
+   },
+   {
+    "id": 7,
+    "area": 0.03187,
+    "pred": "#DEDBEE",
+    "actual": "#F2F3F5"
+   },
+   {
+    "id": 9,
+    "area": 0.00818,
+    "pred": "#007CAD",
+    "actual": "#272663"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "live_class",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0,
+  "pixels_off": 0.0098,
+  "align_iou": 0.9993,
+  "regions": 5,
+  "wrong_regions": [],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "live_class",
+  "brand": "JadiASN",
+  "area_correct": 0.9407,
+  "pixels_off": 0.0653,
+  "align_iou": 0.9987,
+  "regions": 5,
+  "wrong_regions": [
+   {
+    "id": 3,
+    "area": 0.05928,
+    "pred": "#3D6E99",
+    "actual": "#E8B41E"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "live_class",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.4971,
+  "pixels_off": 0.5158,
+  "align_iou": 0.9993,
+  "regions": 5,
+  "wrong_regions": [
+   {
+    "id": 0,
+    "area": 0.44361,
+    "pred": "#EE2B2E",
+    "actual": "#272663"
+   },
+   {
+    "id": 4,
+    "area": 0.05931,
+    "pred": "#EE2B2E",
+    "actual": "#272663"
+   }
+  ],
+  "nearest_style": "JadiSekdin"
+ },
+ {
+  "glyph": "kertas_soal",
+  "brand": "JadiPCPM",
+  "area_correct": 0.6107,
+  "pixels_off": 0.4159,
+  "align_iou": 0.9986,
+  "regions": 9,
+  "wrong_regions": [
+   {
+    "id": 3,
+    "area": 0.22532,
+    "pred": "#290746",
+    "actual": "#CB0560"
+   },
+   {
+    "id": 5,
+    "area": 0.04651,
+    "pred": "#CB0560",
+    "actual": "#6A002D"
+   },
+   {
+    "id": 6,
+    "area": 0.09018,
+    "pred": "#CB0560",
+    "actual": "#433114"
+   },
+   {
+    "id": 8,
+    "area": 0.02734,
+    "pred": "#FCD47C",
+    "actual": "#FFFFFF"
+   }
+  ],
+  "nearest_style": "JadiPPPK"
+ },
+ {
+  "glyph": "kertas_soal",
+  "brand": "JadiASN",
+  "area_correct": 0.524,
+  "pixels_off": 0.4919,
+  "align_iou": 1.0,
+  "regions": 9,
+  "wrong_regions": [
+   {
+    "id": 1,
+    "area": 0.22549,
+    "pred": "#4C8FC1",
+    "actual": "#052C5F"
+   },
+   {
+    "id": 2,
+    "area": 0.01962,
+    "pred": "#F9F3F1",
+    "actual": "#3D6E99"
+   },
+   {
+    "id": 3,
+    "area": 0.10018,
+    "pred": "#FFFFFF",
+    "actual": "#E8B41E"
+   },
+   {
+    "id": 4,
+    "area": 0.09018,
+    "pred": "#221F1F",
+    "actual": "#193A56"
+   },
+   {
+    "id": 5,
+    "area": 0.0132,
+    "pred": "#221F1F",
+    "actual": "#193A56"
+   },
+   {
+    "id": 8,
+    "area": 0.02728,
+    "pred": "#FCD47C",
+    "actual": "#C0971A"
+   }
+  ],
+  "nearest_style": "JadiPrajurit"
+ },
+ {
+  "glyph": "kertas_soal",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.85,
+  "pixels_off": 0.1775,
+  "align_iou": 0.9986,
+  "regions": 9,
+  "wrong_regions": [
+   {
+    "id": 1,
+    "area": 0.01946,
+    "pred": "#F2F3F5",
+    "actual": "#EE2B2E"
+   },
+   {
+    "id": 2,
+    "area": 0.04349,
+    "pred": "#EE2B2E",
+    "actual": "#272663"
+   },
+   {
+    "id": 5,
+    "area": 0.04651,
+    "pred": "#272663",
+    "actual": "#007CAD"
+   },
+   {
+    "id": 7,
+    "area": 0.0132,
+    "pred": "#221F1F",
+    "actual": "#6D0000"
+   },
+   {
+    "id": 8,
+    "area": 0.02734,
+    "pred": "#FCD47C",
+    "actual": "#F2F3F5"
+   }
+  ],
+  "nearest_style": "JadiBUMN"
+ }
+]

@@ -1,0 +1,807 @@
+{
+ "setting": {
+  "method": "hybrid",
+  "alpha": 0.35,
+  "power": 8
+ },
+ "summary": {
+  "mean": 0.8948038419733353,
+  "median": 0.977180228197718,
+  "share_ge_95": 0.5870967741935483,
+  "share_ge_90": 0.6838709677419355,
+  "n": 155,
+  "by_brand": {
+   "JadiASN": 0.9023,
+   "JadiBUMN": 0.9631,
+   "JadiPrajurit": 0.9431,
+   "JadiPPG": 0.8377,
+   "Cerebrum": 0.8453,
+   "JadiOJK": 0.8598,
+   "JadiSekdin": 0.8772,
+   "JadiPPPK": 0.9588,
+   "JadiPCPM": 0.9569,
+   "Jago TPA": 0.7856,
+   "TOEFL Academy": 0.8883,
+   "JadiPolisi": 0.9532,
+   "JadiBeasiswa": 1.0,
+   "Psikotes kerja": 1.0
+  }
+ },
+ "cases": [
+  {
+   "glyph": "materi",
+   "brand": "JadiASN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "materi",
+   "brand": "JadiBUMN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "materi",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.89501
+  },
+  {
+   "glyph": "materi",
+   "brand": "JadiPPG",
+   "area_correct": 0.0
+  },
+  {
+   "glyph": "materi",
+   "brand": "Cerebrum",
+   "area_correct": 0.10484
+  },
+  {
+   "glyph": "materi",
+   "brand": "JadiOJK",
+   "area_correct": 0.79052
+  },
+  {
+   "glyph": "materi",
+   "brand": "JadiSekdin",
+   "area_correct": 0.8949799999999999
+  },
+  {
+   "glyph": "materi",
+   "brand": "JadiPPPK",
+   "area_correct": 0.89541
+  },
+  {
+   "glyph": "materi",
+   "brand": "JadiPCPM",
+   "area_correct": 0.895141048589514
+  },
+  {
+   "glyph": "materi",
+   "brand": "Jago TPA",
+   "area_correct": 0.10500105001050011
+  },
+  {
+   "glyph": "materi",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.89536
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiASN",
+   "area_correct": 0.9835400000000001
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiBUMN",
+   "area_correct": 0.95688
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.98391
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiPPG",
+   "area_correct": 0.859127182543651
+  },
+  {
+   "glyph": "tryout",
+   "brand": "Cerebrum",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiOJK",
+   "area_correct": 0.8987779755595112
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiSekdin",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiPPPK",
+   "area_correct": 0.97167
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiPCPM",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "tryout",
+   "brand": "Jago TPA",
+   "area_correct": 0.9065009349906501
+  },
+  {
+   "glyph": "tryout",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.89257
+  },
+  {
+   "glyph": "tryout",
+   "brand": "JadiPolisi",
+   "area_correct": 0.906489064890649
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiASN",
+   "area_correct": 0.71155
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiBUMN",
+   "area_correct": 0.9616
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiPrajurit",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiPPG",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "latsol",
+   "brand": "Cerebrum",
+   "area_correct": 0.9612503874961249
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiOJK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiSekdin",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiPPPK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "latsol",
+   "brand": "JadiPCPM",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "latsol",
+   "brand": "Jago TPA",
+   "area_correct": 0.9462900000000001
+  },
+  {
+   "glyph": "latsol",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.946219462194622
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiASN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiBUMN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiPrajurit",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiPPG",
+   "area_correct": 0.87464
+  },
+  {
+   "glyph": "rapor",
+   "brand": "Cerebrum",
+   "area_correct": 0.80538
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiOJK",
+   "area_correct": 0.31998
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiSekdin",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiPPPK",
+   "area_correct": 0.8746712532874671
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiPCPM",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "Jago TPA",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "TOEFL Academy",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiPolisi",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "JadiBeasiswa",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "rapor",
+   "brand": "Psikotes kerja",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiASN",
+   "area_correct": 0.946730532694673
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiBUMN",
+   "area_correct": 0.98632
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.9445100000000001
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiPPG",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "Cerebrum",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiOJK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiSekdin",
+   "area_correct": 0.99826
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiPPPK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "JadiPCPM",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "Jago TPA",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "lapor_masalah",
+   "brand": "TOEFL Academy",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiASN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiBUMN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiPrajurit",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiPPG",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "Cerebrum",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiOJK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiSekdin",
+   "area_correct": 0.9703202967970321
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiPPPK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "JadiPCPM",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "Jago TPA",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "pdf",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.970310296897031
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiASN",
+   "area_correct": 0.951039510395104
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiBUMN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.93744
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiPPG",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "promo",
+   "brand": "Cerebrum",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiOJK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiSekdin",
+   "area_correct": 0.9821900000000001
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiPPPK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "promo",
+   "brand": "JadiPCPM",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "promo",
+   "brand": "Jago TPA",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "promo",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.98219
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiASN",
+   "area_correct": 0.9770697706977071
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiBUMN",
+   "area_correct": 0.96535
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.931050689493105
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiPPG",
+   "area_correct": 0.8765987659876598
+  },
+  {
+   "glyph": "kalender",
+   "brand": "Cerebrum",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiOJK",
+   "area_correct": 0.7506049879002421
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiSekdin",
+   "area_correct": 0.8261982619826198
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiPPPK",
+   "area_correct": 0.9163191631916319
+  },
+  {
+   "glyph": "kalender",
+   "brand": "JadiPCPM",
+   "area_correct": 0.9163183263665272
+  },
+  {
+   "glyph": "kalender",
+   "brand": "Jago TPA",
+   "area_correct": 0.7335473354733548
+  },
+  {
+   "glyph": "kalender",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.877257545150903
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiASN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiBUMN",
+   "area_correct": 0.9837
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiPrajurit",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiPPG",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "live_class",
+   "brand": "Cerebrum",
+   "area_correct": 0.983709837098371
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiOJK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiSekdin",
+   "area_correct": 0.67533
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiPPPK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "live_class",
+   "brand": "JadiPCPM",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "live_class",
+   "brand": "Jago TPA",
+   "area_correct": 0.6752867528675287
+  },
+  {
+   "glyph": "live_class",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.5563855638556386
+  },
+  {
+   "glyph": "grup",
+   "brand": "JadiASN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "grup",
+   "brand": "JadiBUMN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "grup",
+   "brand": "JadiPrajurit",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "grup",
+   "brand": "JadiPPG",
+   "area_correct": 0.9931701365972682
+  },
+  {
+   "glyph": "grup",
+   "brand": "Cerebrum",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "grup",
+   "brand": "JadiOJK",
+   "area_correct": 0.99294
+  },
+  {
+   "glyph": "grup",
+   "brand": "JadiSekdin",
+   "area_correct": 0.99296
+  },
+  {
+   "glyph": "grup",
+   "brand": "JadiPPPK",
+   "area_correct": 0.9929501409971802
+  },
+  {
+   "glyph": "grup",
+   "brand": "Jago TPA",
+   "area_correct": 0.83913
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiASN",
+   "area_correct": 0.9216592165921661
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiBUMN",
+   "area_correct": 0.919030809691903
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.96097
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiPPG",
+   "area_correct": 0.965909659096591
+  },
+  {
+   "glyph": "journey",
+   "brand": "Cerebrum",
+   "area_correct": 0.976579765797658
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiOJK",
+   "area_correct": 0.9771895437908759
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiSekdin",
+   "area_correct": 0.907220927790722
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiPPPK",
+   "area_correct": 0.97718
+  },
+  {
+   "glyph": "journey",
+   "brand": "JadiPCPM",
+   "area_correct": 0.977180228197718
+  },
+  {
+   "glyph": "info",
+   "brand": "JadiASN",
+   "area_correct": 0.874971250287497
+  },
+  {
+   "glyph": "info",
+   "brand": "JadiBUMN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "info",
+   "brand": "JadiPrajurit",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "info",
+   "brand": "JadiPPG",
+   "area_correct": 0.874831251687483
+  },
+  {
+   "glyph": "info",
+   "brand": "Cerebrum",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "info",
+   "brand": "JadiSekdin",
+   "area_correct": 0.8748687486874868
+  },
+  {
+   "glyph": "tips",
+   "brand": "JadiASN",
+   "area_correct": 0.8928900000000001
+  },
+  {
+   "glyph": "tips",
+   "brand": "JadiBUMN",
+   "area_correct": 0.947490525094749
+  },
+  {
+   "glyph": "tips",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.8928600000000001
+  },
+  {
+   "glyph": "tips",
+   "brand": "JadiPPG",
+   "area_correct": 0.936390636093639
+  },
+  {
+   "glyph": "tips",
+   "brand": "Cerebrum",
+   "area_correct": 0.17369173691736917
+  },
+  {
+   "glyph": "tips",
+   "brand": "JadiOJK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "tips",
+   "brand": "JadiPPPK",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "tips",
+   "brand": "Jago TPA",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "link",
+   "brand": "JadiASN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "link",
+   "brand": "JadiBUMN",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "link",
+   "brand": "JadiPrajurit",
+   "area_correct": 1.0
+  },
+  {
+   "glyph": "link",
+   "brand": "JadiPPG",
+   "area_correct": 0.49998500014999847
+  },
+  {
+   "glyph": "link",
+   "brand": "JadiOJK",
+   "area_correct": 0.49997
+  },
+  {
+   "glyph": "drilling_soal",
+   "brand": "JadiASN",
+   "area_correct": 0.69699
+  },
+  {
+   "glyph": "drilling_soal",
+   "brand": "JadiSekdin",
+   "area_correct": 0.57746
+  },
+  {
+   "glyph": "drilling_soal",
+   "brand": "JadiPCPM",
+   "area_correct": 0.8304800000000001
+  },
+  {
+   "glyph": "drilling_soal",
+   "brand": "Jago TPA",
+   "area_correct": 0.66645
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiASN",
+   "area_correct": 0.4805748057480575
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiBUMN",
+   "area_correct": 0.7254299999999999
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiPrajurit",
+   "area_correct": 0.6004439955600445
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiPPG",
+   "area_correct": 0.6846563068738625
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "Cerebrum",
+   "area_correct": 0.8287199999999999
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiOJK",
+   "area_correct": 0.8066061321226425
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiSekdin",
+   "area_correct": 0.5809300000000001
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiPPPK",
+   "area_correct": 0.8358283582835829
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "JadiPCPM",
+   "area_correct": 0.8633113668863313
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "Jago TPA",
+   "area_correct": 0.34059659403405973
+  },
+  {
+   "glyph": "kertas_soal",
+   "brand": "TOEFL Academy",
+   "area_correct": 0.7627523724762751
+  }
+ ]
+}

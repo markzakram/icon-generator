@@ -1,0 +1,6582 @@
+{
+  "version": 1,
+  "dibuat": "2026-09-30",
+  "glyphs": [
+    {
+      "id": "rapor",
+      "nama": "Rapor / Hasil Belajar",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "rapot",
+        "rapor",
+        "latihan soal",
+        "latsol harian assesment",
+        "blanko"
+      ],
+      "sinonim": [
+        "rapor",
+        "rapot",
+        "report",
+        "nilai",
+        "skor",
+        "hasil tryout",
+        "hasil belajar",
+        "statistik nilai",
+        "evaluasi",
+        "progres belajar",
+        "transkrip",
+        "score",
+        "peringkat",
+        "passing grade"
+      ],
+      "deskripsi_visual": "dua lembar dokumen dengan huruf A dalam lingkaran dan garis-garis teks",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiBeasiswa",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPolisi",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "Psikotes kerja",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Rapot.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/icon_rapor.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/icon_rapor.png"
+        },
+        {
+          "brand": "JadiBeasiswa",
+          "file": "JadiBeasiswa/icon_rapor.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Latihan soal.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Rapor.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Latsol harian Assesment.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_rapor.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/icon_rapor.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_rapor.png"
+        },
+        {
+          "brand": "JadiPolisi",
+          "file": "JadiPolisi/icon_rapor.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_blanko .png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_rapor.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_rapor.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_rapor.png"
+        },
+        {
+          "brand": "Psikotes kerja",
+          "file": "Psikotes kerja/icon_rapor.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_rapor.png"
+        }
+      ]
+    },
+    {
+      "id": "tryout",
+      "nama": "Tryout",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "tryout",
+        "latsol"
+      ],
+      "sinonim": [
+        "tryout",
+        "try out",
+        "TO",
+        "simulasi ujian",
+        "ujian online",
+        "mock test",
+        "CAT",
+        "tryout SKD",
+        "tryout UTBK",
+        "ujian percobaan",
+        "ranking nasional",
+        "exam",
+        "test",
+        "tryout akbar"
+      ],
+      "deskripsi_visual": "tumpukan kertas ujian bertanda A+ dengan pita bintang di pojok",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPolisi",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Tryout.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Tryout.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Tryout-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/TryOut.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Tryout.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Tryout.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Tryout.png"
+        },
+        {
+          "brand": "JadiPolisi",
+          "file": "JadiPolisi/icon_Latsol.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Tryout.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Tryout.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_TryOut.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_TryOut.png"
+        }
+      ]
+    },
+    {
+      "id": "kalender",
+      "nama": "Kalender / Jadwal",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "kalender"
+      ],
+      "sinonim": [
+        "kalender",
+        "jadwal",
+        "schedule",
+        "agenda",
+        "tanggal penting",
+        "jadwal tryout",
+        "jadwal seleksi",
+        "timeline",
+        "pengingat",
+        "reminder",
+        "jadwal kelas",
+        "event",
+        "calendar",
+        "jadwal CPNS"
+      ],
+      "deskripsi_visual": "kalender meja bertuliskan JAN dengan gambar pemandangan dan kisi tanggal",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Kalender.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Kalender.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Kalender-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Kalender.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Kalender.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Kalender.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Kalender.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Kalender.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Kalender.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Kalender.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Kalender.png"
+        }
+      ]
+    },
+    {
+      "id": "kertas_soal",
+      "nama": "Kertas Soal / Lembar Ujian",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "reading",
+        "to",
+        "uji kemampuan",
+        "latsol pedagogik",
+        "tryout pppk",
+        "tes",
+        "latihan soal tes",
+        "to gratis tes potensi akademik",
+        "latsol structure and written expression"
+      ],
+      "sinonim": [
+        "kertas soal",
+        "lembar soal",
+        "lembar ujian",
+        "ujian tulis",
+        "tes tertulis",
+        "uji kemampuan",
+        "TO gratis",
+        "latihan soal tes",
+        "written test",
+        "exam paper",
+        "pedagogik",
+        "structure and written expression",
+        "soal esai"
+      ],
+      "deskripsi_visual": "lembar kertas penuh coretan tulisan dengan pena bulu (quill)",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Reading.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-TO.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/icon-TO.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/icon_TO.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Uji kemampuan 1&2.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Uji kemampuan.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Latsol pedagogik.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Tryout PPPK .png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_tes.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Latihan soal tes .png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_TO Gratis Tes Potensi Akademik.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_latsol Structure and Written Expression.png"
+        }
+      ]
+    },
+    {
+      "id": "lapor_masalah",
+      "nama": "Lapor Masalah",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "masalah",
+        "lapor",
+        "laporkan masalah"
+      ],
+      "sinonim": [
+        "lapor masalah",
+        "laporkan masalah",
+        "bantuan",
+        "help",
+        "pengaduan",
+        "keluhan",
+        "customer service",
+        "support",
+        "FAQ",
+        "kendala teknis",
+        "report bug",
+        "tanya admin",
+        "hubungi kami"
+      ],
+      "deskripsi_visual": "balon chat berisi tiga titik dengan tanda tanya dalam lingkaran di pojok",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Masalah.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Lapor.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Masalah-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Masalah.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Laporkan masalah.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_masalah.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Masalah.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Lapor.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Masalah.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Masalah .png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Masalah .png"
+        }
+      ]
+    },
+    {
+      "id": "latsol",
+      "nama": "Latihan Soal (Latsol)",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "latsol"
+      ],
+      "sinonim": [
+        "latihan soal",
+        "latsol",
+        "soal latihan",
+        "quiz",
+        "kuis",
+        "practice",
+        "exercise",
+        "drill soal",
+        "bank soal",
+        "pembahasan soal",
+        "soal per bab",
+        "uji pemahaman",
+        "latihan harian"
+      ],
+      "deskripsi_visual": "papan presentasi di atas penyangga berisi daftar poin dan sosok perempuan",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Latsol.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Latsol.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Latsol-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Latsol.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Latsol.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Latsol.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Latsol.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Latsol.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Latsol.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Latsol.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Latsol.png"
+        }
+      ]
+    },
+    {
+      "id": "live_class",
+      "nama": "Live Class / Kelas Langsung",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "live",
+        "live class"
+      ],
+      "sinonim": [
+        "live class",
+        "kelas live",
+        "siaran langsung",
+        "webinar",
+        "zoom",
+        "streaming",
+        "kelas online",
+        "live teaching",
+        "bimbel online",
+        "kelas interaktif",
+        "broadcast",
+        "tatap muka virtual",
+        "live"
+      ],
+      "deskripsi_visual": "titik pusat dengan gelombang siaran melengkung di kiri dan kanan",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Live.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Live.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Live-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Live class.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Live class.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Live Class.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Live class.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Live.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Live class.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Live class.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Live class.png"
+        }
+      ]
+    },
+    {
+      "id": "materi",
+      "nama": "Materi / Course",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "materi",
+        "mater",
+        "course"
+      ],
+      "sinonim": [
+        "materi",
+        "course",
+        "modul belajar",
+        "bahan ajar",
+        "kelas online",
+        "pelajaran",
+        "silabus",
+        "ringkasan materi",
+        "materi SKD",
+        "materi UTBK",
+        "e-learning",
+        "belajar mandiri",
+        "study material",
+        "kisi-kisi materi"
+      ],
+      "deskripsi_visual": "gugusan enam heksagon 3D dengan dua warna selang-seling",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Materi-Biru.png",
+          "varian": "warna alternatif dalam brand yang sama: aksen biru muda"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Materi-Kuning.png",
+          "varian": "warna alternatif dalam brand yang sama: aksen kuning"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Materi.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Materi.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Materi-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Materi.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Materi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Materi.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Materi.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Materi.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Mater.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Materi.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Course.png"
+        }
+      ]
+    },
+    {
+      "id": "monitor",
+      "nama": "Monitor / Belajar Online",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "test",
+        "direktori formasi cpns",
+        "manajemen",
+        "pengenalan",
+        "mengenal atau perkenalan pcpm",
+        "substantif umum",
+        "belajar manajerial",
+        "tes pusat",
+        "tpa",
+        "progres belajar",
+        "materi toefl"
+      ],
+      "sinonim": [
+        "monitor",
+        "komputer",
+        "belajar online",
+        "CAT",
+        "computer assisted test",
+        "ujian berbasis komputer",
+        "pengenalan",
+        "orientasi",
+        "direktori formasi",
+        "progres belajar",
+        "tes pusat",
+        "manajerial",
+        "e-learning",
+        "dashboard"
+      ],
+      "deskripsi_visual": "monitor komputer menampilkan daftar poin dan kursor panah",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Test.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_Direktori formasi CPNS.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Manajemen-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Pengenalan.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Mengenal atau perkenalan PCPM.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Substantif umum.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Belajar manajerial.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_tes pusat.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_TPA.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Progres belajar .png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Materi toefl.png"
+        }
+      ]
+    },
+    {
+      "id": "numerik",
+      "nama": "Numerik / Deret Angka",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "math",
+        "saintek",
+        "matematika",
+        "tiu",
+        "numerik",
+        "verbal logic reasoning",
+        "deret angka",
+        "angka hilang",
+        "latsol tpa numerik"
+      ],
+      "sinonim": [
+        "numerik",
+        "deret angka",
+        "angka hilang",
+        "matematika",
+        "TIU numerik",
+        "kemampuan numerik",
+        "pola bilangan",
+        "barisan bilangan",
+        "number series",
+        "numerical reasoning",
+        "logika angka",
+        "berhitung",
+        "TPA numerik",
+        "penalaran matematika"
+      ],
+      "deskripsi_visual": "empat ubin 2x2 berisi angka 3, 5, 7 dan tiga titik",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPolisi",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Math.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Saintek/Saintek_matematika.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TIU 2026.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/NUmerik-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Verbal logic reasoning.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Numerik.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Saintek_Matematika revisi.png",
+          "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Saintek_Matematika.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Deret angka.png"
+        },
+        {
+          "brand": "JadiPolisi",
+          "file": "JadiPolisi/icon_Angka hilang.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-matematika.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Deret angka.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Latsol TPA Numerik.png"
+        }
+      ]
+    },
+    {
+      "id": "pdf",
+      "nama": "PDF / Dokumen",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "pdf",
+        "pdf gratis"
+      ],
+      "sinonim": [
+        "pdf",
+        "e-book",
+        "ebook",
+        "modul pdf",
+        "dokumen",
+        "unduh",
+        "download",
+        "file materi",
+        "rangkuman",
+        "kisi-kisi",
+        "bank soal pdf",
+        "handout",
+        "pdf gratis"
+      ],
+      "deskripsi_visual": "berkas dokumen dengan sudut terlipat dan label PDF besar",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-PDF.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Pdf.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/PDF-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/PDF.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_PDF.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_PDF gratis.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_PDF.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Pdf.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_PDF.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_PDF.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_PDF.png"
+        }
+      ]
+    },
+    {
+      "id": "promo",
+      "nama": "Promo / Diskon",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "promo"
+      ],
+      "sinonim": [
+        "promo",
+        "diskon",
+        "discount",
+        "voucher",
+        "kupon",
+        "potongan harga",
+        "sale",
+        "penawaran spesial",
+        "harga hemat",
+        "cashback",
+        "flash sale",
+        "kode promo",
+        "paket murah"
+      ],
+      "deskripsi_visual": "lencana bergerigi dengan simbol persen dan tanda bintang kecil",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Promo.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Promo.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Promo-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Promo.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Promo.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Promo.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Promo.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Promo.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Promo.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Promo.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Promo.png"
+        }
+      ]
+    },
+    {
+      "id": "grup",
+      "nama": "Grup / Komunitas",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "group",
+        "manajemen bidang",
+        "grup",
+        "grup gratis",
+        "grup dan pdf",
+        "jejaring kerja",
+        "pdf",
+        "tkp jejaring kerja"
+      ],
+      "sinonim": [
+        "grup",
+        "group",
+        "komunitas",
+        "grup belajar",
+        "grup telegram",
+        "grup whatsapp",
+        "forum diskusi",
+        "tim",
+        "jejaring kerja",
+        "networking",
+        "kerja sama tim",
+        "teamwork",
+        "anggota",
+        "manajemen tim"
+      ],
+      "deskripsi_visual": "tiga orang berjas dan berdasi, satu di depan dan dua di belakang",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Group.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Group.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Group-Icon.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Icon - Manajemen Bidang.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Grup.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Grup gratis.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Grup dan PDF & jejaring kerja.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Group.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Grup & PDF.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/TKP - Jejaring kerja.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Grup.png"
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "nama": "Journey / Dibimbing",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "journey",
+        "dibimbing"
+      ],
+      "sinonim": [
+        "journey",
+        "perjalanan belajar",
+        "roadmap",
+        "alur belajar",
+        "dibimbing",
+        "bimbingan",
+        "mentoring",
+        "learning path",
+        "peta belajar",
+        "study plan",
+        "langkah belajar",
+        "target belajar",
+        "progres"
+      ],
+      "deskripsi_visual": "penanda lokasi (pin) berisi kubus di atas alas peta",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Journey.png",
+          "varian": "variasi gambar: alas peta dan pin sedikit berbeda (sama dengan JadiBUMN)"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Journey.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Journey-Icon.png",
+          "varian": "variasi gambar: alas peta dan pin sedikit berbeda (sama dengan Cerebrum)"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Dibimbing.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Dibimbing.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Dibimbing.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Journey.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Journey.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Journey.png"
+        }
+      ]
+    },
+    {
+      "id": "bulu",
+      "nama": "Dua Bulu / Sosial Budaya",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "tkp",
+        "bedah soal fr tpd",
+        "tes psikiatri",
+        "seni rupa",
+        "latsol pppk",
+        "sosial budaya",
+        "tes skb",
+        "toefl tryout"
+      ],
+      "sinonim": [
+        "bulu",
+        "pena bulu",
+        "sosial budaya",
+        "TKP",
+        "seni rupa",
+        "tes psikiatri",
+        "bedah soal",
+        "latsol PPPK",
+        "tes SKB",
+        "toefl tryout",
+        "kreativitas",
+        "budaya",
+        "feather"
+      ],
+      "deskripsi_visual": "dua helai bulu burung bersilangan (besar dan kecil)",
+      "brands": [
+        "JadiASN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TKP 2024.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Bedah soal FR TPD.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Tes Psikiatri.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Seni rupa.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Latsol PPPK.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Sosial budaya .png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_tes skb.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Sosial budaya.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Toefl Tryout.png"
+        }
+      ]
+    },
+    {
+      "id": "figural_serial",
+      "nama": "Figural Serial / Pola Gambar",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "pola gambar",
+        "kemampuan penalaran induktif",
+        "figural",
+        "figural serial",
+        "simbol hilang",
+        "tkp",
+        "penalaran"
+      ],
+      "sinonim": [
+        "figural",
+        "figural serial",
+        "pola gambar",
+        "simbol hilang",
+        "deret gambar",
+        "penalaran induktif",
+        "gambar berurutan",
+        "TIU figural",
+        "abstract reasoning",
+        "rotasi gambar",
+        "visual pattern",
+        "psikotes gambar",
+        "tes penalaran"
+      ],
+      "deskripsi_visual": "empat ubin 2x2 berisi lingkaran bertangkai yang berputar dan tiga titik",
+      "brands": [
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPPK",
+        "JadiPolisi",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/icon_Pola gambar.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Kemampuan penalaran induktif.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Figural.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Figural serial.png"
+        },
+        {
+          "brand": "JadiPolisi",
+          "file": "JadiPolisi/icon_Simbol hilang.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-tkp.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Figural serial.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/Icon_Penalaran.png"
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "nama": "Tips / Diskusi",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "tips",
+        "verbal silogisme",
+        "bahasa dan komunikasi",
+        "latsol tpa verbal"
+      ],
+      "sinonim": [
+        "tips",
+        "trik",
+        "tips dan trik",
+        "saran",
+        "diskusi",
+        "percakapan",
+        "chat",
+        "komunikasi",
+        "bahasa dan komunikasi",
+        "silogisme",
+        "verbal",
+        "obrolan",
+        "strategi mengerjakan",
+        "konsultasi"
+      ],
+      "deskripsi_visual": "dua balon percakapan bertumpuk, masing-masing berisi tiga titik",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Tips.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Tips.png",
+          "varian": "variasi gambar: susunan dua balon sedikit berbeda (sama dengan JadiPrajurit)"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Tips-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Verbal silogisme.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/11.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Bahasa dan komunikasi.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Tips.png",
+          "varian": "variasi gambar: susunan dua balon sedikit berbeda (sama dengan JadiASN)"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Latsol TPA verbal.png"
+        }
+      ]
+    },
+    {
+      "id": "kalkulator",
+      "nama": "Kalkulator / Numerik Berhitung",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "kalkulator",
+        "tiu",
+        "tkd",
+        "calculation test",
+        "numerik berhitung",
+        "kecerdasan"
+      ],
+      "sinonim": [
+        "kalkulator",
+        "berhitung",
+        "aritmetika",
+        "operasi hitung",
+        "numerik berhitung",
+        "calculation test",
+        "kecerdasan",
+        "TKD",
+        "tambah kurang kali bagi",
+        "matematika dasar",
+        "hitung cepat",
+        "arithmetic",
+        "TIU hitungan"
+      ],
+      "deskripsi_visual": "empat ubin 2x2 berisi simbol kurang, tambah, bagi dan kali",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Kalkulator.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TIU 2025.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/TKD-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Calculation test.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Numerik berhitung.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-kecerdasan.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Numerik berhitung.png"
+        }
+      ]
+    },
+    {
+      "id": "kuantitatif",
+      "nama": "Kuantitatif / Perbandingan Kuantitatif",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "pk",
+        "tiu",
+        "hitungan",
+        "matematika",
+        "perbandingan kuantitatif",
+        "kuantitatif"
+      ],
+      "sinonim": [
+        "kuantitatif",
+        "perbandingan kuantitatif",
+        "penalaran kuantitatif",
+        "PK",
+        "pengetahuan kuantitatif",
+        "aljabar",
+        "variabel x y",
+        "pertidaksamaan",
+        "hitungan",
+        "TPA kuantitatif",
+        "quantitative reasoning",
+        "UTBK PK",
+        "TIU",
+        "matematika"
+      ],
+      "deskripsi_visual": "empat ubin 2x2 berisi (x), (y), tanda >= dan tiga titik",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiSekdin",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-PK.png",
+          "varian": "variasi gambar: ubin (x) dimiringkan"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TIU 2024.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/icon_Hitungan.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Matematika.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Perbandingan kuantitatif.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Perbandingan Kuantitatif.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/Icon_Kuantitatif.png"
+        }
+      ]
+    },
+    {
+      "id": "soal_cerita",
+      "nama": "Soal Cerita / Verbal (ubin abc)",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "logic reasoning",
+        "numerik soal cerita",
+        "latsol substantif numerik",
+        "soal cerita",
+        "huruf hilang",
+        "grammer"
+      ],
+      "sinonim": [
+        "soal cerita",
+        "verbal",
+        "huruf hilang",
+        "logic reasoning",
+        "grammar",
+        "numerik soal cerita",
+        "penalaran logis",
+        "literasi numerasi",
+        "word problem",
+        "pola huruf",
+        "TIU verbal",
+        "substantif numerik",
+        "kemampuan bahasa"
+      ],
+      "deskripsi_visual": "empat ubin 2x2 berisi abc, angka 5, cba dan titik-titik",
+      "brands": [
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPolisi",
+        "JadiSekdin",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Logic Reasoning-Icon.png",
+          "varian": "variasi gambar: ubin keempat berisi dua titik (bukan tiga)"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Numerik soal cerita.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Latsol Substantif numerik.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Soal cerita.png"
+        },
+        {
+          "brand": "JadiPolisi",
+          "file": "JadiPolisi/icon_Huruf hilang.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_ Soal cerita.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Grammer.png"
+        }
+      ]
+    },
+    {
+      "id": "tas_medis",
+      "nama": "Tas Medis / Kesehatan",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "poltekes",
+        "kesehatan",
+        "tahapan 4 pcpm",
+        "kesehatan dan medis"
+      ],
+      "sinonim": [
+        "kesehatan",
+        "medis",
+        "tes kesehatan",
+        "P3K",
+        "dokter",
+        "poltekkes",
+        "perawat",
+        "tenaga kesehatan",
+        "nakes",
+        "rumah sakit",
+        "medical check up",
+        "health",
+        "rikkes",
+        "kesehatan dan medis"
+      ],
+      "deskripsi_visual": "tas medis bertanda palang dengan dua tali",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Poltekes.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Kesehatan-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Kesehatan.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Kesehatan & Tahapan 4 PCPM.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/4.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Kesehatan dan medis.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-kesehatan.png"
+        }
+      ]
+    },
+    {
+      "id": "tengkorak_lup",
+      "nama": "Tengkorak & Lup / Psikologi",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "antopologi",
+        "kepribadian",
+        "psikologi",
+        "latsol situational judgemental test sjt",
+        "mental ideologi",
+        "psikologi tamtama"
+      ],
+      "sinonim": [
+        "psikologi",
+        "kepribadian",
+        "psikotes",
+        "mental ideologi",
+        "SJT",
+        "situational judgement test",
+        "antropologi",
+        "analisis karakter",
+        "tes psikologi",
+        "kejiwaan",
+        "profiling",
+        "investigasi",
+        "psikologi tamtama"
+      ],
+      "deskripsi_visual": "tengkorak dengan kaca pembesar menutupi satu mata",
+      "brands": [
+        "Cerebrum",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Antopologi.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Kepribadian.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Psikologi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Latsol situational judgemental test (SJT).png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Mental ideologi.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Icon_Psikologi tamtama.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Kepribadian.png"
+        }
+      ]
+    },
+    {
+      "id": "toga",
+      "nama": "Wisudawati / Toga",
+      "kategori": "orang",
+      "tipe": "glyph",
+      "alias": [
+        "tka",
+        "pendidikan",
+        "pelatihan",
+        "penelitian",
+        "akademik",
+        "skb kemenhub",
+        "tes potensi akademik"
+      ],
+      "sinonim": [
+        "toga",
+        "wisuda",
+        "pendidikan",
+        "akademik",
+        "sarjana",
+        "lulusan",
+        "tes potensi akademik",
+        "TKA",
+        "pelatihan dan penelitian",
+        "kampus",
+        "mahasiswa",
+        "graduation",
+        "beasiswa",
+        "SKB kemenhub"
+      ],
+      "deskripsi_visual": "perempuan berambut panjang memakai topi toga",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-TKA.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Pendidikan-Icon.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/3.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Pendidikan, pelatihan, dan penelitian.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_akademik.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_SKB Kemenhub.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Tes potensi akademik.png"
+        }
+      ]
+    },
+    {
+      "id": "topeng_drama",
+      "nama": "Topeng Drama / TKP",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "tkp",
+        "akhlak",
+        "tes kepribadian",
+        "psikologi kepribadian",
+        "kepribadian",
+        "profesionalisme"
+      ],
+      "sinonim": [
+        "TKP",
+        "tes karakteristik pribadi",
+        "kepribadian",
+        "tes kepribadian",
+        "psikologi kepribadian",
+        "akhlak",
+        "profesionalisme",
+        "karakter",
+        "sikap kerja",
+        "integritas",
+        "personality test",
+        "topeng",
+        "emosi",
+        "SKD"
+      ],
+      "deskripsi_visual": "dua topeng teater, satu tersenyum dan satu sedih",
+      "brands": [
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TKP 2025.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Akhlak-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Tes kepribadian.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Psikologi kepribadian.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_TKP.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-kepribadian.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Profesionalisme.png"
+        }
+      ]
+    },
+    {
+      "id": "bahasa_inggris",
+      "nama": "Bahasa Inggris (balon EN)",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "eng",
+        "bahasa ingg",
+        "b.inggris sruktur",
+        "inggris",
+        "tbi structure",
+        "en"
+      ],
+      "sinonim": [
+        "bahasa inggris",
+        "english",
+        "EN",
+        "TOEFL",
+        "TBI",
+        "tes bahasa inggris",
+        "structure",
+        "grammar",
+        "IELTS",
+        "speaking",
+        "conversation",
+        "english test",
+        "percakapan"
+      ],
+      "deskripsi_visual": "dua balon percakapan bertumpuk bertuliskan EN",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiSekdin",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Eng.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Icon - Bahasa Ingg.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/bahasa ingg.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_B.inggris Sruktur.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Inggris.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/Icon_TBI - Structure.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_EN.png"
+        }
+      ]
+    },
+    {
+      "id": "buku_psi",
+      "nama": "Buku Psikologi (Ψ) / Psikotes",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "psikologi",
+        "psikotes",
+        "latsol penarikan kesimpulan"
+      ],
+      "sinonim": [
+        "psikotes",
+        "psikologi",
+        "tes psikologi",
+        "psikometri",
+        "penarikan kesimpulan",
+        "tes IQ",
+        "tes bakat",
+        "psychology",
+        "psi",
+        "tes kecerdasan",
+        "logika",
+        "penalaran",
+        "buku psikologi"
+      ],
+      "deskripsi_visual": "buku tebal bersampul simbol psi (Ψ)",
+      "brands": [
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Psikologi-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Psikotes.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Latsol Penarikan Kesimpulan.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/1.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_Psikologi.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Psikotes.png"
+        }
+      ]
+    },
+    {
+      "id": "garuda",
+      "nama": "Garuda / TWK",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "pkn",
+        "twk",
+        "ppkn",
+        "kebangsaan",
+        "twk nasionalisme"
+      ],
+      "sinonim": [
+        "garuda",
+        "TWK",
+        "tes wawasan kebangsaan",
+        "nasionalisme",
+        "kebangsaan",
+        "pancasila",
+        "PKn",
+        "PPKn",
+        "bela negara",
+        "NKRI",
+        "wawasan kebangsaan",
+        "UUD 1945",
+        "pilar negara",
+        "ideologi"
+      ],
+      "deskripsi_visual": "kepala burung garuda menghadap kiri dengan bulu leher bergerigi",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-PKn.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TWK 2026.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi PPKN.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_TWK.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-ppkn.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Kebangsaan.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/TWK - Nasionalisme.png"
+        }
+      ]
+    },
+    {
+      "id": "gedung_pilar",
+      "nama": "Gedung Pilar / Lembaga Negara",
+      "kategori": "lembaga",
+      "tipe": "glyph",
+      "alias": [
+        "twk",
+        "infrastruktur",
+        "bank indonesia",
+        "kebangsentralan",
+        "pilar negara"
+      ],
+      "sinonim": [
+        "pilar negara",
+        "lembaga negara",
+        "kebanksentralan",
+        "bank indonesia",
+        "pemerintahan",
+        "institusi",
+        "infrastruktur",
+        "kementerian",
+        "gedung",
+        "konstitusi",
+        "empat pilar kebangsaan",
+        "TWK",
+        "pemerintah"
+      ],
+      "deskripsi_visual": "gedung klasik dengan atap segitiga dan empat pilar",
+      "brands": [
+        "JadiASN",
+        "JadiBUMN",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TWK 2025.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Infrastruktur.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Bank indonesia & Kebangsentralan.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/5.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Pilar negara.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Pilar negara.png"
+        }
+      ]
+    },
+    {
+      "id": "globe",
+      "nama": "Globe / Geografi & Pengetahuan Umum",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "pu",
+        "soshum",
+        "geografi",
+        "pengetahuan umum",
+        "tes kemampuan umum",
+        "ipa",
+        "tiu"
+      ],
+      "sinonim": [
+        "globe",
+        "geografi",
+        "peta dunia",
+        "pengetahuan umum",
+        "wawasan global",
+        "bumi",
+        "penalaran umum",
+        "tes kemampuan umum",
+        "TIU",
+        "soshum",
+        "IPS",
+        "general knowledge",
+        "IPA terpadu"
+      ],
+      "deskripsi_visual": "bola dunia di atas penyangga melengkung",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-PU.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Soshum/Soshum_Geografi.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/icon_Pengetahuan umum.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Tes kemampuan umum .png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Soshum_Geografi revisi.png",
+          "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Soshum_Geografi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi geografi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi IPA.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-tiu.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_.png"
+        }
+      ]
+    },
+    {
+      "id": "headset_cs",
+      "nama": "Headset CS / Pelayanan",
+      "kategori": "orang",
+      "tipe": "glyph",
+      "alias": [
+        "tkp",
+        "wawancara psikologi",
+        "bimbingan dan konseling",
+        "wawancara",
+        "pelayanan publik",
+        "scoring guidance"
+      ],
+      "sinonim": [
+        "customer service",
+        "CS",
+        "pelayanan publik",
+        "wawancara",
+        "headset",
+        "call center",
+        "bimbingan konseling",
+        "konsultasi",
+        "layanan",
+        "operator",
+        "helpdesk",
+        "scoring guidance",
+        "wawancara psikologi"
+      ],
+      "deskripsi_visual": "perempuan memakai headset dengan mikrofon",
+      "brands": [
+        "JadiASN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiSekdin",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TKP 2026.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/Wawancara psikologi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi bimbingan dan konseling.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Wawancara & pelayanan publik.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Pelayanan publik.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Scoring Guidance.png"
+        }
+      ]
+    },
+    {
+      "id": "info",
+      "nama": "Info / Pengumuman",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "info"
+      ],
+      "sinonim": [
+        "info",
+        "informasi",
+        "pengumuman",
+        "berita",
+        "announcement",
+        "update terbaru",
+        "kabar seleksi",
+        "notifikasi",
+        "speaker",
+        "news",
+        "info CPNS",
+        "info kedinasan",
+        "broadcast"
+      ],
+      "deskripsi_visual": "pengeras suara dengan gelombang suara",
+      "brands": [
+        "Cerebrum",
+        "JadiASN",
+        "JadiBUMN",
+        "JadiPPG",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Info.png"
+        },
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Info.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Info-Icon.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/9.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Info.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Info.png"
+        }
+      ]
+    },
+    {
+      "id": "koper",
+      "nama": "Koper Kerja / Karier",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "wirausaha",
+        "loker",
+        "pendaftaran",
+        "lowongan kerja",
+        "manajemen perkantoran",
+        "layanan bisnis",
+        "administrasi"
+      ],
+      "sinonim": [
+        "koper",
+        "tas kerja",
+        "lowongan kerja",
+        "loker",
+        "karier",
+        "pekerjaan",
+        "pendaftaran",
+        "administrasi",
+        "perkantoran",
+        "wirausaha",
+        "bisnis",
+        "job",
+        "rekrutmen",
+        "formasi"
+      ],
+      "deskripsi_visual": "tas kerja (koper) dengan pegangan dan gesper",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Wirausaha.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Loker-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Pendaftaran.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Lowongan kerja.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Manajemen perkantoran & layanan bisnis.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Administrasi.png"
+        }
+      ]
+    },
+    {
+      "id": "palu_hakim",
+      "nama": "Palu Hakim / Hukum",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "soshum",
+        "hukum",
+        "ke ojkan pada tku",
+        "hukum dan kebijakan"
+      ],
+      "sinonim": [
+        "hukum",
+        "palu hakim",
+        "peradilan",
+        "kebijakan",
+        "regulasi",
+        "undang-undang",
+        "legal",
+        "soshum",
+        "pengadilan",
+        "keadilan",
+        "peraturan OJK",
+        "hakim",
+        "hukum dan kebijakan"
+      ],
+      "deskripsi_visual": "palu hakim mengetuk alas dengan percikan",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Soshum.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Hukum-Icon.png",
+          "varian": "variasi gambar: palu dan alas digambar ulang dengan sudut berbeda"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_ke OJKan pada TKU .png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/8.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Hukum dan kebijakan.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "bahasa_indonesia",
+      "nama": "Bahasa Indonesia (balon INA)",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "ina",
+        "bahasa indo",
+        "bahasa ind",
+        "wawancara",
+        "b.indonesia"
+      ],
+      "sinonim": [
+        "bahasa indonesia",
+        "INA",
+        "bahasa",
+        "PUEBI",
+        "EYD",
+        "tata bahasa",
+        "wawancara",
+        "percakapan",
+        "komunikasi",
+        "literasi bahasa",
+        "UKBI",
+        "bahasa baku",
+        "tes bahasa"
+      ],
+      "deskripsi_visual": "dua balon percakapan bertumpuk bertuliskan INA",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Ina.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Icon - Bahasa Indo.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/bahasa ind.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Wawancara.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/b.indonesia.png"
+        }
+      ]
+    },
+    {
+      "id": "bendera_inggris",
+      "nama": "Bendera Inggris",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "inggris",
+        "b.inggris",
+        "tes toefl",
+        "bahasa indonesia",
+        "written expression"
+      ],
+      "sinonim": [
+        "bendera inggris",
+        "union jack",
+        "bahasa inggris",
+        "english",
+        "TOEFL",
+        "written expression",
+        "british",
+        "UK",
+        "tes toefl",
+        "IELTS",
+        "english course",
+        "listening"
+      ],
+      "deskripsi_visual": "bendera Union Jack dalam cincin berbentuk balon bicara",
+      "brands": [
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiSekdin",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Inggris.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_B.inggris & Tes toefl.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi bahasa indonesia.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Written Expression.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_inggris.png"
+        }
+      ]
+    },
+    {
+      "id": "buku_terbuka",
+      "nama": "Buku Terbuka / Reading & Literasi",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "verbal",
+        "latsol substantif literasi",
+        "reading"
+      ],
+      "sinonim": [
+        "reading",
+        "membaca",
+        "literasi",
+        "buku",
+        "verbal",
+        "pemahaman bacaan",
+        "reading comprehension",
+        "bacaan",
+        "teks bacaan",
+        "literasi membaca",
+        "TOEFL reading",
+        "substantif literasi",
+        "perpustakaan"
+      ],
+      "deskripsi_visual": "buku terbuka dengan baris-baris teks tebal di kedua halaman",
+      "brands": [
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiSekdin",
+        "Jago TPA",
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Verbal.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Latsol substantif literasi.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Reading.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/Icon_Verbal.png"
+        },
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Reading .png"
+        }
+      ]
+    },
+    {
+      "id": "kubus_bertumpuk",
+      "nama": "Kubus Bertumpuk / Penalaran Ruang",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "agility",
+        "menentukan bentuk",
+        "tata ruang",
+        "kompetensi bidang",
+        "9 kotak",
+        "penalaran"
+      ],
+      "sinonim": [
+        "kubus",
+        "kubus bertumpuk",
+        "penalaran ruang",
+        "tata ruang",
+        "menentukan bentuk",
+        "spasial",
+        "9 kotak",
+        "agility",
+        "hitung kubus",
+        "bangun ruang",
+        "spatial reasoning",
+        "kompetensi bidang",
+        "penalaran"
+      ],
+      "deskripsi_visual": "piramida kubus isometrik tersusun tiga tingkat",
+      "brands": [
+        "JadiBUMN",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Agility-Icon.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Icon - Menentukan Bentuk.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Tata ruang.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_kompetensi bidang.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_9 kotak.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/icon_Penalaran(1).png"
+        }
+      ]
+    },
+    {
+      "id": "link",
+      "nama": "Link / Tautan",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "link",
+        "gabungan bagian"
+      ],
+      "sinonim": [
+        "link",
+        "tautan",
+        "url",
+        "gabungan bagian",
+        "penghubung",
+        "koneksi",
+        "rantai",
+        "integrasi",
+        "link pendaftaran",
+        "sambungan",
+        "hyperlink",
+        "link penting"
+      ],
+      "deskripsi_visual": "dua mata rantai yang saling terkait",
+      "brands": [
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Menu-Link.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Link-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Gabungan bagian.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/7.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Link.png"
+        }
+      ]
+    },
+    {
+      "id": "perisai",
+      "nama": "Perisai / SKB & Bela Negara",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "skb cpns",
+        "teknis makroprudensial",
+        "bela negara"
+      ],
+      "sinonim": [
+        "perisai",
+        "SKB",
+        "seleksi kompetensi bidang",
+        "SKB CPNS",
+        "bela negara",
+        "pertahanan",
+        "keamanan",
+        "proteksi",
+        "makroprudensial",
+        "kompetensi bidang",
+        "shield",
+        "ketahanan nasional",
+        "TWK"
+      ],
+      "deskripsi_visual": "perisai dua warna dengan kubus 3D di tengah",
+      "brands": [
+        "JadiASN",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_SKB CPNS.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Teknis Makroprudensial.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/2.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Bela negara.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Bela negara.png"
+        }
+      ]
+    },
+    {
+      "id": "puzzle",
+      "nama": "Puzzle / SKD",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "skd cpns",
+        "skd",
+        "tryout tahap 2",
+        "tryout pppk",
+        "tryout skd"
+      ],
+      "sinonim": [
+        "puzzle",
+        "SKD",
+        "seleksi kompetensi dasar",
+        "tryout SKD",
+        "TWK TIU TKP",
+        "tes kompetensi",
+        "tryout tahap 2",
+        "tryout PPPK",
+        "pemecahan masalah",
+        "problem solving",
+        "kepingan",
+        "strategi",
+        "logika"
+      ],
+      "deskripsi_visual": "tiga keping puzzle 3D yang saling mengunci",
+      "brands": [
+        "JadiASN",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_SKD CPNS.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/SKD-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_TryOut_Tahap 2.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Tryout PPPK.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Tryout SKD.png"
+        }
+      ]
+    },
+    {
+      "id": "roda_gigi",
+      "nama": "Roda Gigi / Teknik & Operasional",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "teknik op",
+        "checking test",
+        "latsol psikometri",
+        "manajerial",
+        "operasional bgn",
+        "ssn"
+      ],
+      "sinonim": [
+        "roda gigi",
+        "gear",
+        "teknik operasional",
+        "operasional",
+        "manajerial",
+        "checking test",
+        "psikometri",
+        "mekanik",
+        "sistem",
+        "proses kerja",
+        "engineering",
+        "sandi negara",
+        "SSN"
+      ],
+      "deskripsi_visual": "roda gigi dengan kubus 3D di tengah",
+      "brands": [
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPCPM",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Teknik-op-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Checking test.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Latsol Psikometri.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Manajerial & Operasional BGN.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_SSN.png"
+        }
+      ]
+    },
+    {
+      "id": "satelit",
+      "nama": "Parabola / Teknologi & Komunikasi",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "saintek",
+        "tik",
+        "teknologi dan komunikasi",
+        "teknologi informasi"
+      ],
+      "sinonim": [
+        "satelit",
+        "parabola",
+        "teknologi informasi",
+        "TIK",
+        "telekomunikasi",
+        "komunikasi",
+        "sinyal",
+        "jaringan",
+        "saintek",
+        "IT",
+        "antena",
+        "digital",
+        "teknologi dan komunikasi"
+      ],
+      "deskripsi_visual": "antena parabola memancarkan sinyal dengan perangkat di bawahnya",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Saintek.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/TIK-Icon.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/6.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Teknologi dan komunikasi.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Teknologi Informasi.png"
+        }
+      ]
+    },
+    {
+      "id": "uang",
+      "nama": "Uang / Ekonomi",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "ekonomi",
+        "soshum",
+        "keuangan",
+        "sektor jasa keuangan",
+        "ekonomi dan koperasi"
+      ],
+      "sinonim": [
+        "uang",
+        "ekonomi",
+        "keuangan",
+        "rupiah",
+        "sektor jasa keuangan",
+        "akuntansi",
+        "koperasi",
+        "perbankan",
+        "finance",
+        "money",
+        "soshum",
+        "investasi",
+        "OJK",
+        "manajemen keuangan"
+      ],
+      "deskripsi_visual": "tumpukan uang kertas bertanda Rp",
+      "brands": [
+        "Cerebrum",
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Ekonomi.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Soshum/Soshum_Ekonomi.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Keuangan-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Sektor jasa keuangan.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Soshum_Ekonomi revisi .png",
+          "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Soshum_Ekonomi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi ekonomi.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Ekonomi dan koperasi.png"
+        }
+      ]
+    },
+    {
+      "id": "abstraksi_ruang",
+      "nama": "Abstraksi Ruang / Integritas",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "twk",
+        "abstraksi ruang",
+        "integritas"
+      ],
+      "sinonim": [
+        "abstraksi ruang",
+        "integritas",
+        "spasial",
+        "perspektif",
+        "bingkai",
+        "bentuk ruang",
+        "visual spasial",
+        "penalaran ruang",
+        "TWK",
+        "kejujuran",
+        "spatial",
+        "bidang"
+      ],
+      "deskripsi_visual": "panel persegi 3D bertumpuk miring dengan siku bingkai di pojok",
+      "brands": [
+        "JadiASN",
+        "JadiBUMN",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Icon_TWK 2024.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/icon_Abstraksi Ruang.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Integritas.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Integritas.png"
+        }
+      ]
+    },
+    {
+      "id": "bendera_indonesia",
+      "nama": "Bendera Indonesia / Bahasa Negara",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "bahasa inggris",
+        "bahasa negara",
+        "twk"
+      ],
+      "sinonim": [
+        "bendera indonesia",
+        "merah putih",
+        "bahasa negara",
+        "TWK",
+        "nasionalisme",
+        "kebangsaan",
+        "NKRI",
+        "simbol negara",
+        "bahasa indonesia",
+        "lambang negara",
+        "indonesia",
+        "patriotisme"
+      ],
+      "deskripsi_visual": "bendera merah putih dalam cincin berbentuk balon bicara",
+      "brands": [
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiPrajurit",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi bahasa inggris.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Bahasa negara.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-twk.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Bahasa negara.png"
+        }
+      ]
+    },
+    {
+      "id": "drilling_soal",
+      "nama": "Drilling Soal",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "drilling soal"
+      ],
+      "sinonim": [
+        "drilling soal",
+        "drill",
+        "latihan intensif",
+        "paket soal",
+        "bank soal",
+        "kumpulan soal",
+        "latihan berulang",
+        "soal harian",
+        "pendalaman soal",
+        "intensive practice",
+        "soal HOTS",
+        "latihan maraton"
+      ],
+      "deskripsi_visual": "tumpukan lembar dokumen menyebar seperti kipas dengan garis teks",
+      "brands": [
+        "JadiASN",
+        "JadiPCPM",
+        "JadiSekdin",
+        "Jago TPA"
+      ],
+      "instances": [
+        {
+          "brand": "JadiASN",
+          "file": "JadiASN/Drilling soal Jadi ASN.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/Drilling soal Jadi PCPM Revisi.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/Drilling soal.png"
+        },
+        {
+          "brand": "Jago TPA",
+          "file": "Jago TPA/Drilling soal Jago TPA.png"
+        }
+      ]
+    },
+    {
+      "id": "figural_analogi",
+      "nama": "Figural Analogi",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "ppu",
+        "tes kraepelin atau pauli",
+        "figural analogi"
+      ],
+      "sinonim": [
+        "figural analogi",
+        "analogi gambar",
+        "hubungan gambar",
+        "pola analogi",
+        "TIU figural",
+        "penalaran analitis",
+        "PPU",
+        "pengetahuan dan pemahaman umum",
+        "kraepelin",
+        "pauli",
+        "abstract reasoning",
+        "visual analogy",
+        "psikotes"
+      ],
+      "deskripsi_visual": "empat ubin 2x2 berisi bentuk jam pasir/X, garis sejajar dan tiga titik",
+      "brands": [
+        "Cerebrum",
+        "JadiOJK",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-PPU.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Tes Kraepelin atau Pauli.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Figural analogi.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Figural analogi.png"
+        }
+      ]
+    },
+    {
+      "id": "figural_ketidaksamaan",
+      "nama": "Figural Ketidaksamaan",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "latsol error recognition",
+        "figural ketidaksamaan"
+      ],
+      "sinonim": [
+        "figural ketidaksamaan",
+        "gambar yang berbeda",
+        "odd one out",
+        "ketidaksamaan",
+        "error recognition",
+        "mencari perbedaan",
+        "figural",
+        "TIU figural",
+        "penalaran gambar",
+        "abstract reasoning",
+        "kecermatan visual",
+        "psikotes"
+      ],
+      "deskripsi_visual": "empat ubin 2x2 berisi lingkaran bergaris miring (dicoret) dan tiga titik",
+      "brands": [
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Latsol Error Recognition.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/12.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Figural ketidaksamaan.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Figural ketidaksamaan.png"
+        }
+      ]
+    },
+    {
+      "id": "keluarga",
+      "nama": "Keluarga / Sosiologi",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "sosiology",
+        "soshum",
+        "sosiologi",
+        "grup",
+        "sosiokultural",
+        "sosial dan pelayanan"
+      ],
+      "sinonim": [
+        "keluarga",
+        "sosiologi",
+        "masyarakat",
+        "sosial",
+        "sosiokultural",
+        "soshum",
+        "IPS",
+        "hubungan sosial",
+        "family",
+        "orang tua dan anak",
+        "pelayanan sosial",
+        "kependudukan",
+        "grup"
+      ],
+      "deskripsi_visual": "keluarga: ayah, ibu dan anak",
+      "brands": [
+        "Cerebrum",
+        "JadiPCPM",
+        "JadiPPG",
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Sosiology.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Soshum/Soshum_Sosiologi.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Grup.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Soshum_Sosiologi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi sosiologi.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Sosiokultural & sosial dan pelayanan.png"
+        }
+      ]
+    },
+    {
+      "id": "verbal",
+      "nama": "Verbal / Balon Bicara",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "verbal",
+        "kemampuan umum verbal"
+      ],
+      "sinonim": [
+        "verbal",
+        "kemampuan verbal",
+        "kemampuan umum verbal",
+        "sinonim antonim",
+        "analogi kata",
+        "TIU verbal",
+        "penalaran verbal",
+        "verbal reasoning",
+        "kosakata",
+        "bahasa",
+        "komunikasi",
+        "berbicara",
+        "TPA verbal"
+      ],
+      "deskripsi_visual": "balon bicara besar berisi tiga titik dengan gelombang sinyal di pojok",
+      "brands": [
+        "JadiBUMN",
+        "JadiOJK",
+        "JadiPPPK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Verbal.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Kemampuan umum verbal.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Verbal.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Verbal.png"
+        }
+      ]
+    },
+    {
+      "id": "atom",
+      "nama": "Atom / Fisika",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "fisika",
+        "saintek"
+      ],
+      "sinonim": [
+        "fisika",
+        "atom",
+        "sains",
+        "saintek",
+        "IPA",
+        "physics",
+        "mekanika",
+        "listrik magnet",
+        "UTBK saintek",
+        "olimpiade fisika",
+        "ilmu pengetahuan alam",
+        "eksakta",
+        "TKA fisika"
+      ],
+      "deskripsi_visual": "model atom dengan inti dan tiga orbit elektron",
+      "brands": [
+        "Cerebrum",
+        "JadiPPG",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Fisika.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Saintek/Saintek_Fisika.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Saintek_Fisika.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Fisika.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Fisika.png"
+        }
+      ]
+    },
+    {
+      "id": "buku_video",
+      "nama": "E-book / Buku Video",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "e book ojk",
+        "blanko"
+      ],
+      "sinonim": [
+        "e-book",
+        "ebook",
+        "buku digital",
+        "buku video",
+        "materi video",
+        "modul interaktif",
+        "video pembelajaran",
+        "perpustakaan digital",
+        "e-modul",
+        "buku online",
+        "blanko",
+        "learning video"
+      ],
+      "deskripsi_visual": "buku terbuka dengan kotak tombol play di halaman kiri",
+      "brands": [
+        "JadiOJK",
+        "JadiPPG",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_E book OJK.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/10.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_blanko2.png"
+        }
+      ]
+    },
+    {
+      "id": "bulan_bintang",
+      "nama": "Bulan Bintang / Keagamaan",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "umptkin",
+        "keagamaan"
+      ],
+      "sinonim": [
+        "keagamaan",
+        "agama islam",
+        "bulan bintang",
+        "UM-PTKIN",
+        "PTKIN",
+        "islami",
+        "pendidikan agama",
+        "madrasah",
+        "kemenag",
+        "religi",
+        "moderasi beragama",
+        "muslim"
+      ],
+      "deskripsi_visual": "bintang segi delapan berisi bulan sabit dan bintang",
+      "brands": [
+        "Cerebrum",
+        "JadiPPG",
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-UMPTKIN.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/14.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Keagamaan.png"
+        }
+      ]
+    },
+    {
+      "id": "dna",
+      "nama": "DNA / Biologi",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "biologi",
+        "saintek",
+        "jasmani"
+      ],
+      "sinonim": [
+        "biologi",
+        "DNA",
+        "genetika",
+        "sains",
+        "saintek",
+        "IPA",
+        "biology",
+        "sel",
+        "makhluk hidup",
+        "jasmani",
+        "anatomi",
+        "bioteknologi",
+        "TKA biologi"
+      ],
+      "deskripsi_visual": "untai heliks ganda DNA",
+      "brands": [
+        "Cerebrum",
+        "JadiPPG",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Biologi.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Saintek/Saintek_Biologi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Saintek_Biologi revisi.png",
+          "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Saintek_Biologi.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Biologi.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_jasmani.png"
+        }
+      ]
+    },
+    {
+      "id": "kristal",
+      "nama": "Kristal",
+      "kategori": "lainnya",
+      "tipe": "glyph",
+      "alias": [
+        "tryout tahap 1",
+        "stmkg"
+      ],
+      "sinonim": [
+        "kristal",
+        "batu mulia",
+        "permata",
+        "geofisika",
+        "STMKG",
+        "tryout tahap 1",
+        "mineral",
+        "berlian",
+        "prestasi",
+        "keunggulan",
+        "crystal",
+        "geologi"
+      ],
+      "deskripsi_visual": "dua kristal runcing di atas batu dengan kilau bintang",
+      "brands": [
+        "JadiOJK",
+        "JadiPPG",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_TryOut_Tahap 1.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/13.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Stmkg.png"
+        }
+      ]
+    },
+    {
+      "id": "buku_lup",
+      "nama": "Buku & Lup / Kecermatan",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "ketelitian",
+        "kecermatan"
+      ],
+      "sinonim": [
+        "kecermatan",
+        "ketelitian",
+        "tes kecermatan",
+        "teliti",
+        "fokus",
+        "konsentrasi",
+        "membaca cermat",
+        "pencarian",
+        "detail",
+        "psikotes kecermatan",
+        "accuracy",
+        "tes ketelitian"
+      ],
+      "deskripsi_visual": "buku terbuka dengan kaca pembesar di atas halaman",
+      "brands": [
+        "JadiPCPM",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Ketelitian.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_Kecermatan.png"
+        }
+      ]
+    },
+    {
+      "id": "diagram_pai",
+      "nama": "Diagram Lingkaran / TPA",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "tpa"
+      ],
+      "sinonim": [
+        "TPA",
+        "tes potensi akademik",
+        "diagram lingkaran",
+        "pie chart",
+        "statistik",
+        "data",
+        "grafik",
+        "analisis data",
+        "persentase",
+        "interpretasi data",
+        "chart",
+        "TPA BUMN",
+        "TPA OJK"
+      ],
+      "deskripsi_visual": "diagram pai 3D terpotong empat dengan angka 10, 20, 50, 70",
+      "brands": [
+        "JadiBUMN",
+        "JadiOJK"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/TPA-Icon.png"
+        },
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_TPA.png"
+        }
+      ]
+    },
+    {
+      "id": "kerumunan",
+      "nama": "Kerumunan / Masyarakat",
+      "kategori": "orang",
+      "tipe": "glyph",
+      "alias": [
+        "guru ips",
+        "mental ideologi"
+      ],
+      "sinonim": [
+        "masyarakat",
+        "kerumunan",
+        "penduduk",
+        "sosial",
+        "IPS",
+        "guru IPS",
+        "mental ideologi",
+        "publik",
+        "warga",
+        "komunitas",
+        "massa",
+        "demografi"
+      ],
+      "deskripsi_visual": "sekelompok siluet orang berdiri berjajar",
+      "brands": [
+        "JadiPPG",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi guru IPS.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon-mental ideologi.png"
+        }
+      ]
+    },
+    {
+      "id": "mata_coret",
+      "nama": "Mata Dicoret / Tes Buta Warna",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "blind",
+        "buta warna"
+      ],
+      "sinonim": [
+        "buta warna",
+        "tes buta warna",
+        "ishihara",
+        "mata",
+        "penglihatan",
+        "tes kesehatan mata",
+        "color blind",
+        "blind test",
+        "persepsi warna",
+        "tes kesehatan",
+        "visual",
+        "rikkes"
+      ],
+      "deskripsi_visual": "ikon mata dengan garis coret diagonal",
+      "brands": [
+        "JadiBUMN",
+        "JadiPCPM"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Blind-Icon.png"
+        },
+        {
+          "brand": "JadiPCPM",
+          "file": "JadiPCPM/icon_Buta warna.png"
+        }
+      ]
+    },
+    {
+      "id": "mikroskop",
+      "nama": "Mikroskop & Labu / Kimia",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "skolastik",
+        "saintek",
+        "kimia"
+      ],
+      "sinonim": [
+        "kimia",
+        "mikroskop",
+        "laboratorium",
+        "eksperimen",
+        "sains",
+        "saintek",
+        "IPA",
+        "chemistry",
+        "penelitian",
+        "tabung reaksi",
+        "skolastik",
+        "riset",
+        "TKA kimia"
+      ],
+      "deskripsi_visual": "mikroskop dan labu erlenmeyer berisi cairan",
+      "brands": [
+        "Cerebrum",
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Skolastik.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Saintek/Saintek_Kimia.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Saintek_Kimia.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Kimia.png"
+        }
+      ]
+    },
+    {
+      "id": "museum",
+      "nama": "Museum / Sejarah",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "soshum",
+        "sejarah"
+      ],
+      "sinonim": [
+        "sejarah",
+        "museum",
+        "gedung bersejarah",
+        "naskah kuno",
+        "arsip",
+        "soshum",
+        "IPS",
+        "history",
+        "peradaban",
+        "cagar budaya",
+        "prasasti",
+        "sejarah indonesia"
+      ],
+      "deskripsi_visual": "gedung klasik berpilar dengan gulungan naskah di tengah",
+      "brands": [
+        "Cerebrum",
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Soshum/Soshum_Sejarah.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Soshum_Sejarah.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi sejarah.png"
+        }
+      ]
+    },
+    {
+      "id": "produk_pangan",
+      "nama": "Produk Pangan / Agroteknologi & Gizi",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "agreteknologi pengolahan hasil pertanian",
+        "badan gizi nasiona"
+      ],
+      "sinonim": [
+        "agroteknologi",
+        "pengolahan hasil pertanian",
+        "pangan",
+        "gizi",
+        "badan gizi nasional",
+        "BGN",
+        "makanan sehat",
+        "produk olahan",
+        "pertanian",
+        "nutrisi",
+        "keamanan pangan",
+        "makan bergizi gratis"
+      ],
+      "deskripsi_visual": "botol dan toples berlabel tunas tanaman dengan tanda centang",
+      "brands": [
+        "JadiPPG",
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Agreteknologi pengolahan hasil pertanian.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Badan Gizi Nasiona.png"
+        }
+      ]
+    },
+    {
+      "id": "puzzle_matematika",
+      "nama": "Puzzle Matematika",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "kemampuan umum numerik",
+        "materi matematika"
+      ],
+      "sinonim": [
+        "puzzle matematika",
+        "matematika",
+        "numerik",
+        "kemampuan umum numerik",
+        "materi matematika",
+        "operasi hitung",
+        "TKU numerik",
+        "soal matematika",
+        "berhitung",
+        "logika matematika",
+        "aritmetika"
+      ],
+      "deskripsi_visual": "tiga keping puzzle dengan simbol minus dan kali",
+      "brands": [
+        "JadiOJK",
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiOJK",
+          "file": "JadiOJK/icon_Kemampuan umum numerik.png"
+        },
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/icon_Materi matematika.png"
+        }
+      ]
+    },
+    {
+      "id": "tanda_listrik",
+      "nama": "Tanda Listrik / Elektronika",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "pln",
+        "teknik elektronika"
+      ],
+      "sinonim": [
+        "listrik",
+        "tegangan tinggi",
+        "petir",
+        "teknik elektronika",
+        "elektro",
+        "kelistrikan",
+        "PLN",
+        "bahaya listrik",
+        "energi",
+        "rambu peringatan",
+        "teknik listrik",
+        "arus listrik"
+      ],
+      "deskripsi_visual": "rambu segitiga peringatan dengan petir",
+      "brands": [
+        "JadiBUMN",
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/PLN-Icon.png"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi teknik elektronika.png"
+        }
+      ]
+    },
+    {
+      "id": "toga_pria",
+      "nama": "Wisudawan / Toga Pria",
+      "kategori": "orang",
+      "tipe": "glyph",
+      "alias": [
+        "pendidikan luar biasa",
+        "tryout pppk sekolah rakyat"
+      ],
+      "sinonim": [
+        "toga",
+        "wisudawan",
+        "wisuda",
+        "lulusan",
+        "pendidikan",
+        "sekolah rakyat",
+        "pendidikan luar biasa",
+        "akademik",
+        "sarjana",
+        "graduation",
+        "guru",
+        "mahasiswa"
+      ],
+      "deskripsi_visual": "laki-laki berambut pendek memakai topi toga",
+      "brands": [
+        "JadiPPG",
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi pendidikan luar biasa.png"
+        },
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/Icon_Tryout PPPK Sekolah Rakyat 2026.png",
+          "varian": "variasi warna: kulit lebih terang"
+        }
+      ]
+    },
+    {
+      "id": "tutup",
+      "nama": "Tutup / Close",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "close"
+      ],
+      "sinonim": [
+        "tutup",
+        "close",
+        "keluar",
+        "batal",
+        "cancel",
+        "silang",
+        "exit",
+        "hapus",
+        "tolak",
+        "salah",
+        "x"
+      ],
+      "deskripsi_visual": "tanda silang X tiga dimensi",
+      "brands": [
+        "JadiBUMN",
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Close=Icon.png"
+        },
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Menu-Close.png",
+          "varian": "variasi gambar: proporsi lebih lebar, perspektif berbeda"
+        }
+      ]
+    },
+    {
+      "id": "akhlak_a",
+      "nama": "AKHLAK – A (Amanah / Adaptif)",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "akhlak a"
+      ],
+      "sinonim": [
+        "akhlak",
+        "AKHLAK A",
+        "amanah",
+        "adaptif",
+        "core values BUMN",
+        "nilai AKHLAK",
+        "tes AKHLAK",
+        "rekrutmen bersama BUMN",
+        "budaya kerja",
+        "integritas",
+        "huruf A",
+        "values"
+      ],
+      "deskripsi_visual": "huruf A 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/AKHLAK-A-icon.png"
+        }
+      ]
+    },
+    {
+      "id": "akhlak_h",
+      "nama": "AKHLAK – H (Harmonis)",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "akhlak h"
+      ],
+      "sinonim": [
+        "akhlak",
+        "AKHLAK H",
+        "harmonis",
+        "core values BUMN",
+        "nilai AKHLAK",
+        "tes AKHLAK",
+        "rekrutmen bersama BUMN",
+        "budaya kerja",
+        "saling peduli",
+        "menghargai perbedaan",
+        "huruf H",
+        "values"
+      ],
+      "deskripsi_visual": "huruf H 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/AKHLAK-H-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "akhlak_k",
+      "nama": "AKHLAK – K (Kompeten / Kolaboratif)",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "akhlak k"
+      ],
+      "sinonim": [
+        "akhlak",
+        "AKHLAK K",
+        "kompeten",
+        "kolaboratif",
+        "core values BUMN",
+        "nilai AKHLAK",
+        "tes AKHLAK",
+        "rekrutmen bersama BUMN",
+        "budaya kerja",
+        "kerja sama",
+        "huruf K",
+        "values"
+      ],
+      "deskripsi_visual": "huruf K 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/AKHLAK-K-icon.png"
+        }
+      ]
+    },
+    {
+      "id": "akhlak_l",
+      "nama": "AKHLAK – L (Loyal)",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "akhlak l"
+      ],
+      "sinonim": [
+        "akhlak",
+        "AKHLAK L",
+        "loyal",
+        "loyalitas",
+        "core values BUMN",
+        "nilai AKHLAK",
+        "tes AKHLAK",
+        "rekrutmen bersama BUMN",
+        "budaya kerja",
+        "dedikasi",
+        "huruf L",
+        "values"
+      ],
+      "deskripsi_visual": "huruf L 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/AKHLAK-L-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "alkitab_salib",
+      "nama": "Alkitab & Salib / Pendidikan Agama Kristen",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "pendidikan agama kristen"
+      ],
+      "sinonim": [
+        "pendidikan agama kristen",
+        "PAK",
+        "alkitab",
+        "salib",
+        "kitab suci",
+        "kristen",
+        "gereja",
+        "agama",
+        "religi",
+        "teologi",
+        "rohani",
+        "PPG agama kristen"
+      ],
+      "deskripsi_visual": "kitab terbuka dengan salib bercahaya di atasnya",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Pendidikan agama kristen.png"
+        }
+      ]
+    },
+    {
+      "id": "bendera_arab",
+      "nama": "Bendera Arab Saudi / Bahasa Arab",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "bahasa arab"
+      ],
+      "sinonim": [
+        "bahasa arab",
+        "bendera arab",
+        "arab saudi",
+        "arabic",
+        "pendidikan bahasa arab",
+        "PBA",
+        "madrasah",
+        "kemenag",
+        "timur tengah",
+        "huruf hijaiyah",
+        "nahwu",
+        "PPG bahasa arab"
+      ],
+      "deskripsi_visual": "bendera Arab Saudi dalam cincin berbentuk balon bicara",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Bahasa arab.png"
+        }
+      ]
+    },
+    {
+      "id": "buku_pensil",
+      "nama": "Buku & Pensil",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "latsol pppk sekolah rakyat"
+      ],
+      "sinonim": [
+        "buku pensil",
+        "latihan soal",
+        "latsol",
+        "menulis",
+        "mencatat",
+        "catatan",
+        "sekolah rakyat",
+        "latsol PPPK",
+        "tugas",
+        "pekerjaan rumah",
+        "esai",
+        "belajar"
+      ],
+      "deskripsi_visual": "buku terbuka bergaris dengan pensil di halaman kanan",
+      "brands": [
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/Icon_Latsol PPPK Sekolah Rakyat.png"
+        }
+      ]
+    },
+    {
+      "id": "guru",
+      "nama": "Guru / Pendidik",
+      "kategori": "orang",
+      "tipe": "glyph",
+      "alias": [
+        "dalam jabatan",
+        "prajabatan"
+      ],
+      "sinonim": [
+        "guru",
+        "pendidik",
+        "PPG",
+        "PPG dalam jabatan",
+        "PPG prajabatan",
+        "pengajar",
+        "teacher",
+        "dosen",
+        "sertifikasi guru",
+        "mengajar",
+        "profesi guru",
+        "kelas"
+      ],
+      "deskripsi_visual": "pria berjenggot berdasi di depan papan tulis hijau",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Dalam jabatan.png",
+          "varian": "variasi warna dalam brand yang sama: dasi merah muda"
+        },
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Prajabatan.png",
+          "varian": "variasi warna dalam brand yang sama: dasi biru"
+        }
+      ]
+    },
+    {
+      "id": "guru_olahraga",
+      "nama": "Guru Olahraga / PJOK",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "pjok"
+      ],
+      "sinonim": [
+        "PJOK",
+        "olahraga",
+        "pendidikan jasmani",
+        "guru olahraga",
+        "pelatih",
+        "coach",
+        "peluit",
+        "kebugaran",
+        "penjas",
+        "sport",
+        "kesehatan",
+        "PPG PJOK"
+      ],
+      "deskripsi_visual": "pria bertopi dengan peluit di leher",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi PJOK.png"
+        }
+      ]
+    },
+    {
+      "id": "guru_paud",
+      "nama": "Guru PAUD / PG-PAUD",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "pgpaud"
+      ],
+      "sinonim": [
+        "guru PAUD",
+        "PG-PAUD",
+        "pendidikan anak usia dini",
+        "TK",
+        "taman kanak-kanak",
+        "anak-anak",
+        "pengasuh",
+        "pendidik",
+        "bermain",
+        "PPG PAUD",
+        "early childhood",
+        "kelompok bermain"
+      ],
+      "deskripsi_visual": "guru perempuan menggandeng dua anak kecil",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_PGPAUD.png"
+        }
+      ]
+    },
+    {
+      "id": "guru_sd",
+      "nama": "Guru SD / PGSD",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "guru pgsd"
+      ],
+      "sinonim": [
+        "guru SD",
+        "PGSD",
+        "pendidikan guru sekolah dasar",
+        "guru kelas",
+        "mengajar",
+        "sekolah dasar",
+        "pendidik",
+        "berhitung",
+        "teacher",
+        "PPG PGSD",
+        "calistung",
+        "wali kelas"
+      ],
+      "deskripsi_visual": "guru perempuan menunjuk papan tulis bertuliskan 1+1",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Guru PGSD.png"
+        }
+      ]
+    },
+    {
+      "id": "hati_tangan",
+      "nama": "Hati di Tangan / Kesehatan Jiwa",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "kesehatan jiwa"
+      ],
+      "sinonim": [
+        "kesehatan jiwa",
+        "kesehatan mental",
+        "mental health",
+        "tes kesehatan jiwa",
+        "MMPI",
+        "psikiatri",
+        "kepedulian",
+        "empati",
+        "peduli",
+        "kasih sayang",
+        "rikkes jiwa",
+        "wellbeing"
+      ],
+      "deskripsi_visual": "hati bertanda plus di atas telapak tangan",
+      "brands": [
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_Kesehatan jiwa.png"
+        }
+      ]
+    },
+    {
+      "id": "headphone",
+      "nama": "Headphone / Listening",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "listening comprehension"
+      ],
+      "sinonim": [
+        "listening",
+        "listening comprehension",
+        "headphone",
+        "audio",
+        "mendengarkan",
+        "TOEFL listening",
+        "IELTS listening",
+        "rekaman suara",
+        "english listening",
+        "simak",
+        "earphone",
+        "podcast"
+      ],
+      "deskripsi_visual": "headphone dengan gelombang suara dan tombol play",
+      "brands": [
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/Icon_Listening Comprehension.png"
+        }
+      ]
+    },
+    {
+      "id": "koki",
+      "nama": "Koki / Kuliner",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "kuliner"
+      ],
+      "sinonim": [
+        "kuliner",
+        "koki",
+        "chef",
+        "tata boga",
+        "memasak",
+        "masakan",
+        "restoran",
+        "perhotelan",
+        "SMK tata boga",
+        "food",
+        "dapur",
+        "pastry"
+      ],
+      "deskripsi_visual": "koki bertopi chef dan berseragam",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Kuliner.png"
+        }
+      ]
+    },
+    {
+      "id": "layar_video",
+      "nama": "Video / Layar Putar",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [],
+      "sinonim": [
+        "video",
+        "video pembelajaran",
+        "play",
+        "putar video",
+        "tonton",
+        "rekaman kelas",
+        "video materi",
+        "replay",
+        "youtube",
+        "pembahasan video",
+        "VOD",
+        "streaming"
+      ],
+      "deskripsi_visual": "layar monitor dengan tombol play segitiga",
+      "brands": [
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Artboard 14@4x.png"
+        }
+      ]
+    },
+    {
+      "id": "lencana_tingkat_1",
+      "nama": "Lencana Tingkat 1 / Starter Test",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "starter test"
+      ],
+      "sinonim": [
+        "starter test",
+        "tes awal",
+        "level 1",
+        "tingkat pemula",
+        "lencana",
+        "badge",
+        "placement test",
+        "pretest",
+        "beginner",
+        "TOEFL starter",
+        "pangkat",
+        "rank 1"
+      ],
+      "deskripsi_visual": "lencana heksagon berbintang dengan satu chevron dan garis warna di bawah",
+      "brands": [
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Starter test.png"
+        }
+      ]
+    },
+    {
+      "id": "lencana_tingkat_2",
+      "nama": "Lencana Tingkat 2 / Booster Test",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "booster test"
+      ],
+      "sinonim": [
+        "booster test",
+        "level 2",
+        "tingkat menengah",
+        "lencana",
+        "badge",
+        "intermediate",
+        "TOEFL booster",
+        "tes lanjutan",
+        "naik level",
+        "pangkat",
+        "rank 2",
+        "latihan penguatan"
+      ],
+      "deskripsi_visual": "lencana heksagon berbintang dengan dua chevron bersayap",
+      "brands": [
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Booster test.png"
+        }
+      ]
+    },
+    {
+      "id": "lencana_tingkat_3",
+      "nama": "Lencana Tingkat 3 / Ace Test",
+      "kategori": "menu",
+      "tipe": "glyph",
+      "alias": [
+        "ace test"
+      ],
+      "sinonim": [
+        "ace test",
+        "level 3",
+        "tingkat mahir",
+        "lencana",
+        "badge",
+        "advanced",
+        "TOEFL ace",
+        "tes akhir",
+        "juara",
+        "pangkat",
+        "rank 3",
+        "master"
+      ],
+      "deskripsi_visual": "lencana heksagon berbintang dengan tiga chevron bersayap",
+      "brands": [
+        "TOEFL Academy"
+      ],
+      "instances": [
+        {
+          "brand": "TOEFL Academy",
+          "file": "TOEFL Academy/icon_Ace test.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_binus",
+      "nama": "Binus University",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "binus"
+      ],
+      "sinonim": [
+        "Binus University",
+        "BINUS",
+        "Bina Nusantara",
+        "Jakarta",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo BINUS University",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Binus.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_bni",
+      "nama": "Bank Negara Indonesia (BNI)",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "bni"
+      ],
+      "sinonim": [
+        "Bank Negara Indonesia",
+        "BNI",
+        "BNI 46",
+        "Jakarta",
+        "BUMN perbankan"
+      ],
+      "deskripsi_visual": "simbol BNI 46 oranye bergaya 3D",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/BNI.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_bpjs",
+      "nama": "BPJS",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "bpjs"
+      ],
+      "sinonim": [
+        "BPJS",
+        "Badan Penyelenggara Jaminan Sosial",
+        "BPJS Kesehatan",
+        "BPJS Ketenagakerjaan",
+        "Jakarta"
+      ],
+      "deskripsi_visual": "logo BPJS (bentuk daun hijau dan lengkung biru) bergaya 3D",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/BPJS-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_bulog",
+      "nama": "Perum Bulog",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "bulog"
+      ],
+      "sinonim": [
+        "Perum Bulog",
+        "Bulog",
+        "Badan Urusan Logistik",
+        "Jakarta",
+        "BUMN pangan"
+      ],
+      "deskripsi_visual": "logo Bulog (lengkung biru-kuning) bergaya 3D",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Bulog-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_freeport",
+      "nama": "PT Freeport Indonesia",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "freeport"
+      ],
+      "sinonim": [
+        "PT Freeport Indonesia",
+        "PTFI",
+        "Freeport-McMoRan",
+        "Timika",
+        "Papua"
+      ],
+      "deskripsi_visual": "logo Freeport (tulisan F:M dalam bingkai) berpalet brand",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Freeport-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_gunadarma",
+      "nama": "Universitas Gunadarma",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "gundar"
+      ],
+      "sinonim": [
+        "Universitas Gunadarma",
+        "UG",
+        "Gundar",
+        "Depok",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo Universitas Gunadarma (obor dalam lingkaran ungu)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Gundar.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_ipb",
+      "nama": "Institut Pertanian Bogor",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "ipb"
+      ],
+      "sinonim": [
+        "Institut Pertanian Bogor",
+        "IPB",
+        "IPB University",
+        "Bogor",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo IPB (tunas daun dalam lingkaran biru)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-IPB.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_ipdn",
+      "nama": "Institut Pemerintahan Dalam Negeri",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "skb ipdn"
+      ],
+      "sinonim": [
+        "Institut Pemerintahan Dalam Negeri",
+        "IPDN",
+        "Jatinangor",
+        "Sumedang",
+        "sekolah kedinasan",
+        "Kemendagri"
+      ],
+      "deskripsi_visual": "logo IPDN (Garuda dalam lingkaran merah-putih)",
+      "brands": [
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/SKB IPDN.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_itb",
+      "nama": "Institut Teknologi Bandung",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "itb"
+      ],
+      "sinonim": [
+        "Institut Teknologi Bandung",
+        "ITB",
+        "Bandung",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo ITB (Ganesha dalam lingkaran biru)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-ITB.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_its",
+      "nama": "Institut Teknologi Sepuluh Nopember",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "its"
+      ],
+      "sinonim": [
+        "Institut Teknologi Sepuluh Nopember",
+        "ITS",
+        "Surabaya",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo ITS (tugu dan teratai dalam roda gigi)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-ITS.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_jasa_raharja",
+      "nama": "PT Jasa Raharja",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "jasaraharja"
+      ],
+      "sinonim": [
+        "PT Jasa Raharja",
+        "Jasa Raharja",
+        "JR",
+        "Jakarta",
+        "asuransi BUMN"
+      ],
+      "deskripsi_visual": "logo Jasa Raharja (lingkaran biru bergelombang)",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/jasaraharja-icon.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_kai",
+      "nama": "PT Kereta Api Indonesia (Persero)",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "kai"
+      ],
+      "sinonim": [
+        "PT Kereta Api Indonesia (Persero)",
+        "KAI",
+        "Kereta Api Indonesia",
+        "Bandung",
+        "BUMN transportasi"
+      ],
+      "deskripsi_visual": "logo KAI (tulisan KAI biru-oranye) bergaya 3D",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/kai-icon.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_mercu_buana",
+      "nama": "Universitas Mercu Buana",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "mercu"
+      ],
+      "sinonim": [
+        "Universitas Mercu Buana",
+        "UMB",
+        "Mercu Buana",
+        "Jakarta",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo Universitas Mercu Buana",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Mercu.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_mind_id",
+      "nama": "MIND ID",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "mind",
+        "mind id"
+      ],
+      "sinonim": [
+        "MIND ID",
+        "Mining Industry Indonesia",
+        "holding BUMN tambang",
+        "Jakarta"
+      ],
+      "deskripsi_visual": "logo MIND ID (lingkaran merah terbuka dengan titik)",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Mind-icon.png"
+        },
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/mind-id-logo-e1650472609768.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_pertamina",
+      "nama": "PT Pertamina (Persero)",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "pertamina"
+      ],
+      "sinonim": [
+        "PT Pertamina (Persero)",
+        "Pertamina",
+        "Jakarta",
+        "BUMN energi",
+        "migas"
+      ],
+      "deskripsi_visual": "logo Pertamina (tiga jajaran genjang) bergaya 3D",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Pertamina-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_petra",
+      "nama": "Universitas Kristen Petra",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "petra"
+      ],
+      "sinonim": [
+        "Universitas Kristen Petra",
+        "UK Petra",
+        "Petra Christian University",
+        "Surabaya",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo Universitas Kristen Petra (salib dalam lingkaran)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Petra.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_pkn_stan",
+      "nama": "Politeknik Keuangan Negara STAN",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "skb stan"
+      ],
+      "sinonim": [
+        "Politeknik Keuangan Negara STAN",
+        "PKN STAN",
+        "STAN",
+        "Tangerang Selatan",
+        "Bintaro",
+        "sekolah kedinasan"
+      ],
+      "deskripsi_visual": "logo PKN STAN (sayap emas dalam lingkaran biru)",
+      "brands": [
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/SKB STAN.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_pln",
+      "nama": "PT PLN (Persero)",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "pln"
+      ],
+      "sinonim": [
+        "PT PLN (Persero)",
+        "PLN",
+        "Perusahaan Listrik Negara",
+        "Jakarta",
+        "BUMN energi"
+      ],
+      "deskripsi_visual": "logo PLN (petir merah dan gelombang biru di kotak kuning)",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/PLN-Icon2.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_poltekim",
+      "nama": "Politeknik Imigrasi",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "skb poltekim"
+      ],
+      "sinonim": [
+        "Politeknik Imigrasi",
+        "Poltekim",
+        "Depok",
+        "sekolah kedinasan",
+        "imigrasi"
+      ],
+      "deskripsi_visual": "logo Politeknik Imigrasi (perisai biru dengan gedung dan buku)",
+      "brands": [
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/SKB POLTEKIM.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_pt_garam",
+      "nama": "PT Garam (Persero)",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "pt garam"
+      ],
+      "sinonim": [
+        "PT Garam (Persero)",
+        "PT Garam",
+        "ID FOOD",
+        "Surabaya",
+        "BUMN pangan"
+      ],
+      "deskripsi_visual": "logo PT Garam member of ID FOOD",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/icon_PT garam.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_smm_ptn_barat",
+      "nama": "SMM PTN-Barat",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "smm"
+      ],
+      "sinonim": [
+        "SMM PTN-Barat",
+        "Seleksi Masuk Mandiri PTN Barat",
+        "BKS PTN Barat",
+        "PTN wilayah barat Indonesia",
+        "seleksi mandiri"
+      ],
+      "deskripsi_visual": "logo SMM PTN-Barat / BKS PTN Barat (bunga dalam lingkaran)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-smm.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_stin",
+      "nama": "Sekolah Tinggi Intelijen Negara",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "skb stin"
+      ],
+      "sinonim": [
+        "Sekolah Tinggi Intelijen Negara",
+        "STIN",
+        "Bogor",
+        "Sentul",
+        "sekolah kedinasan",
+        "BIN"
+      ],
+      "deskripsi_visual": "logo STIN (Garuda dalam lingkaran merah-kuning)",
+      "brands": [
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/SKB STIN.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_stis",
+      "nama": "Politeknik Statistika STIS",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "skb stis"
+      ],
+      "sinonim": [
+        "Politeknik Statistika STIS",
+        "STIS",
+        "Jakarta",
+        "sekolah kedinasan",
+        "BPS"
+      ],
+      "deskripsi_visual": "logo Politeknik Statistika STIS (lingkaran biru)",
+      "brands": [
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/SKB STIS.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_surabaya",
+      "nama": "Lambang Kota Surabaya (file Icon-USU)",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "usu"
+      ],
+      "sinonim": [
+        "Lambang Kota Surabaya",
+        "Surabaya",
+        "Kota Pahlawan",
+        "Tugu Pahlawan",
+        "Jawa Timur",
+        "sura dan baya"
+      ],
+      "deskripsi_visual": "perisai biru dengan Tugu Pahlawan, ikan sura dan buaya (lambang Kota Surabaya)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-USU.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_telkom_indonesia",
+      "nama": "PT Telkom Indonesia (Persero) Tbk",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "telkom"
+      ],
+      "sinonim": [
+        "PT Telkom Indonesia",
+        "Telkom",
+        "Telkom Indonesia",
+        "Bandung",
+        "BUMN telekomunikasi"
+      ],
+      "deskripsi_visual": "logo Telkom Indonesia (tangan dan lingkaran) digambar ulang berpalet brand",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/telkom-icon.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_telkom_university",
+      "nama": "Telkom University",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "telkom"
+      ],
+      "sinonim": [
+        "Telkom University",
+        "Tel-U",
+        "Universitas Telkom",
+        "Bandung",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo Telkom University (huruf U abu-abu dan buku merah) bergaya 3D",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Telkom.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_trisakti",
+      "nama": "Universitas Trisakti",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "trisakti"
+      ],
+      "sinonim": [
+        "Universitas Trisakti",
+        "Usakti",
+        "Trisakti",
+        "Jakarta",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo Universitas Trisakti digambar ulang dengan warna brand (merah)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Trisakti.png"
+        },
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Untitled-2.png",
+          "varian": "variasi gambar: logo yang sama versi datar tanpa bayangan 3D"
+        }
+      ]
+    },
+    {
+      "id": "logo_uad",
+      "nama": "Universitas Ahmad Dahlan",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "agmad dahlan"
+      ],
+      "sinonim": [
+        "Universitas Ahmad Dahlan",
+        "UAD",
+        "Yogyakarta",
+        "PTS Muhammadiyah"
+      ],
+      "deskripsi_visual": "logo Universitas Ahmad Dahlan (matahari Muhammadiyah)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Agmad Dahlan.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_udayana",
+      "nama": "Universitas Udayana",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "udayana"
+      ],
+      "sinonim": [
+        "Universitas Udayana",
+        "Unud",
+        "Denpasar",
+        "Bali",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo Universitas Udayana (lingkaran biru-kuning)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Udayana.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_ugm",
+      "nama": "Universitas Gadjah Mada",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "ugm"
+      ],
+      "sinonim": [
+        "Universitas Gadjah Mada",
+        "UGM",
+        "Yogyakarta",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo UGM (lambang surya bunga krem-cokelat)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-UGM.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_ui",
+      "nama": "Universitas Indonesia",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "ui"
+      ],
+      "sinonim": [
+        "Universitas Indonesia",
+        "UI",
+        "Depok",
+        "PTN",
+        "makara"
+      ],
+      "deskripsi_visual": "logo UI (makara kuning)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-UI.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_umy",
+      "nama": "Universitas Muhammadiyah Yogyakarta",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "umy"
+      ],
+      "sinonim": [
+        "Universitas Muhammadiyah Yogyakarta",
+        "UMY",
+        "Yogyakarta",
+        "PTS Muhammadiyah"
+      ],
+      "deskripsi_visual": "logo UMY (lambang hijau-kuning)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-UMY.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_unair",
+      "nama": "Universitas Airlangga",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "unair"
+      ],
+      "sinonim": [
+        "Universitas Airlangga",
+        "Unair",
+        "Surabaya",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo Universitas Airlangga (Garuda Airlangga dalam lingkaran)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Unair.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_undip",
+      "nama": "Universitas Diponegoro",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "undip"
+      ],
+      "sinonim": [
+        "Universitas Diponegoro",
+        "Undip",
+        "Semarang",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo Universitas Diponegoro",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Undip.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_unj",
+      "nama": "Universitas Negeri Jakarta",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "unj"
+      ],
+      "sinonim": [
+        "Universitas Negeri Jakarta",
+        "UNJ",
+        "Jakarta",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo UNJ (lambang hijau-kuning)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-UNJ.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_unnes",
+      "nama": "Universitas Negeri Semarang",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "unnes"
+      ],
+      "sinonim": [
+        "Universitas Negeri Semarang",
+        "Unnes",
+        "Semarang",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo UNNES (lambang kuning dan tulisan UNNES)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Unnes.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_unpad",
+      "nama": "Universitas Padjadjaran",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "unpad"
+      ],
+      "sinonim": [
+        "Universitas Padjadjaran",
+        "Unpad",
+        "Bandung",
+        "Jatinangor",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo Unpad (perisai kuning dengan obor)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Unpad.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_unpas",
+      "nama": "Universitas Pasundan",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "unpas"
+      ],
+      "sinonim": [
+        "Universitas Pasundan",
+        "Unpas",
+        "Bandung",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo Universitas Pasundan (perisai kuning)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Unpas.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_uns",
+      "nama": "Universitas Sebelas Maret",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "usm"
+      ],
+      "sinonim": [
+        "Universitas Sebelas Maret",
+        "UNS",
+        "Surakarta",
+        "Solo",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo UNS (lingkaran biru bertuliskan UNS)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-USM.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_untar",
+      "nama": "Universitas Tarumanagara",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "untar"
+      ],
+      "sinonim": [
+        "Universitas Tarumanagara",
+        "Untar",
+        "Jakarta",
+        "PTS"
+      ],
+      "deskripsi_visual": "logo Universitas Tarumanagara (garis merah)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-Untar.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_uny",
+      "nama": "Universitas Negeri Yogyakarta",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "uny"
+      ],
+      "sinonim": [
+        "Universitas Negeri Yogyakarta",
+        "UNY",
+        "Yogyakarta",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo UNY (lambang ungu-kuning)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-UNY.png"
+        }
+      ]
+    },
+    {
+      "id": "logo_upi",
+      "nama": "Universitas Pendidikan Indonesia",
+      "kategori": "logo",
+      "tipe": "logo",
+      "alias": [
+        "upi"
+      ],
+      "sinonim": [
+        "Universitas Pendidikan Indonesia",
+        "UPI",
+        "Bandung",
+        "PTN"
+      ],
+      "deskripsi_visual": "logo UPI (merah-hitam-kuning)",
+      "brands": [
+        "Cerebrum"
+      ],
+      "instances": [
+        {
+          "brand": "Cerebrum",
+          "file": "Cerebrum/Icon-UPI.png"
+        }
+      ]
+    },
+    {
+      "id": "menara_listrik",
+      "nama": "Menara Transmisi / Jaringan & Telekomunikasi",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "teknik jaringan komputer",
+        "telekomunikasi"
+      ],
+      "sinonim": [
+        "menara transmisi",
+        "tower",
+        "sutet",
+        "jaringan",
+        "telekomunikasi",
+        "teknik jaringan komputer",
+        "TKJ",
+        "kabel",
+        "infrastruktur",
+        "BTS",
+        "listrik",
+        "sinyal"
+      ],
+      "deskripsi_visual": "tiga menara transmisi dengan kabel",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Teknik jaringan komputer & telekomunikasi.png"
+        }
+      ]
+    },
+    {
+      "id": "mikrofon_video",
+      "nama": "Mikrofon & Video / Broadcasting",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "broadcasting",
+        "perfilman"
+      ],
+      "sinonim": [
+        "broadcasting",
+        "perfilman",
+        "mikrofon",
+        "video",
+        "siaran",
+        "penyiar",
+        "podcast",
+        "jurnalistik",
+        "multimedia",
+        "film",
+        "rekaman",
+        "media"
+      ],
+      "deskripsi_visual": "mikrofon studio dan balon berisi pemutar video",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Broadcasting & perfilman.png"
+        }
+      ]
+    },
+    {
+      "id": "mobil_bengkel",
+      "nama": "Mobil & Kunci / Teknik Otomotif",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "teknik otomotif"
+      ],
+      "sinonim": [
+        "otomotif",
+        "teknik otomotif",
+        "mobil",
+        "bengkel",
+        "kunci pas",
+        "servis kendaraan",
+        "mekanik",
+        "kendaraan",
+        "TKR",
+        "SMK otomotif",
+        "perbaikan",
+        "automotive"
+      ],
+      "deskripsi_visual": "mobil dengan roda gigi dan kunci pas",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi teknik otomotif.png"
+        }
+      ]
+    },
+    {
+      "id": "monitor_desain",
+      "nama": "Monitor Desain / DKV",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "desain komunikasi visual"
+      ],
+      "sinonim": [
+        "desain komunikasi visual",
+        "DKV",
+        "desain grafis",
+        "ilustrasi",
+        "multimedia",
+        "kreatif",
+        "seni digital",
+        "graphic design",
+        "editing",
+        "UI/UX",
+        "layout",
+        "pen tablet"
+      ],
+      "deskripsi_visual": "monitor menampilkan ilustrasi gunung dan panel desain dengan pena",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Desain komunikasi visual.png"
+        }
+      ]
+    },
+    {
+      "id": "monitor_jaringan",
+      "nama": "Monitor Diagram / Informatika",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "informatika"
+      ],
+      "sinonim": [
+        "informatika",
+        "komputer",
+        "jaringan",
+        "algoritma",
+        "diagram alir",
+        "data",
+        "IT",
+        "teknologi informasi",
+        "pemrograman",
+        "sistem informasi",
+        "ilmu komputer",
+        "TIK"
+      ],
+      "deskripsi_visual": "monitor menampilkan diagram simpul yang saling terhubung",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Informatika.png"
+        }
+      ]
+    },
+    {
+      "id": "monitor_kode",
+      "nama": "Monitor Kode / Rekayasa Perangkat Lunak",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "pengembangan perangkat lunak",
+        "game"
+      ],
+      "sinonim": [
+        "pemrograman",
+        "coding",
+        "kode",
+        "perangkat lunak",
+        "software",
+        "game",
+        "RPL",
+        "developer",
+        "programmer",
+        "web",
+        "aplikasi",
+        "informatika"
+      ],
+      "deskripsi_visual": "monitor menampilkan simbol </> dan baris kode berwarna",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi pengembangan perangkat lunak & game.png"
+        }
+      ]
+    },
+    {
+      "id": "obat_tablet",
+      "nama": "Tablet Obat / Farmasi",
+      "kategori": "lembaga",
+      "tipe": "glyph",
+      "alias": [
+        "kimia farma"
+      ],
+      "sinonim": [
+        "obat",
+        "tablet",
+        "farmasi",
+        "apotek",
+        "kimia farma",
+        "BUMN farmasi",
+        "kesehatan",
+        "pil",
+        "industri farmasi",
+        "apoteker",
+        "obat-obatan",
+        "BUMN kesehatan"
+      ],
+      "deskripsi_visual": "dua tablet obat berbentuk cakram",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/kimia farma-icon.png"
+        }
+      ]
+    },
+    {
+      "id": "pangkat_akmil",
+      "nama": "Pangkat Akmil",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "akmil"
+      ],
+      "sinonim": [
+        "akmil",
+        "akademi militer",
+        "perwira",
+        "taruna",
+        "TNI",
+        "tentara",
+        "lencana pangkat",
+        "prajurit",
+        "seleksi akmil",
+        "karier militer",
+        "pangkat",
+        "AAL AAU"
+      ],
+      "deskripsi_visual": "lencana pangkat hijau berbentuk lengkung runcing",
+      "brands": [
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_akmil.png"
+        }
+      ]
+    },
+    {
+      "id": "pangkat_bintara",
+      "nama": "Pangkat Bintara",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "bintara"
+      ],
+      "sinonim": [
+        "bintara",
+        "pangkat bintara",
+        "chevron",
+        "TNI",
+        "prajurit",
+        "seleksi bintara",
+        "sersan",
+        "militer",
+        "tentara",
+        "pangkat",
+        "karier militer",
+        "bintara polri"
+      ],
+      "deskripsi_visual": "tiga chevron hijau bertumpuk",
+      "brands": [
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_bintara.png"
+        }
+      ]
+    },
+    {
+      "id": "pangkat_tamtama",
+      "nama": "Pangkat Tamtama",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "tamtama"
+      ],
+      "sinonim": [
+        "tamtama",
+        "pangkat tamtama",
+        "prajurit",
+        "TNI",
+        "militer",
+        "tentara",
+        "seleksi tamtama",
+        "balok pangkat",
+        "pangkat",
+        "kopral",
+        "karier militer",
+        "prada"
+      ],
+      "deskripsi_visual": "tiga balok hijau mendatar",
+      "brands": [
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/icon_tamtama.png"
+        }
+      ]
+    },
+    {
+      "id": "perisai_gembok",
+      "nama": "Perisai Gembok / Keamanan",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "keamanan dan keselamatan"
+      ],
+      "sinonim": [
+        "keamanan",
+        "keselamatan",
+        "gembok",
+        "perisai gembok",
+        "K3",
+        "security",
+        "perlindungan",
+        "privasi",
+        "proteksi data",
+        "keamanan siber",
+        "safety",
+        "satpam"
+      ],
+      "deskripsi_visual": "perisai dengan gembok di tengah",
+      "brands": [
+        "JadiPPPK"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPPK",
+          "file": "JadiPPPK/icon_Keamanan dan keselamatan.png"
+        }
+      ]
+    },
+    {
+      "id": "piston_mesin",
+      "nama": "Piston & Gir / Teknik Mesin",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "teknik mesin"
+      ],
+      "sinonim": [
+        "teknik mesin",
+        "mesin",
+        "piston",
+        "roda gigi",
+        "otomotif",
+        "mekanik",
+        "manufaktur",
+        "bengkel",
+        "engine",
+        "SMK teknik",
+        "permesinan",
+        "mechanical engineering"
+      ],
+      "deskripsi_visual": "dua piston bersilang di atas roda gigi",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Teknik mesin.png"
+        }
+      ]
+    },
+    {
+      "id": "push_up",
+      "nama": "Push Up / Tes Jasmani",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "jasmani"
+      ],
+      "sinonim": [
+        "jasmani",
+        "tes jasmani",
+        "push up",
+        "kesamaptaan",
+        "samapta",
+        "kebugaran",
+        "olahraga",
+        "latihan fisik",
+        "tes fisik",
+        "TNI polri",
+        "fitness",
+        "garjas"
+      ],
+      "deskripsi_visual": "pria berkaus hijau sedang push up dengan pegangan",
+      "brands": [
+        "JadiPrajurit"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPrajurit",
+          "file": "JadiPrajurit/Icon_jasmani2.png"
+        }
+      ]
+    },
+    {
+      "id": "puzzle_listrik",
+      "nama": "Puzzle Listrik / TKP PLN",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "tkp pln"
+      ],
+      "sinonim": [
+        "puzzle listrik",
+        "TKP PLN",
+        "PLN",
+        "kelistrikan",
+        "energi",
+        "tes karakteristik pribadi",
+        "rekrutmen PLN",
+        "steker",
+        "petir",
+        "BUMN energi",
+        "listrik"
+      ],
+      "deskripsi_visual": "tiga keping puzzle dengan simbol petir dan steker",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/TKP PLN-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "quran_rehal",
+      "nama": "Kitab di Rehal / Pendidikan Agama Islam",
+      "kategori": "mapel",
+      "tipe": "glyph",
+      "alias": [
+        "pendidikan agama islam"
+      ],
+      "sinonim": [
+        "pendidikan agama islam",
+        "PAI",
+        "al quran",
+        "rehal",
+        "kitab suci",
+        "mengaji",
+        "agama islam",
+        "madrasah",
+        "tahfidz",
+        "kemenag",
+        "religi",
+        "PPG PAI"
+      ],
+      "deskripsi_visual": "kitab terbuka di atas rehal dengan bulan sabit",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Pendidikan agama islam.png"
+        }
+      ]
+    },
+    {
+      "id": "rbb_d3_s2",
+      "nama": "RBB D3–S2",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "rbb"
+      ],
+      "sinonim": [
+        "RBB",
+        "rekrutmen bersama BUMN",
+        "D3-S2",
+        "fresh graduate",
+        "lulusan diploma",
+        "sarjana",
+        "magister",
+        "BUMN",
+        "RBB D3 S2",
+        "lowongan BUMN",
+        "tes BUMN",
+        "FHCI"
+      ],
+      "deskripsi_visual": "panel abstraksi ruang dengan tulisan D3-S2 di bagian atas",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/RBB-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "rbb_sma",
+      "nama": "RBB SMA",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "rbb sma"
+      ],
+      "sinonim": [
+        "RBB",
+        "rekrutmen bersama BUMN",
+        "SMA",
+        "SMK",
+        "lulusan SMA",
+        "BUMN",
+        "RBB SMA",
+        "lowongan BUMN",
+        "tes BUMN",
+        "FHCI",
+        "sederajat",
+        "jalur SMA"
+      ],
+      "deskripsi_visual": "panel abstraksi ruang dengan tulisan SMA di bagian atas",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/RBB-SMA-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "sempoa",
+      "nama": "Sempoa / Aritmetika",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "aritmetic"
+      ],
+      "sinonim": [
+        "sempoa",
+        "abakus",
+        "aritmetika",
+        "arithmetic",
+        "berhitung",
+        "hitung cepat",
+        "numerik",
+        "matematika dasar",
+        "kalkulasi",
+        "operasi hitung",
+        "kecepatan hitung",
+        "tes aritmetika"
+      ],
+      "deskripsi_visual": "sempoa (abakus) dengan dua manik pada batang",
+      "brands": [
+        "JadiBUMN"
+      ],
+      "instances": [
+        {
+          "brand": "JadiBUMN",
+          "file": "JadiBUMN/Aritmetic-Icon.png"
+        }
+      ]
+    },
+    {
+      "id": "tangan_ikrar",
+      "nama": "Tangan Ikrar / Anti Radikalisme",
+      "kategori": "subtes",
+      "tipe": "glyph",
+      "alias": [
+        "tkp anti radikalisme"
+      ],
+      "sinonim": [
+        "anti radikalisme",
+        "TKP",
+        "ikrar",
+        "sumpah",
+        "janji setia",
+        "deradikalisasi",
+        "toleransi",
+        "nasionalisme",
+        "integritas",
+        "tangan",
+        "pledge",
+        "moderasi"
+      ],
+      "deskripsi_visual": "tangan mengacungkan tiga jari di dalam lingkaran",
+      "brands": [
+        "JadiSekdin"
+      ],
+      "instances": [
+        {
+          "brand": "JadiSekdin",
+          "file": "JadiSekdin/Icon_TKP - Anti Radikalisme.png"
+        }
+      ]
+    },
+    {
+      "id": "tukang_las",
+      "nama": "Tukang Las / Pengelasan",
+      "kategori": "profesi_bidang",
+      "tipe": "glyph",
+      "alias": [
+        "teknik pengelasan",
+        "fabrikasi logam"
+      ],
+      "sinonim": [
+        "pengelasan",
+        "las",
+        "welder",
+        "fabrikasi logam",
+        "teknik pengelasan",
+        "bengkel las",
+        "K3",
+        "logam",
+        "konstruksi",
+        "SMK teknik",
+        "industri",
+        "welding"
+      ],
+      "deskripsi_visual": "pekerja berhelm las dan rompi memegang obor las",
+      "brands": [
+        "JadiPPG"
+      ],
+      "instances": [
+        {
+          "brand": "JadiPPG",
+          "file": "JadiPPG/Icon_Studi Teknik pengelasan & fabrikasi logam.png"
+        }
+      ]
+    }
+  ],
+  "unassigned": []
+}

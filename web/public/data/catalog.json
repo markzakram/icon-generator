@@ -1,0 +1,3988 @@
+{
+ "version": "fase1-2026-09-30",
+ "size": 1024,
+ "thumb": 256,
+ "roleLabels": {
+  "primary": "Warna badan utama (sekitar 50% area)",
+  "primary_shade": "Sisi 3D / bayangan bentuk berwarna primer",
+  "primary_alt": "Variasi primer untuk bagian tertentu (lipatan kertas, rel papan)",
+  "accent": "Warna kedua untuk bentuk pendamping",
+  "accent_shade": "Sisi 3D bentuk berwarna aksen",
+  "light": "Putih / terang: kertas, garis teks, label",
+  "light_alt": "Terang kedua bila brand punya dua putih",
+  "dark": "Hitam/abu gelap netral untuk garis kecil"
+ },
+ "fixed": [
+  "#694B4B",
+  "#F0C087",
+  "#E6AF78",
+  "#5A4146",
+  "#D29B6E",
+  "#39393B",
+  "#DEDBEE"
+ ],
+ "standard": [
+  "materi",
+  "tryout",
+  "latsol",
+  "rapor",
+  "lapor_masalah",
+  "pdf",
+  "promo",
+  "kalender",
+  "live_class",
+  "grup",
+  "journey",
+  "info",
+  "tips",
+  "link",
+  "drilling_soal",
+  "kertas_soal"
+ ],
+ "brands": [
+  {
+   "name": "JadiASN",
+   "slug": "jadiasn",
+   "roles": {
+    "primary": "#3D6E99",
+    "primary_shade": "#052C5F",
+    "primary_alt": "#4C8FC1",
+    "accent": "#E8B41E",
+    "accent_shade": "#876000",
+    "light": "#F9F3F1",
+    "light_alt": "#F9F3F1",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#3D6E99",
+    "primary_shade": "#052C5F",
+    "primary_alt": "#4C8FC1",
+    "accent": "#E8B41E",
+    "accent_shade": "#876000",
+    "light": "#F9F3F1"
+   },
+   "official": 28
+  },
+  {
+   "name": "JadiBUMN",
+   "slug": "jadibumn",
+   "roles": {
+    "primary": "#0193AD",
+    "primary_shade": "#1F2855",
+    "primary_alt": "#00BBCE",
+    "accent": "#FFC000",
+    "accent_shade": "#755400",
+    "light": "#F9F3F1",
+    "light_alt": "#F9F3F1",
+    "dark": "#39393B"
+   },
+   "given": {
+    "primary": "#0193AD",
+    "primary_shade": "#1F2855",
+    "primary_alt": "#00BBCE",
+    "accent": "#FFC000",
+    "accent_shade": "#755400",
+    "light": "#F9F3F1",
+    "dark": "#39393B"
+   },
+   "official": 51
+  },
+  {
+   "name": "JadiPrajurit",
+   "slug": "jadiprajurit",
+   "roles": {
+    "primary": "#24643F",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#1A4D2E",
+    "accent": "#FFFFFF",
+    "accent_shade": "#6B6C6F",
+    "light": "#FFFFFF",
+    "light_alt": "#F9F3F1",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#24643F",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#1A4D2E",
+    "accent": "#FFFFFF",
+    "accent_shade": "#6B6C6F",
+    "light": "#FFFFFF",
+    "light_alt": "#F9F3F1",
+    "dark": "#221F1F"
+   },
+   "official": 41
+  },
+  {
+   "name": "JadiPPG",
+   "slug": "jadippg",
+   "roles": {
+    "primary": "#008ED2",
+    "primary_shade": "#39393B",
+    "primary_alt": "#0175DA",
+    "accent": "#FBBB2B",
+    "accent_shade": "#FB8921",
+    "light": "#FFFFFF",
+    "light_alt": "#F2F3F5",
+    "dark": "#39393B"
+   },
+   "given": {
+    "primary": "#008ED2",
+    "primary_shade": "#39393B",
+    "primary_alt": "#0175DA",
+    "accent": "#FBBB2B",
+    "accent_shade": "#FB8921",
+    "light": "#FFFFFF",
+    "light_alt": "#F2F3F5",
+    "dark": "#39393B"
+   },
+   "official": 66
+  },
+  {
+   "name": "Cerebrum",
+   "slug": "cerebrum",
+   "roles": {
+    "primary": "#DE2C2C",
+    "primary_shade": "#133744",
+    "primary_alt": "#A9292D",
+    "accent": "#F7BB2A",
+    "accent_shade": "#A57916",
+    "light": "#FCD47C",
+    "light_alt": "#FCD47C",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#DE2C2C",
+    "primary_shade": "#133744",
+    "primary_alt": "#A9292D",
+    "accent": "#F7BB2A",
+    "accent_shade": "#A57916",
+    "light": "#FCD47C"
+   },
+   "official": 36
+  },
+  {
+   "name": "JadiOJK",
+   "slug": "jadiojk",
+   "roles": {
+    "primary": "#ED2224",
+    "primary_shade": "#821517",
+    "primary_alt": "#B01818",
+    "accent": "#821517",
+    "accent_shade": "#5E0B0D",
+    "light": "#FFFFFF",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#ED2224",
+    "primary_shade": "#821517",
+    "primary_alt": "#B01818",
+    "accent": "#821517",
+    "accent_shade": "#5E0B0D",
+    "light": "#FFFFFF"
+   },
+   "official": 40
+  },
+  {
+   "name": "JadiSekdin",
+   "slug": "jadisekdin",
+   "roles": {
+    "primary": "#292E81",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#22487C",
+    "accent": "#68BDEA",
+    "accent_shade": "#005D81",
+    "light": "#FFFFFF",
+    "light_alt": "#91CFD2",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#292E81",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#22487C",
+    "accent": "#68BDEA",
+    "light": "#FFFFFF",
+    "light_alt": "#91CFD2",
+    "dark": "#221F1F"
+   },
+   "official": 47
+  },
+  {
+   "name": "JadiPPPK",
+   "slug": "jadipppk",
+   "roles": {
+    "primary": "#062172",
+    "primary_shade": "#CC9A36",
+    "primary_alt": "#22487C",
+    "accent": "#CC9A36",
+    "accent_shade": "#69500F",
+    "light": "#FFFFFF",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#062172",
+    "primary_shade": "#CC9A36",
+    "primary_alt": "#22487C",
+    "accent": "#CC9A36",
+    "accent_shade": "#69500F",
+    "light": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "official": 46
+  },
+  {
+   "name": "JadiPCPM",
+   "slug": "jadipcpm",
+   "roles": {
+    "primary": "#482171",
+    "primary_shade": "#CB0560",
+    "primary_alt": "#290746",
+    "accent": "#CB0560",
+    "accent_shade": "#6A002D",
+    "light": "#FFFFFF",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#482171",
+    "primary_shade": "#CB0560",
+    "primary_alt": "#290746",
+    "accent": "#CB0560",
+    "accent_shade": "#6A002D",
+    "light": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "official": 31
+  },
+  {
+   "name": "Jago TPA",
+   "slug": "jago_tpa",
+   "roles": {
+    "primary": "#421817",
+    "primary_shade": "#B46011",
+    "primary_alt": "#7F5755",
+    "accent": "#FFAA5C",
+    "accent_shade": "#B46011",
+    "light": "#FFFFFF",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#421817",
+    "primary_shade": "#B46011",
+    "primary_alt": "#7F5755",
+    "accent": "#FFAA5C",
+    "accent_shade": "#B46011",
+    "light": "#FFFFFF"
+   },
+   "official": 20
+  },
+  {
+   "name": "TOEFL Academy",
+   "slug": "toefl_academy",
+   "roles": {
+    "primary": "#EE2B2E",
+    "primary_shade": "#6D0000",
+    "primary_alt": "#A12428",
+    "accent": "#272663",
+    "accent_shade": "#007CAD",
+    "light": "#F2F3F5",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#EE2B2E",
+    "primary_shade": "#6D0000",
+    "primary_alt": "#A12428",
+    "accent": "#272663",
+    "accent_shade": "#007CAD",
+    "light": "#F2F3F5",
+    "light_alt": "#FFFFFF"
+   },
+   "official": 21
+  },
+  {
+   "name": "JadiPolisi",
+   "slug": "jadipolisi",
+   "roles": {
+    "primary": "#FFCE03",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#FFDD4D",
+    "accent": "#494949",
+    "accent_shade": "#272727",
+    "light": "#FFFFFF",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#FFCE03",
+    "primary_shade": "#221F1F",
+    "primary_alt": "#FFDD4D",
+    "accent": "#494949",
+    "dark": "#221F1F"
+   },
+   "official": 5
+  },
+  {
+   "name": "JadiBeasiswa",
+   "slug": "jadibeasiswa",
+   "roles": {
+    "primary": "#F2952D",
+    "primary_shade": "#834000",
+    "primary_alt": "#C67100",
+    "accent": "#F6EE31",
+    "accent_shade": "#707200",
+    "light": "#FFFFFF",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#F2952D",
+    "accent": "#F6EE31"
+   },
+   "official": 1
+  },
+  {
+   "name": "Psikotes kerja",
+   "slug": "psikotes_kerja",
+   "roles": {
+    "primary": "#158BAB",
+    "primary_shade": "#004862",
+    "primary_alt": "#006786",
+    "accent": "#F15F2C",
+    "accent_shade": "#8D1100",
+    "light": "#FFFFFF",
+    "light_alt": "#FFFFFF",
+    "dark": "#221F1F"
+   },
+   "given": {
+    "primary": "#158BAB",
+    "accent": "#F15F2C"
+   },
+   "official": 1
+  }
+ ],
+ "similarity": {
+  "jadiasn": {
+   "jadiasn": 1.0,
+   "jadibumn": 0.898,
+   "jadiprajurit": 0.749,
+   "jadippg": 0.619,
+   "cerebrum": 0.794,
+   "jadiojk": 0.613,
+   "jadisekdin": 0.774,
+   "jadipppk": 0.677,
+   "jadipcpm": 0.616,
+   "jago_tpa": 0.699,
+   "toefl_academy": 0.82,
+   "jadipolisi": 0.897,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  },
+  "jadibumn": {
+   "jadiasn": 0.898,
+   "jadibumn": 1.0,
+   "jadiprajurit": 0.711,
+   "jadippg": 0.607,
+   "cerebrum": 0.775,
+   "jadiojk": 0.6,
+   "jadisekdin": 0.799,
+   "jadipppk": 0.632,
+   "jadipcpm": 0.667,
+   "jago_tpa": 0.712,
+   "toefl_academy": 0.843,
+   "jadipolisi": 0.857,
+   "jadibeasiswa": 0.806,
+   "psikotes_kerja": 0.806
+  },
+  "jadiprajurit": {
+   "jadiasn": 0.749,
+   "jadibumn": 0.711,
+   "jadiprajurit": 1.0,
+   "jadippg": 0.673,
+   "cerebrum": 0.59,
+   "jadiojk": 0.653,
+   "jadisekdin": 0.717,
+   "jadipppk": 0.668,
+   "jadipcpm": 0.672,
+   "jago_tpa": 0.606,
+   "toefl_academy": 0.693,
+   "jadipolisi": 0.836,
+   "jadibeasiswa": 0.937,
+   "psikotes_kerja": 0.937
+  },
+  "jadippg": {
+   "jadiasn": 0.619,
+   "jadibumn": 0.607,
+   "jadiprajurit": 0.673,
+   "jadippg": 1.0,
+   "cerebrum": 0.519,
+   "jadiojk": 0.678,
+   "jadisekdin": 0.635,
+   "jadipppk": 0.712,
+   "jadipcpm": 0.705,
+   "jago_tpa": 0.59,
+   "toefl_academy": 0.477,
+   "jadipolisi": 0.479,
+   "jadibeasiswa": 0.68,
+   "psikotes_kerja": 0.68
+  },
+  "cerebrum": {
+   "jadiasn": 0.794,
+   "jadibumn": 0.775,
+   "jadiprajurit": 0.59,
+   "jadippg": 0.519,
+   "cerebrum": 1.0,
+   "jadiojk": 0.448,
+   "jadisekdin": 0.638,
+   "jadipppk": 0.527,
+   "jadipcpm": 0.569,
+   "jago_tpa": 0.609,
+   "toefl_academy": 0.73,
+   "jadipolisi": 0.687,
+   "jadibeasiswa": 0.806,
+   "psikotes_kerja": 0.806
+  },
+  "jadiojk": {
+   "jadiasn": 0.613,
+   "jadibumn": 0.6,
+   "jadiprajurit": 0.653,
+   "jadippg": 0.678,
+   "cerebrum": 0.448,
+   "jadiojk": 1.0,
+   "jadisekdin": 0.561,
+   "jadipppk": 0.888,
+   "jadipcpm": 0.909,
+   "jago_tpa": 0.625,
+   "toefl_academy": 0.608,
+   "jadipolisi": 0.55,
+   "jadibeasiswa": 0.68,
+   "psikotes_kerja": 0.68
+  },
+  "jadisekdin": {
+   "jadiasn": 0.774,
+   "jadibumn": 0.799,
+   "jadiprajurit": 0.717,
+   "jadippg": 0.635,
+   "cerebrum": 0.638,
+   "jadiojk": 0.561,
+   "jadisekdin": 1.0,
+   "jadipppk": 0.623,
+   "jadipcpm": 0.636,
+   "jago_tpa": 0.741,
+   "toefl_academy": 0.726,
+   "jadipolisi": 0.915,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  },
+  "jadipppk": {
+   "jadiasn": 0.677,
+   "jadibumn": 0.632,
+   "jadiprajurit": 0.668,
+   "jadippg": 0.712,
+   "cerebrum": 0.527,
+   "jadiojk": 0.888,
+   "jadisekdin": 0.623,
+   "jadipppk": 1.0,
+   "jadipcpm": 0.95,
+   "jago_tpa": 0.625,
+   "toefl_academy": 0.645,
+   "jadipolisi": 0.62,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  },
+  "jadipcpm": {
+   "jadiasn": 0.616,
+   "jadibumn": 0.667,
+   "jadiprajurit": 0.672,
+   "jadippg": 0.705,
+   "cerebrum": 0.569,
+   "jadiojk": 0.909,
+   "jadisekdin": 0.636,
+   "jadipppk": 0.95,
+   "jadipcpm": 1.0,
+   "jago_tpa": 0.583,
+   "toefl_academy": 0.638,
+   "jadipolisi": 0.59,
+   "jadibeasiswa": 0.68,
+   "psikotes_kerja": 0.68
+  },
+  "jago_tpa": {
+   "jadiasn": 0.699,
+   "jadibumn": 0.712,
+   "jadiprajurit": 0.606,
+   "jadippg": 0.59,
+   "cerebrum": 0.609,
+   "jadiojk": 0.625,
+   "jadisekdin": 0.741,
+   "jadipppk": 0.625,
+   "jadipcpm": 0.583,
+   "jago_tpa": 1.0,
+   "toefl_academy": 0.674,
+   "jadipolisi": 0.874,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  },
+  "toefl_academy": {
+   "jadiasn": 0.82,
+   "jadibumn": 0.843,
+   "jadiprajurit": 0.693,
+   "jadippg": 0.477,
+   "cerebrum": 0.73,
+   "jadiojk": 0.608,
+   "jadisekdin": 0.726,
+   "jadipppk": 0.645,
+   "jadipcpm": 0.638,
+   "jago_tpa": 0.674,
+   "toefl_academy": 1.0,
+   "jadipolisi": 0.879,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  },
+  "jadipolisi": {
+   "jadiasn": 0.897,
+   "jadibumn": 0.857,
+   "jadiprajurit": 0.836,
+   "jadippg": 0.479,
+   "cerebrum": 0.687,
+   "jadiojk": 0.55,
+   "jadisekdin": 0.915,
+   "jadipppk": 0.62,
+   "jadipcpm": 0.59,
+   "jago_tpa": 0.874,
+   "toefl_academy": 0.879,
+   "jadipolisi": 1.0,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  },
+  "jadibeasiswa": {
+   "jadiasn": 1.0,
+   "jadibumn": 0.806,
+   "jadiprajurit": 0.937,
+   "jadippg": 0.68,
+   "cerebrum": 0.806,
+   "jadiojk": 0.68,
+   "jadisekdin": 1.0,
+   "jadipppk": 1.0,
+   "jadipcpm": 0.68,
+   "jago_tpa": 1.0,
+   "toefl_academy": 1.0,
+   "jadipolisi": 1.0,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  },
+  "psikotes_kerja": {
+   "jadiasn": 1.0,
+   "jadibumn": 0.806,
+   "jadiprajurit": 0.937,
+   "jadippg": 0.68,
+   "cerebrum": 0.806,
+   "jadiojk": 0.68,
+   "jadisekdin": 1.0,
+   "jadipppk": 1.0,
+   "jadipcpm": 0.68,
+   "jago_tpa": 1.0,
+   "toefl_academy": 1.0,
+   "jadipolisi": 1.0,
+   "jadibeasiswa": 1.0,
+   "psikotes_kerja": 1.0
+  }
+ },
+ "glyphs": [
+  {
+   "id": "rapor",
+   "nama": "Rapor / Hasil Belajar",
+   "kategori": "menu",
+   "alias": [
+    "rapot",
+    "rapor",
+    "latihan soal",
+    "latsol harian assesment",
+    "blanko"
+   ],
+   "sinonim": [
+    "rapor",
+    "rapot",
+    "report",
+    "nilai",
+    "skor",
+    "hasil tryout",
+    "hasil belajar",
+    "statistik nilai",
+    "evaluasi",
+    "progres belajar",
+    "transkrip",
+    "score",
+    "peringkat",
+    "passing grade"
+   ],
+   "deskripsi": "dua lembar dokumen dengan huruf A dalam lingkaran dan garis-garis teks",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadibeasiswa",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadipolisi",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "psikotes_kerja",
+    "toefl_academy"
+   ],
+   "brandCount": 14
+  },
+  {
+   "id": "tryout",
+   "nama": "Tryout",
+   "kategori": "menu",
+   "alias": [
+    "tryout",
+    "latsol"
+   ],
+   "sinonim": [
+    "tryout",
+    "try out",
+    "TO",
+    "simulasi ujian",
+    "ujian online",
+    "mock test",
+    "CAT",
+    "tryout SKD",
+    "tryout UTBK",
+    "ujian percobaan",
+    "ranking nasional",
+    "exam",
+    "test",
+    "tryout akbar"
+   ],
+   "deskripsi": "tumpukan kertas ujian bertanda A+ dengan pita bintang di pojok",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadipolisi",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 12
+  },
+  {
+   "id": "kalender",
+   "nama": "Kalender / Jadwal",
+   "kategori": "menu",
+   "alias": [
+    "kalender"
+   ],
+   "sinonim": [
+    "kalender",
+    "jadwal",
+    "schedule",
+    "agenda",
+    "tanggal penting",
+    "jadwal tryout",
+    "jadwal seleksi",
+    "timeline",
+    "pengingat",
+    "reminder",
+    "jadwal kelas",
+    "event",
+    "calendar",
+    "jadwal CPNS"
+   ],
+   "deskripsi": "kalender meja bertuliskan JAN dengan gambar pemandangan dan kisi tanggal",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "kertas_soal",
+   "nama": "Kertas Soal / Lembar Ujian",
+   "kategori": "menu",
+   "alias": [
+    "reading",
+    "to",
+    "uji kemampuan",
+    "latsol pedagogik",
+    "tryout pppk",
+    "tes",
+    "latihan soal tes",
+    "to gratis tes potensi akademik",
+    "latsol structure and written expression"
+   ],
+   "sinonim": [
+    "kertas soal",
+    "lembar soal",
+    "lembar ujian",
+    "ujian tulis",
+    "tes tertulis",
+    "uji kemampuan",
+    "TO gratis",
+    "latihan soal tes",
+    "written test",
+    "exam paper",
+    "pedagogik",
+    "structure and written expression",
+    "soal esai"
+   ],
+   "deskripsi": "lembar kertas penuh coretan tulisan dengan pena bulu (quill)",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "lapor_masalah",
+   "nama": "Lapor Masalah",
+   "kategori": "menu",
+   "alias": [
+    "masalah",
+    "lapor",
+    "laporkan masalah"
+   ],
+   "sinonim": [
+    "lapor masalah",
+    "laporkan masalah",
+    "bantuan",
+    "help",
+    "pengaduan",
+    "keluhan",
+    "customer service",
+    "support",
+    "FAQ",
+    "kendala teknis",
+    "report bug",
+    "tanya admin",
+    "hubungi kami"
+   ],
+   "deskripsi": "balon chat berisi tiga titik dengan tanda tanya dalam lingkaran di pojok",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "latsol",
+   "nama": "Latihan Soal (Latsol)",
+   "kategori": "menu",
+   "alias": [
+    "latsol"
+   ],
+   "sinonim": [
+    "latihan soal",
+    "latsol",
+    "soal latihan",
+    "quiz",
+    "kuis",
+    "practice",
+    "exercise",
+    "drill soal",
+    "bank soal",
+    "pembahasan soal",
+    "soal per bab",
+    "uji pemahaman",
+    "latihan harian"
+   ],
+   "deskripsi": "papan presentasi di atas penyangga berisi daftar poin dan sosok perempuan",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "live_class",
+   "nama": "Live Class / Kelas Langsung",
+   "kategori": "menu",
+   "alias": [
+    "live",
+    "live class"
+   ],
+   "sinonim": [
+    "live class",
+    "kelas live",
+    "siaran langsung",
+    "webinar",
+    "zoom",
+    "streaming",
+    "kelas online",
+    "live teaching",
+    "bimbel online",
+    "kelas interaktif",
+    "broadcast",
+    "tatap muka virtual",
+    "live"
+   ],
+   "deskripsi": "titik pusat dengan gelombang siaran melengkung di kiri dan kanan",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "materi",
+   "nama": "Materi / Course",
+   "kategori": "menu",
+   "alias": [
+    "materi",
+    "mater",
+    "course"
+   ],
+   "sinonim": [
+    "materi",
+    "course",
+    "modul belajar",
+    "bahan ajar",
+    "kelas online",
+    "pelajaran",
+    "silabus",
+    "ringkasan materi",
+    "materi SKD",
+    "materi UTBK",
+    "e-learning",
+    "belajar mandiri",
+    "study material",
+    "kisi-kisi materi"
+   ],
+   "deskripsi": "gugusan enam heksagon 3D dengan dua warna selang-seling",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "monitor",
+   "nama": "Monitor / Belajar Online",
+   "kategori": "menu",
+   "alias": [
+    "test",
+    "direktori formasi cpns",
+    "manajemen",
+    "pengenalan",
+    "mengenal atau perkenalan pcpm",
+    "substantif umum",
+    "belajar manajerial",
+    "tes pusat",
+    "tpa",
+    "progres belajar",
+    "materi toefl"
+   ],
+   "sinonim": [
+    "monitor",
+    "komputer",
+    "belajar online",
+    "CAT",
+    "computer assisted test",
+    "ujian berbasis komputer",
+    "pengenalan",
+    "orientasi",
+    "direktori formasi",
+    "progres belajar",
+    "tes pusat",
+    "manajerial",
+    "e-learning",
+    "dashboard"
+   ],
+   "deskripsi": "monitor komputer menampilkan daftar poin dan kursor panah",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "numerik",
+   "nama": "Numerik / Deret Angka",
+   "kategori": "subtes",
+   "alias": [
+    "math",
+    "saintek",
+    "matematika",
+    "tiu",
+    "numerik",
+    "verbal logic reasoning",
+    "deret angka",
+    "angka hilang",
+    "latsol tpa numerik"
+   ],
+   "sinonim": [
+    "numerik",
+    "deret angka",
+    "angka hilang",
+    "matematika",
+    "TIU numerik",
+    "kemampuan numerik",
+    "pola bilangan",
+    "barisan bilangan",
+    "number series",
+    "numerical reasoning",
+    "logika angka",
+    "berhitung",
+    "TPA numerik",
+    "penalaran matematika"
+   ],
+   "deskripsi": "empat ubin 2x2 berisi angka 3, 5, 7 dan tiga titik",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadipolisi",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "pdf",
+   "nama": "PDF / Dokumen",
+   "kategori": "menu",
+   "alias": [
+    "pdf",
+    "pdf gratis"
+   ],
+   "sinonim": [
+    "pdf",
+    "e-book",
+    "ebook",
+    "modul pdf",
+    "dokumen",
+    "unduh",
+    "download",
+    "file materi",
+    "rangkuman",
+    "kisi-kisi",
+    "bank soal pdf",
+    "handout",
+    "pdf gratis"
+   ],
+   "deskripsi": "berkas dokumen dengan sudut terlipat dan label PDF besar",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "promo",
+   "nama": "Promo / Diskon",
+   "kategori": "menu",
+   "alias": [
+    "promo"
+   ],
+   "sinonim": [
+    "promo",
+    "diskon",
+    "discount",
+    "voucher",
+    "kupon",
+    "potongan harga",
+    "sale",
+    "penawaran spesial",
+    "harga hemat",
+    "cashback",
+    "flash sale",
+    "kode promo",
+    "paket murah"
+   ],
+   "deskripsi": "lencana bergerigi dengan simbol persen dan tanda bintang kecil",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 11
+  },
+  {
+   "id": "grup",
+   "nama": "Grup / Komunitas",
+   "kategori": "menu",
+   "alias": [
+    "group",
+    "manajemen bidang",
+    "grup",
+    "grup gratis",
+    "grup dan pdf",
+    "jejaring kerja",
+    "pdf",
+    "tkp jejaring kerja"
+   ],
+   "sinonim": [
+    "grup",
+    "group",
+    "komunitas",
+    "grup belajar",
+    "grup telegram",
+    "grup whatsapp",
+    "forum diskusi",
+    "tim",
+    "jejaring kerja",
+    "networking",
+    "kerja sama tim",
+    "teamwork",
+    "anggota",
+    "manajemen tim"
+   ],
+   "deskripsi": "tiga orang berjas dan berdasi, satu di depan dan dua di belakang",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa"
+   ],
+   "brandCount": 9
+  },
+  {
+   "id": "journey",
+   "nama": "Journey / Dibimbing",
+   "kategori": "menu",
+   "alias": [
+    "journey",
+    "dibimbing"
+   ],
+   "sinonim": [
+    "journey",
+    "perjalanan belajar",
+    "roadmap",
+    "alur belajar",
+    "dibimbing",
+    "bimbingan",
+    "mentoring",
+    "learning path",
+    "peta belajar",
+    "study plan",
+    "langkah belajar",
+    "target belajar",
+    "progres"
+   ],
+   "deskripsi": "penanda lokasi (pin) berisi kubus di atas alas peta",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 9
+  },
+  {
+   "id": "bulu",
+   "nama": "Dua Bulu / Sosial Budaya",
+   "kategori": "subtes",
+   "alias": [
+    "tkp",
+    "bedah soal fr tpd",
+    "tes psikiatri",
+    "seni rupa",
+    "latsol pppk",
+    "sosial budaya",
+    "tes skb",
+    "toefl tryout"
+   ],
+   "sinonim": [
+    "bulu",
+    "pena bulu",
+    "sosial budaya",
+    "TKP",
+    "seni rupa",
+    "tes psikiatri",
+    "bedah soal",
+    "latsol PPPK",
+    "tes SKB",
+    "toefl tryout",
+    "kreativitas",
+    "budaya",
+    "feather"
+   ],
+   "deskripsi": "dua helai bulu burung bersilangan (besar dan kecil)",
+   "official": [
+    "jadiasn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "toefl_academy"
+   ],
+   "brandCount": 8
+  },
+  {
+   "id": "figural_serial",
+   "nama": "Figural Serial / Pola Gambar",
+   "kategori": "subtes",
+   "alias": [
+    "pola gambar",
+    "kemampuan penalaran induktif",
+    "figural",
+    "figural serial",
+    "simbol hilang",
+    "tkp",
+    "penalaran"
+   ],
+   "sinonim": [
+    "figural",
+    "figural serial",
+    "pola gambar",
+    "simbol hilang",
+    "deret gambar",
+    "penalaran induktif",
+    "gambar berurutan",
+    "TIU figural",
+    "abstract reasoning",
+    "rotasi gambar",
+    "visual pattern",
+    "psikotes gambar",
+    "tes penalaran"
+   ],
+   "deskripsi": "empat ubin 2x2 berisi lingkaran bertangkai yang berputar dan tiga titik",
+   "official": [
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadipppk",
+    "jadipolisi",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa"
+   ],
+   "brandCount": 8
+  },
+  {
+   "id": "tips",
+   "nama": "Tips / Diskusi",
+   "kategori": "menu",
+   "alias": [
+    "tips",
+    "verbal silogisme",
+    "bahasa dan komunikasi",
+    "latsol tpa verbal"
+   ],
+   "sinonim": [
+    "tips",
+    "trik",
+    "tips dan trik",
+    "saran",
+    "diskusi",
+    "percakapan",
+    "chat",
+    "komunikasi",
+    "bahasa dan komunikasi",
+    "silogisme",
+    "verbal",
+    "obrolan",
+    "strategi mengerjakan",
+    "konsultasi"
+   ],
+   "deskripsi": "dua balon percakapan bertumpuk, masing-masing berisi tiga titik",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jago_tpa"
+   ],
+   "brandCount": 8
+  },
+  {
+   "id": "kalkulator",
+   "nama": "Kalkulator / Numerik Berhitung",
+   "kategori": "subtes",
+   "alias": [
+    "kalkulator",
+    "tiu",
+    "tkd",
+    "calculation test",
+    "numerik berhitung",
+    "kecerdasan"
+   ],
+   "sinonim": [
+    "kalkulator",
+    "berhitung",
+    "aritmetika",
+    "operasi hitung",
+    "numerik berhitung",
+    "calculation test",
+    "kecerdasan",
+    "TKD",
+    "tambah kurang kali bagi",
+    "matematika dasar",
+    "hitung cepat",
+    "arithmetic",
+    "TIU hitungan"
+   ],
+   "deskripsi": "empat ubin 2x2 berisi simbol kurang, tambah, bagi dan kali",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 7
+  },
+  {
+   "id": "kuantitatif",
+   "nama": "Kuantitatif / Perbandingan Kuantitatif",
+   "kategori": "subtes",
+   "alias": [
+    "pk",
+    "tiu",
+    "hitungan",
+    "matematika",
+    "perbandingan kuantitatif",
+    "kuantitatif"
+   ],
+   "sinonim": [
+    "kuantitatif",
+    "perbandingan kuantitatif",
+    "penalaran kuantitatif",
+    "PK",
+    "pengetahuan kuantitatif",
+    "aljabar",
+    "variabel x y",
+    "pertidaksamaan",
+    "hitungan",
+    "TPA kuantitatif",
+    "quantitative reasoning",
+    "UTBK PK",
+    "TIU",
+    "matematika"
+   ],
+   "deskripsi": "empat ubin 2x2 berisi (x), (y), tanda >= dan tiga titik",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadippg",
+    "jadipppk",
+    "jadisekdin",
+    "jago_tpa"
+   ],
+   "brandCount": 7
+  },
+  {
+   "id": "soal_cerita",
+   "nama": "Soal Cerita / Verbal (ubin abc)",
+   "kategori": "subtes",
+   "alias": [
+    "logic reasoning",
+    "numerik soal cerita",
+    "latsol substantif numerik",
+    "soal cerita",
+    "huruf hilang",
+    "grammer"
+   ],
+   "sinonim": [
+    "soal cerita",
+    "verbal",
+    "huruf hilang",
+    "logic reasoning",
+    "grammar",
+    "numerik soal cerita",
+    "penalaran logis",
+    "literasi numerasi",
+    "word problem",
+    "pola huruf",
+    "TIU verbal",
+    "substantif numerik",
+    "kemampuan bahasa"
+   ],
+   "deskripsi": "empat ubin 2x2 berisi abc, angka 5, cba dan titik-titik",
+   "official": [
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadipppk",
+    "jadipolisi",
+    "jadisekdin",
+    "toefl_academy"
+   ],
+   "brandCount": 7
+  },
+  {
+   "id": "tas_medis",
+   "nama": "Tas Medis / Kesehatan",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "poltekes",
+    "kesehatan",
+    "tahapan 4 pcpm",
+    "kesehatan dan medis"
+   ],
+   "sinonim": [
+    "kesehatan",
+    "medis",
+    "tes kesehatan",
+    "P3K",
+    "dokter",
+    "poltekkes",
+    "perawat",
+    "tenaga kesehatan",
+    "nakes",
+    "rumah sakit",
+    "medical check up",
+    "health",
+    "rikkes",
+    "kesehatan dan medis"
+   ],
+   "deskripsi": "tas medis bertanda palang dengan dua tali",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit"
+   ],
+   "brandCount": 7
+  },
+  {
+   "id": "tengkorak_lup",
+   "nama": "Tengkorak & Lup / Psikologi",
+   "kategori": "subtes",
+   "alias": [
+    "antopologi",
+    "kepribadian",
+    "psikologi",
+    "latsol situational judgemental test sjt",
+    "mental ideologi",
+    "psikologi tamtama"
+   ],
+   "sinonim": [
+    "psikologi",
+    "kepribadian",
+    "psikotes",
+    "mental ideologi",
+    "SJT",
+    "situational judgement test",
+    "antropologi",
+    "analisis karakter",
+    "tes psikologi",
+    "kejiwaan",
+    "profiling",
+    "investigasi",
+    "psikologi tamtama"
+   ],
+   "deskripsi": "tengkorak dengan kaca pembesar menutupi satu mata",
+   "official": [
+    "cerebrum",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 7
+  },
+  {
+   "id": "toga",
+   "nama": "Wisudawati / Toga",
+   "kategori": "orang",
+   "alias": [
+    "tka",
+    "pendidikan",
+    "pelatihan",
+    "penelitian",
+    "akademik",
+    "skb kemenhub",
+    "tes potensi akademik"
+   ],
+   "sinonim": [
+    "toga",
+    "wisuda",
+    "pendidikan",
+    "akademik",
+    "sarjana",
+    "lulusan",
+    "tes potensi akademik",
+    "TKA",
+    "pelatihan dan penelitian",
+    "kampus",
+    "mahasiswa",
+    "graduation",
+    "beasiswa",
+    "SKB kemenhub"
+   ],
+   "deskripsi": "perempuan berambut panjang memakai topi toga",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa"
+   ],
+   "brandCount": 7
+  },
+  {
+   "id": "topeng_drama",
+   "nama": "Topeng Drama / TKP",
+   "kategori": "subtes",
+   "alias": [
+    "tkp",
+    "akhlak",
+    "tes kepribadian",
+    "psikologi kepribadian",
+    "kepribadian",
+    "profesionalisme"
+   ],
+   "sinonim": [
+    "TKP",
+    "tes karakteristik pribadi",
+    "kepribadian",
+    "tes kepribadian",
+    "psikologi kepribadian",
+    "akhlak",
+    "profesionalisme",
+    "karakter",
+    "sikap kerja",
+    "integritas",
+    "personality test",
+    "topeng",
+    "emosi",
+    "SKD"
+   ],
+   "deskripsi": "dua topeng teater, satu tersenyum dan satu sedih",
+   "official": [
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 7
+  },
+  {
+   "id": "bahasa_inggris",
+   "nama": "Bahasa Inggris (balon EN)",
+   "kategori": "mapel",
+   "alias": [
+    "eng",
+    "bahasa ingg",
+    "b.inggris sruktur",
+    "inggris",
+    "tbi structure",
+    "en"
+   ],
+   "sinonim": [
+    "bahasa inggris",
+    "english",
+    "EN",
+    "TOEFL",
+    "TBI",
+    "tes bahasa inggris",
+    "structure",
+    "grammar",
+    "IELTS",
+    "speaking",
+    "conversation",
+    "english test",
+    "percakapan"
+   ],
+   "deskripsi": "dua balon percakapan bertumpuk bertuliskan EN",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadisekdin",
+    "toefl_academy"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "buku_psi",
+   "nama": "Buku Psikologi (Ψ) / Psikotes",
+   "kategori": "subtes",
+   "alias": [
+    "psikologi",
+    "psikotes",
+    "latsol penarikan kesimpulan"
+   ],
+   "sinonim": [
+    "psikotes",
+    "psikologi",
+    "tes psikologi",
+    "psikometri",
+    "penarikan kesimpulan",
+    "tes IQ",
+    "tes bakat",
+    "psychology",
+    "psi",
+    "tes kecerdasan",
+    "logika",
+    "penalaran",
+    "buku psikologi"
+   ],
+   "deskripsi": "buku tebal bersampul simbol psi (Ψ)",
+   "official": [
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "garuda",
+   "nama": "Garuda / TWK",
+   "kategori": "subtes",
+   "alias": [
+    "pkn",
+    "twk",
+    "ppkn",
+    "kebangsaan",
+    "twk nasionalisme"
+   ],
+   "sinonim": [
+    "garuda",
+    "TWK",
+    "tes wawasan kebangsaan",
+    "nasionalisme",
+    "kebangsaan",
+    "pancasila",
+    "PKn",
+    "PPKn",
+    "bela negara",
+    "NKRI",
+    "wawasan kebangsaan",
+    "UUD 1945",
+    "pilar negara",
+    "ideologi"
+   ],
+   "deskripsi": "kepala burung garuda menghadap kiri dengan bulu leher bergerigi",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "gedung_pilar",
+   "nama": "Gedung Pilar / Lembaga Negara",
+   "kategori": "lembaga",
+   "alias": [
+    "twk",
+    "infrastruktur",
+    "bank indonesia",
+    "kebangsentralan",
+    "pilar negara"
+   ],
+   "sinonim": [
+    "pilar negara",
+    "lembaga negara",
+    "kebanksentralan",
+    "bank indonesia",
+    "pemerintahan",
+    "institusi",
+    "infrastruktur",
+    "kementerian",
+    "gedung",
+    "konstitusi",
+    "empat pilar kebangsaan",
+    "TWK",
+    "pemerintah"
+   ],
+   "deskripsi": "gedung klasik dengan atap segitiga dan empat pilar",
+   "official": [
+    "jadiasn",
+    "jadibumn",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "globe",
+   "nama": "Globe / Geografi & Pengetahuan Umum",
+   "kategori": "mapel",
+   "alias": [
+    "pu",
+    "soshum",
+    "geografi",
+    "pengetahuan umum",
+    "tes kemampuan umum",
+    "ipa",
+    "tiu"
+   ],
+   "sinonim": [
+    "globe",
+    "geografi",
+    "peta dunia",
+    "pengetahuan umum",
+    "wawasan global",
+    "bumi",
+    "penalaran umum",
+    "tes kemampuan umum",
+    "TIU",
+    "soshum",
+    "IPS",
+    "general knowledge",
+    "IPA terpadu"
+   ],
+   "deskripsi": "bola dunia di atas penyangga melengkung",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "headset_cs",
+   "nama": "Headset CS / Pelayanan",
+   "kategori": "orang",
+   "alias": [
+    "tkp",
+    "wawancara psikologi",
+    "bimbingan dan konseling",
+    "wawancara",
+    "pelayanan publik",
+    "scoring guidance"
+   ],
+   "sinonim": [
+    "customer service",
+    "CS",
+    "pelayanan publik",
+    "wawancara",
+    "headset",
+    "call center",
+    "bimbingan konseling",
+    "konsultasi",
+    "layanan",
+    "operator",
+    "helpdesk",
+    "scoring guidance",
+    "wawancara psikologi"
+   ],
+   "deskripsi": "perempuan memakai headset dengan mikrofon",
+   "official": [
+    "jadiasn",
+    "jadiojk",
+    "jadippg",
+    "jadipppk",
+    "jadisekdin",
+    "toefl_academy"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "info",
+   "nama": "Info / Pengumuman",
+   "kategori": "menu",
+   "alias": [
+    "info"
+   ],
+   "sinonim": [
+    "info",
+    "informasi",
+    "pengumuman",
+    "berita",
+    "announcement",
+    "update terbaru",
+    "kabar seleksi",
+    "notifikasi",
+    "speaker",
+    "news",
+    "info CPNS",
+    "info kedinasan",
+    "broadcast"
+   ],
+   "deskripsi": "pengeras suara dengan gelombang suara",
+   "official": [
+    "cerebrum",
+    "jadiasn",
+    "jadibumn",
+    "jadippg",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "koper",
+   "nama": "Koper Kerja / Karier",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "wirausaha",
+    "loker",
+    "pendaftaran",
+    "lowongan kerja",
+    "manajemen perkantoran",
+    "layanan bisnis",
+    "administrasi"
+   ],
+   "sinonim": [
+    "koper",
+    "tas kerja",
+    "lowongan kerja",
+    "loker",
+    "karier",
+    "pekerjaan",
+    "pendaftaran",
+    "administrasi",
+    "perkantoran",
+    "wirausaha",
+    "bisnis",
+    "job",
+    "rekrutmen",
+    "formasi"
+   ],
+   "deskripsi": "tas kerja (koper) dengan pegangan dan gesper",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "palu_hakim",
+   "nama": "Palu Hakim / Hukum",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "soshum",
+    "hukum",
+    "ke ojkan pada tku",
+    "hukum dan kebijakan"
+   ],
+   "sinonim": [
+    "hukum",
+    "palu hakim",
+    "peradilan",
+    "kebijakan",
+    "regulasi",
+    "undang-undang",
+    "legal",
+    "soshum",
+    "pengadilan",
+    "keadilan",
+    "peraturan OJK",
+    "hakim",
+    "hukum dan kebijakan"
+   ],
+   "deskripsi": "palu hakim mengetuk alas dengan percikan",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 6
+  },
+  {
+   "id": "bahasa_indonesia",
+   "nama": "Bahasa Indonesia (balon INA)",
+   "kategori": "mapel",
+   "alias": [
+    "ina",
+    "bahasa indo",
+    "bahasa ind",
+    "wawancara",
+    "b.indonesia"
+   ],
+   "sinonim": [
+    "bahasa indonesia",
+    "INA",
+    "bahasa",
+    "PUEBI",
+    "EYD",
+    "tata bahasa",
+    "wawancara",
+    "percakapan",
+    "komunikasi",
+    "literasi bahasa",
+    "UKBI",
+    "bahasa baku",
+    "tes bahasa"
+   ],
+   "deskripsi": "dua balon percakapan bertumpuk bertuliskan INA",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadiprajurit"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "bendera_inggris",
+   "nama": "Bendera Inggris",
+   "kategori": "mapel",
+   "alias": [
+    "inggris",
+    "b.inggris",
+    "tes toefl",
+    "bahasa indonesia",
+    "written expression"
+   ],
+   "sinonim": [
+    "bendera inggris",
+    "union jack",
+    "bahasa inggris",
+    "english",
+    "TOEFL",
+    "written expression",
+    "british",
+    "UK",
+    "tes toefl",
+    "IELTS",
+    "english course",
+    "listening"
+   ],
+   "deskripsi": "bendera Union Jack dalam cincin berbentuk balon bicara",
+   "official": [
+    "jadiojk",
+    "jadipcpm",
+    "jadippg",
+    "jadisekdin",
+    "toefl_academy"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "buku_terbuka",
+   "nama": "Buku Terbuka / Reading & Literasi",
+   "kategori": "subtes",
+   "alias": [
+    "verbal",
+    "latsol substantif literasi",
+    "reading"
+   ],
+   "sinonim": [
+    "reading",
+    "membaca",
+    "literasi",
+    "buku",
+    "verbal",
+    "pemahaman bacaan",
+    "reading comprehension",
+    "bacaan",
+    "teks bacaan",
+    "literasi membaca",
+    "TOEFL reading",
+    "substantif literasi",
+    "perpustakaan"
+   ],
+   "deskripsi": "buku terbuka dengan baris-baris teks tebal di kedua halaman",
+   "official": [
+    "jadipcpm",
+    "jadippg",
+    "jadisekdin",
+    "jago_tpa",
+    "toefl_academy"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "kubus_bertumpuk",
+   "nama": "Kubus Bertumpuk / Penalaran Ruang",
+   "kategori": "subtes",
+   "alias": [
+    "agility",
+    "menentukan bentuk",
+    "tata ruang",
+    "kompetensi bidang",
+    "9 kotak",
+    "penalaran"
+   ],
+   "sinonim": [
+    "kubus",
+    "kubus bertumpuk",
+    "penalaran ruang",
+    "tata ruang",
+    "menentukan bentuk",
+    "spasial",
+    "9 kotak",
+    "agility",
+    "hitung kubus",
+    "bangun ruang",
+    "spatial reasoning",
+    "kompetensi bidang",
+    "penalaran"
+   ],
+   "deskripsi": "piramida kubus isometrik tersusun tiga tingkat",
+   "official": [
+    "jadibumn",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin",
+    "jago_tpa"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "link",
+   "nama": "Link / Tautan",
+   "kategori": "menu",
+   "alias": [
+    "link",
+    "gabungan bagian"
+   ],
+   "sinonim": [
+    "link",
+    "tautan",
+    "url",
+    "gabungan bagian",
+    "penghubung",
+    "koneksi",
+    "rantai",
+    "integrasi",
+    "link pendaftaran",
+    "sambungan",
+    "hyperlink",
+    "link penting"
+   ],
+   "deskripsi": "dua mata rantai yang saling terkait",
+   "official": [
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadiprajurit"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "perisai",
+   "nama": "Perisai / SKB & Bela Negara",
+   "kategori": "subtes",
+   "alias": [
+    "skb cpns",
+    "teknis makroprudensial",
+    "bela negara"
+   ],
+   "sinonim": [
+    "perisai",
+    "SKB",
+    "seleksi kompetensi bidang",
+    "SKB CPNS",
+    "bela negara",
+    "pertahanan",
+    "keamanan",
+    "proteksi",
+    "makroprudensial",
+    "kompetensi bidang",
+    "shield",
+    "ketahanan nasional",
+    "TWK"
+   ],
+   "deskripsi": "perisai dua warna dengan kubus 3D di tengah",
+   "official": [
+    "jadiasn",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "puzzle",
+   "nama": "Puzzle / SKD",
+   "kategori": "subtes",
+   "alias": [
+    "skd cpns",
+    "skd",
+    "tryout tahap 2",
+    "tryout pppk",
+    "tryout skd"
+   ],
+   "sinonim": [
+    "puzzle",
+    "SKD",
+    "seleksi kompetensi dasar",
+    "tryout SKD",
+    "TWK TIU TKP",
+    "tes kompetensi",
+    "tryout tahap 2",
+    "tryout PPPK",
+    "pemecahan masalah",
+    "problem solving",
+    "kepingan",
+    "strategi",
+    "logika"
+   ],
+   "deskripsi": "tiga keping puzzle 3D yang saling mengunci",
+   "official": [
+    "jadiasn",
+    "jadibumn",
+    "jadiojk",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "roda_gigi",
+   "nama": "Roda Gigi / Teknik & Operasional",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "teknik op",
+    "checking test",
+    "latsol psikometri",
+    "manajerial",
+    "operasional bgn",
+    "ssn"
+   ],
+   "sinonim": [
+    "roda gigi",
+    "gear",
+    "teknik operasional",
+    "operasional",
+    "manajerial",
+    "checking test",
+    "psikometri",
+    "mekanik",
+    "sistem",
+    "proses kerja",
+    "engineering",
+    "sandi negara",
+    "SSN"
+   ],
+   "deskripsi": "roda gigi dengan kubus 3D di tengah",
+   "official": [
+    "jadibumn",
+    "jadiojk",
+    "jadipcpm",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "satelit",
+   "nama": "Parabola / Teknologi & Komunikasi",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "saintek",
+    "tik",
+    "teknologi dan komunikasi",
+    "teknologi informasi"
+   ],
+   "sinonim": [
+    "satelit",
+    "parabola",
+    "teknologi informasi",
+    "TIK",
+    "telekomunikasi",
+    "komunikasi",
+    "sinyal",
+    "jaringan",
+    "saintek",
+    "IT",
+    "antena",
+    "digital",
+    "teknologi dan komunikasi"
+   ],
+   "deskripsi": "antena parabola memancarkan sinyal dengan perangkat di bawahnya",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadippg",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "uang",
+   "nama": "Uang / Ekonomi",
+   "kategori": "mapel",
+   "alias": [
+    "ekonomi",
+    "soshum",
+    "keuangan",
+    "sektor jasa keuangan",
+    "ekonomi dan koperasi"
+   ],
+   "sinonim": [
+    "uang",
+    "ekonomi",
+    "keuangan",
+    "rupiah",
+    "sektor jasa keuangan",
+    "akuntansi",
+    "koperasi",
+    "perbankan",
+    "finance",
+    "money",
+    "soshum",
+    "investasi",
+    "OJK",
+    "manajemen keuangan"
+   ],
+   "deskripsi": "tumpukan uang kertas bertanda Rp",
+   "official": [
+    "cerebrum",
+    "jadibumn",
+    "jadiojk",
+    "jadippg",
+    "jadipppk"
+   ],
+   "brandCount": 5
+  },
+  {
+   "id": "abstraksi_ruang",
+   "nama": "Abstraksi Ruang / Integritas",
+   "kategori": "subtes",
+   "alias": [
+    "twk",
+    "abstraksi ruang",
+    "integritas"
+   ],
+   "sinonim": [
+    "abstraksi ruang",
+    "integritas",
+    "spasial",
+    "perspektif",
+    "bingkai",
+    "bentuk ruang",
+    "visual spasial",
+    "penalaran ruang",
+    "TWK",
+    "kejujuran",
+    "spatial",
+    "bidang"
+   ],
+   "deskripsi": "panel persegi 3D bertumpuk miring dengan siku bingkai di pojok",
+   "official": [
+    "jadiasn",
+    "jadibumn",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 4
+  },
+  {
+   "id": "bendera_indonesia",
+   "nama": "Bendera Indonesia / Bahasa Negara",
+   "kategori": "subtes",
+   "alias": [
+    "bahasa inggris",
+    "bahasa negara",
+    "twk"
+   ],
+   "sinonim": [
+    "bendera indonesia",
+    "merah putih",
+    "bahasa negara",
+    "TWK",
+    "nasionalisme",
+    "kebangsaan",
+    "NKRI",
+    "simbol negara",
+    "bahasa indonesia",
+    "lambang negara",
+    "indonesia",
+    "patriotisme"
+   ],
+   "deskripsi": "bendera merah putih dalam cincin berbentuk balon bicara",
+   "official": [
+    "jadippg",
+    "jadipppk",
+    "jadiprajurit",
+    "jadisekdin"
+   ],
+   "brandCount": 4
+  },
+  {
+   "id": "drilling_soal",
+   "nama": "Drilling Soal",
+   "kategori": "menu",
+   "alias": [
+    "drilling soal"
+   ],
+   "sinonim": [
+    "drilling soal",
+    "drill",
+    "latihan intensif",
+    "paket soal",
+    "bank soal",
+    "kumpulan soal",
+    "latihan berulang",
+    "soal harian",
+    "pendalaman soal",
+    "intensive practice",
+    "soal HOTS",
+    "latihan maraton"
+   ],
+   "deskripsi": "tumpukan lembar dokumen menyebar seperti kipas dengan garis teks",
+   "official": [
+    "jadiasn",
+    "jadipcpm",
+    "jadisekdin",
+    "jago_tpa"
+   ],
+   "brandCount": 4
+  },
+  {
+   "id": "figural_analogi",
+   "nama": "Figural Analogi",
+   "kategori": "subtes",
+   "alias": [
+    "ppu",
+    "tes kraepelin atau pauli",
+    "figural analogi"
+   ],
+   "sinonim": [
+    "figural analogi",
+    "analogi gambar",
+    "hubungan gambar",
+    "pola analogi",
+    "TIU figural",
+    "penalaran analitis",
+    "PPU",
+    "pengetahuan dan pemahaman umum",
+    "kraepelin",
+    "pauli",
+    "abstract reasoning",
+    "visual analogy",
+    "psikotes"
+   ],
+   "deskripsi": "empat ubin 2x2 berisi bentuk jam pasir/X, garis sejajar dan tiga titik",
+   "official": [
+    "cerebrum",
+    "jadiojk",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 4
+  },
+  {
+   "id": "figural_ketidaksamaan",
+   "nama": "Figural Ketidaksamaan",
+   "kategori": "subtes",
+   "alias": [
+    "latsol error recognition",
+    "figural ketidaksamaan"
+   ],
+   "sinonim": [
+    "figural ketidaksamaan",
+    "gambar yang berbeda",
+    "odd one out",
+    "ketidaksamaan",
+    "error recognition",
+    "mencari perbedaan",
+    "figural",
+    "TIU figural",
+    "penalaran gambar",
+    "abstract reasoning",
+    "kecermatan visual",
+    "psikotes"
+   ],
+   "deskripsi": "empat ubin 2x2 berisi lingkaran bergaris miring (dicoret) dan tiga titik",
+   "official": [
+    "jadipcpm",
+    "jadippg",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 4
+  },
+  {
+   "id": "keluarga",
+   "nama": "Keluarga / Sosiologi",
+   "kategori": "mapel",
+   "alias": [
+    "sosiology",
+    "soshum",
+    "sosiologi",
+    "grup",
+    "sosiokultural",
+    "sosial dan pelayanan"
+   ],
+   "sinonim": [
+    "keluarga",
+    "sosiologi",
+    "masyarakat",
+    "sosial",
+    "sosiokultural",
+    "soshum",
+    "IPS",
+    "hubungan sosial",
+    "family",
+    "orang tua dan anak",
+    "pelayanan sosial",
+    "kependudukan",
+    "grup"
+   ],
+   "deskripsi": "keluarga: ayah, ibu dan anak",
+   "official": [
+    "cerebrum",
+    "jadipcpm",
+    "jadippg",
+    "jadipppk"
+   ],
+   "brandCount": 4
+  },
+  {
+   "id": "verbal",
+   "nama": "Verbal / Balon Bicara",
+   "kategori": "subtes",
+   "alias": [
+    "verbal",
+    "kemampuan umum verbal"
+   ],
+   "sinonim": [
+    "verbal",
+    "kemampuan verbal",
+    "kemampuan umum verbal",
+    "sinonim antonim",
+    "analogi kata",
+    "TIU verbal",
+    "penalaran verbal",
+    "verbal reasoning",
+    "kosakata",
+    "bahasa",
+    "komunikasi",
+    "berbicara",
+    "TPA verbal"
+   ],
+   "deskripsi": "balon bicara besar berisi tiga titik dengan gelombang sinyal di pojok",
+   "official": [
+    "jadibumn",
+    "jadiojk",
+    "jadipppk",
+    "jadisekdin"
+   ],
+   "brandCount": 4
+  },
+  {
+   "id": "atom",
+   "nama": "Atom / Fisika",
+   "kategori": "mapel",
+   "alias": [
+    "fisika",
+    "saintek"
+   ],
+   "sinonim": [
+    "fisika",
+    "atom",
+    "sains",
+    "saintek",
+    "IPA",
+    "physics",
+    "mekanika",
+    "listrik magnet",
+    "UTBK saintek",
+    "olimpiade fisika",
+    "ilmu pengetahuan alam",
+    "eksakta",
+    "TKA fisika"
+   ],
+   "deskripsi": "model atom dengan inti dan tiga orbit elektron",
+   "official": [
+    "cerebrum",
+    "jadippg",
+    "jadisekdin"
+   ],
+   "brandCount": 3
+  },
+  {
+   "id": "buku_video",
+   "nama": "E-book / Buku Video",
+   "kategori": "menu",
+   "alias": [
+    "e book ojk",
+    "blanko"
+   ],
+   "sinonim": [
+    "e-book",
+    "ebook",
+    "buku digital",
+    "buku video",
+    "materi video",
+    "modul interaktif",
+    "video pembelajaran",
+    "perpustakaan digital",
+    "e-modul",
+    "buku online",
+    "blanko",
+    "learning video"
+   ],
+   "deskripsi": "buku terbuka dengan kotak tombol play di halaman kiri",
+   "official": [
+    "jadiojk",
+    "jadippg",
+    "jadiprajurit"
+   ],
+   "brandCount": 3
+  },
+  {
+   "id": "bulan_bintang",
+   "nama": "Bulan Bintang / Keagamaan",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "umptkin",
+    "keagamaan"
+   ],
+   "sinonim": [
+    "keagamaan",
+    "agama islam",
+    "bulan bintang",
+    "UM-PTKIN",
+    "PTKIN",
+    "islami",
+    "pendidikan agama",
+    "madrasah",
+    "kemenag",
+    "religi",
+    "moderasi beragama",
+    "muslim"
+   ],
+   "deskripsi": "bintang segi delapan berisi bulan sabit dan bintang",
+   "official": [
+    "cerebrum",
+    "jadippg",
+    "jadipppk"
+   ],
+   "brandCount": 3
+  },
+  {
+   "id": "dna",
+   "nama": "DNA / Biologi",
+   "kategori": "mapel",
+   "alias": [
+    "biologi",
+    "saintek",
+    "jasmani"
+   ],
+   "sinonim": [
+    "biologi",
+    "DNA",
+    "genetika",
+    "sains",
+    "saintek",
+    "IPA",
+    "biology",
+    "sel",
+    "makhluk hidup",
+    "jasmani",
+    "anatomi",
+    "bioteknologi",
+    "TKA biologi"
+   ],
+   "deskripsi": "untai heliks ganda DNA",
+   "official": [
+    "cerebrum",
+    "jadippg",
+    "jadiprajurit"
+   ],
+   "brandCount": 3
+  },
+  {
+   "id": "kristal",
+   "nama": "Kristal",
+   "kategori": "lainnya",
+   "alias": [
+    "tryout tahap 1",
+    "stmkg"
+   ],
+   "sinonim": [
+    "kristal",
+    "batu mulia",
+    "permata",
+    "geofisika",
+    "STMKG",
+    "tryout tahap 1",
+    "mineral",
+    "berlian",
+    "prestasi",
+    "keunggulan",
+    "crystal",
+    "geologi"
+   ],
+   "deskripsi": "dua kristal runcing di atas batu dengan kilau bintang",
+   "official": [
+    "jadiojk",
+    "jadippg",
+    "jadisekdin"
+   ],
+   "brandCount": 3
+  },
+  {
+   "id": "buku_lup",
+   "nama": "Buku & Lup / Kecermatan",
+   "kategori": "subtes",
+   "alias": [
+    "ketelitian",
+    "kecermatan"
+   ],
+   "sinonim": [
+    "kecermatan",
+    "ketelitian",
+    "tes kecermatan",
+    "teliti",
+    "fokus",
+    "konsentrasi",
+    "membaca cermat",
+    "pencarian",
+    "detail",
+    "psikotes kecermatan",
+    "accuracy",
+    "tes ketelitian"
+   ],
+   "deskripsi": "buku terbuka dengan kaca pembesar di atas halaman",
+   "official": [
+    "jadipcpm",
+    "jadiprajurit"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "diagram_pai",
+   "nama": "Diagram Lingkaran / TPA",
+   "kategori": "subtes",
+   "alias": [
+    "tpa"
+   ],
+   "sinonim": [
+    "TPA",
+    "tes potensi akademik",
+    "diagram lingkaran",
+    "pie chart",
+    "statistik",
+    "data",
+    "grafik",
+    "analisis data",
+    "persentase",
+    "interpretasi data",
+    "chart",
+    "TPA BUMN",
+    "TPA OJK"
+   ],
+   "deskripsi": "diagram pai 3D terpotong empat dengan angka 10, 20, 50, 70",
+   "official": [
+    "jadibumn",
+    "jadiojk"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "kerumunan",
+   "nama": "Kerumunan / Masyarakat",
+   "kategori": "orang",
+   "alias": [
+    "guru ips",
+    "mental ideologi"
+   ],
+   "sinonim": [
+    "masyarakat",
+    "kerumunan",
+    "penduduk",
+    "sosial",
+    "IPS",
+    "guru IPS",
+    "mental ideologi",
+    "publik",
+    "warga",
+    "komunitas",
+    "massa",
+    "demografi"
+   ],
+   "deskripsi": "sekelompok siluet orang berdiri berjajar",
+   "official": [
+    "jadippg",
+    "jadiprajurit"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "mata_coret",
+   "nama": "Mata Dicoret / Tes Buta Warna",
+   "kategori": "subtes",
+   "alias": [
+    "blind",
+    "buta warna"
+   ],
+   "sinonim": [
+    "buta warna",
+    "tes buta warna",
+    "ishihara",
+    "mata",
+    "penglihatan",
+    "tes kesehatan mata",
+    "color blind",
+    "blind test",
+    "persepsi warna",
+    "tes kesehatan",
+    "visual",
+    "rikkes"
+   ],
+   "deskripsi": "ikon mata dengan garis coret diagonal",
+   "official": [
+    "jadibumn",
+    "jadipcpm"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "mikroskop",
+   "nama": "Mikroskop & Labu / Kimia",
+   "kategori": "mapel",
+   "alias": [
+    "skolastik",
+    "saintek",
+    "kimia"
+   ],
+   "sinonim": [
+    "kimia",
+    "mikroskop",
+    "laboratorium",
+    "eksperimen",
+    "sains",
+    "saintek",
+    "IPA",
+    "chemistry",
+    "penelitian",
+    "tabung reaksi",
+    "skolastik",
+    "riset",
+    "TKA kimia"
+   ],
+   "deskripsi": "mikroskop dan labu erlenmeyer berisi cairan",
+   "official": [
+    "cerebrum",
+    "jadippg"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "museum",
+   "nama": "Museum / Sejarah",
+   "kategori": "mapel",
+   "alias": [
+    "soshum",
+    "sejarah"
+   ],
+   "sinonim": [
+    "sejarah",
+    "museum",
+    "gedung bersejarah",
+    "naskah kuno",
+    "arsip",
+    "soshum",
+    "IPS",
+    "history",
+    "peradaban",
+    "cagar budaya",
+    "prasasti",
+    "sejarah indonesia"
+   ],
+   "deskripsi": "gedung klasik berpilar dengan gulungan naskah di tengah",
+   "official": [
+    "cerebrum",
+    "jadippg"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "produk_pangan",
+   "nama": "Produk Pangan / Agroteknologi & Gizi",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "agreteknologi pengolahan hasil pertanian",
+    "badan gizi nasiona"
+   ],
+   "sinonim": [
+    "agroteknologi",
+    "pengolahan hasil pertanian",
+    "pangan",
+    "gizi",
+    "badan gizi nasional",
+    "BGN",
+    "makanan sehat",
+    "produk olahan",
+    "pertanian",
+    "nutrisi",
+    "keamanan pangan",
+    "makan bergizi gratis"
+   ],
+   "deskripsi": "botol dan toples berlabel tunas tanaman dengan tanda centang",
+   "official": [
+    "jadippg",
+    "jadipppk"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "puzzle_matematika",
+   "nama": "Puzzle Matematika",
+   "kategori": "subtes",
+   "alias": [
+    "kemampuan umum numerik",
+    "materi matematika"
+   ],
+   "sinonim": [
+    "puzzle matematika",
+    "matematika",
+    "numerik",
+    "kemampuan umum numerik",
+    "materi matematika",
+    "operasi hitung",
+    "TKU numerik",
+    "soal matematika",
+    "berhitung",
+    "logika matematika",
+    "aritmetika"
+   ],
+   "deskripsi": "tiga keping puzzle dengan simbol minus dan kali",
+   "official": [
+    "jadiojk",
+    "jadisekdin"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "tanda_listrik",
+   "nama": "Tanda Listrik / Elektronika",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "pln",
+    "teknik elektronika"
+   ],
+   "sinonim": [
+    "listrik",
+    "tegangan tinggi",
+    "petir",
+    "teknik elektronika",
+    "elektro",
+    "kelistrikan",
+    "PLN",
+    "bahaya listrik",
+    "energi",
+    "rambu peringatan",
+    "teknik listrik",
+    "arus listrik"
+   ],
+   "deskripsi": "rambu segitiga peringatan dengan petir",
+   "official": [
+    "jadibumn",
+    "jadippg"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "toga_pria",
+   "nama": "Wisudawan / Toga Pria",
+   "kategori": "orang",
+   "alias": [
+    "pendidikan luar biasa",
+    "tryout pppk sekolah rakyat"
+   ],
+   "sinonim": [
+    "toga",
+    "wisudawan",
+    "wisuda",
+    "lulusan",
+    "pendidikan",
+    "sekolah rakyat",
+    "pendidikan luar biasa",
+    "akademik",
+    "sarjana",
+    "graduation",
+    "guru",
+    "mahasiswa"
+   ],
+   "deskripsi": "laki-laki berambut pendek memakai topi toga",
+   "official": [
+    "jadippg",
+    "jadipppk"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "tutup",
+   "nama": "Tutup / Close",
+   "kategori": "menu",
+   "alias": [
+    "close"
+   ],
+   "sinonim": [
+    "tutup",
+    "close",
+    "keluar",
+    "batal",
+    "cancel",
+    "silang",
+    "exit",
+    "hapus",
+    "tolak",
+    "salah",
+    "x"
+   ],
+   "deskripsi": "tanda silang X tiga dimensi",
+   "official": [
+    "jadibumn",
+    "jadiprajurit"
+   ],
+   "brandCount": 2
+  },
+  {
+   "id": "akhlak_a",
+   "nama": "AKHLAK – A (Amanah / Adaptif)",
+   "kategori": "subtes",
+   "alias": [
+    "akhlak a"
+   ],
+   "sinonim": [
+    "akhlak",
+    "AKHLAK A",
+    "amanah",
+    "adaptif",
+    "core values BUMN",
+    "nilai AKHLAK",
+    "tes AKHLAK",
+    "rekrutmen bersama BUMN",
+    "budaya kerja",
+    "integritas",
+    "huruf A",
+    "values"
+   ],
+   "deskripsi": "huruf A 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "akhlak_h",
+   "nama": "AKHLAK – H (Harmonis)",
+   "kategori": "subtes",
+   "alias": [
+    "akhlak h"
+   ],
+   "sinonim": [
+    "akhlak",
+    "AKHLAK H",
+    "harmonis",
+    "core values BUMN",
+    "nilai AKHLAK",
+    "tes AKHLAK",
+    "rekrutmen bersama BUMN",
+    "budaya kerja",
+    "saling peduli",
+    "menghargai perbedaan",
+    "huruf H",
+    "values"
+   ],
+   "deskripsi": "huruf H 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "akhlak_k",
+   "nama": "AKHLAK – K (Kompeten / Kolaboratif)",
+   "kategori": "subtes",
+   "alias": [
+    "akhlak k"
+   ],
+   "sinonim": [
+    "akhlak",
+    "AKHLAK K",
+    "kompeten",
+    "kolaboratif",
+    "core values BUMN",
+    "nilai AKHLAK",
+    "tes AKHLAK",
+    "rekrutmen bersama BUMN",
+    "budaya kerja",
+    "kerja sama",
+    "huruf K",
+    "values"
+   ],
+   "deskripsi": "huruf K 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "akhlak_l",
+   "nama": "AKHLAK – L (Loyal)",
+   "kategori": "subtes",
+   "alias": [
+    "akhlak l"
+   ],
+   "sinonim": [
+    "akhlak",
+    "AKHLAK L",
+    "loyal",
+    "loyalitas",
+    "core values BUMN",
+    "nilai AKHLAK",
+    "tes AKHLAK",
+    "rekrutmen bersama BUMN",
+    "budaya kerja",
+    "dedikasi",
+    "huruf L",
+    "values"
+   ],
+   "deskripsi": "huruf L 3D dengan tulisan 'akhlak' vertikal di sisi kiri",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "alkitab_salib",
+   "nama": "Alkitab & Salib / Pendidikan Agama Kristen",
+   "kategori": "mapel",
+   "alias": [
+    "pendidikan agama kristen"
+   ],
+   "sinonim": [
+    "pendidikan agama kristen",
+    "PAK",
+    "alkitab",
+    "salib",
+    "kitab suci",
+    "kristen",
+    "gereja",
+    "agama",
+    "religi",
+    "teologi",
+    "rohani",
+    "PPG agama kristen"
+   ],
+   "deskripsi": "kitab terbuka dengan salib bercahaya di atasnya",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "bendera_arab",
+   "nama": "Bendera Arab Saudi / Bahasa Arab",
+   "kategori": "mapel",
+   "alias": [
+    "bahasa arab"
+   ],
+   "sinonim": [
+    "bahasa arab",
+    "bendera arab",
+    "arab saudi",
+    "arabic",
+    "pendidikan bahasa arab",
+    "PBA",
+    "madrasah",
+    "kemenag",
+    "timur tengah",
+    "huruf hijaiyah",
+    "nahwu",
+    "PPG bahasa arab"
+   ],
+   "deskripsi": "bendera Arab Saudi dalam cincin berbentuk balon bicara",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "buku_pensil",
+   "nama": "Buku & Pensil",
+   "kategori": "menu",
+   "alias": [
+    "latsol pppk sekolah rakyat"
+   ],
+   "sinonim": [
+    "buku pensil",
+    "latihan soal",
+    "latsol",
+    "menulis",
+    "mencatat",
+    "catatan",
+    "sekolah rakyat",
+    "latsol PPPK",
+    "tugas",
+    "pekerjaan rumah",
+    "esai",
+    "belajar"
+   ],
+   "deskripsi": "buku terbuka bergaris dengan pensil di halaman kanan",
+   "official": [
+    "jadipppk"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "guru",
+   "nama": "Guru / Pendidik",
+   "kategori": "orang",
+   "alias": [
+    "dalam jabatan",
+    "prajabatan"
+   ],
+   "sinonim": [
+    "guru",
+    "pendidik",
+    "PPG",
+    "PPG dalam jabatan",
+    "PPG prajabatan",
+    "pengajar",
+    "teacher",
+    "dosen",
+    "sertifikasi guru",
+    "mengajar",
+    "profesi guru",
+    "kelas"
+   ],
+   "deskripsi": "pria berjenggot berdasi di depan papan tulis hijau",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "guru_olahraga",
+   "nama": "Guru Olahraga / PJOK",
+   "kategori": "mapel",
+   "alias": [
+    "pjok"
+   ],
+   "sinonim": [
+    "PJOK",
+    "olahraga",
+    "pendidikan jasmani",
+    "guru olahraga",
+    "pelatih",
+    "coach",
+    "peluit",
+    "kebugaran",
+    "penjas",
+    "sport",
+    "kesehatan",
+    "PPG PJOK"
+   ],
+   "deskripsi": "pria bertopi dengan peluit di leher",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "guru_paud",
+   "nama": "Guru PAUD / PG-PAUD",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "pgpaud"
+   ],
+   "sinonim": [
+    "guru PAUD",
+    "PG-PAUD",
+    "pendidikan anak usia dini",
+    "TK",
+    "taman kanak-kanak",
+    "anak-anak",
+    "pengasuh",
+    "pendidik",
+    "bermain",
+    "PPG PAUD",
+    "early childhood",
+    "kelompok bermain"
+   ],
+   "deskripsi": "guru perempuan menggandeng dua anak kecil",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "guru_sd",
+   "nama": "Guru SD / PGSD",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "guru pgsd"
+   ],
+   "sinonim": [
+    "guru SD",
+    "PGSD",
+    "pendidikan guru sekolah dasar",
+    "guru kelas",
+    "mengajar",
+    "sekolah dasar",
+    "pendidik",
+    "berhitung",
+    "teacher",
+    "PPG PGSD",
+    "calistung",
+    "wali kelas"
+   ],
+   "deskripsi": "guru perempuan menunjuk papan tulis bertuliskan 1+1",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "hati_tangan",
+   "nama": "Hati di Tangan / Kesehatan Jiwa",
+   "kategori": "subtes",
+   "alias": [
+    "kesehatan jiwa"
+   ],
+   "sinonim": [
+    "kesehatan jiwa",
+    "kesehatan mental",
+    "mental health",
+    "tes kesehatan jiwa",
+    "MMPI",
+    "psikiatri",
+    "kepedulian",
+    "empati",
+    "peduli",
+    "kasih sayang",
+    "rikkes jiwa",
+    "wellbeing"
+   ],
+   "deskripsi": "hati bertanda plus di atas telapak tangan",
+   "official": [
+    "jadiprajurit"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "headphone",
+   "nama": "Headphone / Listening",
+   "kategori": "subtes",
+   "alias": [
+    "listening comprehension"
+   ],
+   "sinonim": [
+    "listening",
+    "listening comprehension",
+    "headphone",
+    "audio",
+    "mendengarkan",
+    "TOEFL listening",
+    "IELTS listening",
+    "rekaman suara",
+    "english listening",
+    "simak",
+    "earphone",
+    "podcast"
+   ],
+   "deskripsi": "headphone dengan gelombang suara dan tombol play",
+   "official": [
+    "toefl_academy"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "koki",
+   "nama": "Koki / Kuliner",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "kuliner"
+   ],
+   "sinonim": [
+    "kuliner",
+    "koki",
+    "chef",
+    "tata boga",
+    "memasak",
+    "masakan",
+    "restoran",
+    "perhotelan",
+    "SMK tata boga",
+    "food",
+    "dapur",
+    "pastry"
+   ],
+   "deskripsi": "koki bertopi chef dan berseragam",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "layar_video",
+   "nama": "Video / Layar Putar",
+   "kategori": "menu",
+   "alias": [],
+   "sinonim": [
+    "video",
+    "video pembelajaran",
+    "play",
+    "putar video",
+    "tonton",
+    "rekaman kelas",
+    "video materi",
+    "replay",
+    "youtube",
+    "pembahasan video",
+    "VOD",
+    "streaming"
+   ],
+   "deskripsi": "layar monitor dengan tombol play segitiga",
+   "official": [
+    "jadiprajurit"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "lencana_tingkat_1",
+   "nama": "Lencana Tingkat 1 / Starter Test",
+   "kategori": "menu",
+   "alias": [
+    "starter test"
+   ],
+   "sinonim": [
+    "starter test",
+    "tes awal",
+    "level 1",
+    "tingkat pemula",
+    "lencana",
+    "badge",
+    "placement test",
+    "pretest",
+    "beginner",
+    "TOEFL starter",
+    "pangkat",
+    "rank 1"
+   ],
+   "deskripsi": "lencana heksagon berbintang dengan satu chevron dan garis warna di bawah",
+   "official": [
+    "toefl_academy"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "lencana_tingkat_2",
+   "nama": "Lencana Tingkat 2 / Booster Test",
+   "kategori": "menu",
+   "alias": [
+    "booster test"
+   ],
+   "sinonim": [
+    "booster test",
+    "level 2",
+    "tingkat menengah",
+    "lencana",
+    "badge",
+    "intermediate",
+    "TOEFL booster",
+    "tes lanjutan",
+    "naik level",
+    "pangkat",
+    "rank 2",
+    "latihan penguatan"
+   ],
+   "deskripsi": "lencana heksagon berbintang dengan dua chevron bersayap",
+   "official": [
+    "toefl_academy"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "lencana_tingkat_3",
+   "nama": "Lencana Tingkat 3 / Ace Test",
+   "kategori": "menu",
+   "alias": [
+    "ace test"
+   ],
+   "sinonim": [
+    "ace test",
+    "level 3",
+    "tingkat mahir",
+    "lencana",
+    "badge",
+    "advanced",
+    "TOEFL ace",
+    "tes akhir",
+    "juara",
+    "pangkat",
+    "rank 3",
+    "master"
+   ],
+   "deskripsi": "lencana heksagon berbintang dengan tiga chevron bersayap",
+   "official": [
+    "toefl_academy"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "menara_listrik",
+   "nama": "Menara Transmisi / Jaringan & Telekomunikasi",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "teknik jaringan komputer",
+    "telekomunikasi"
+   ],
+   "sinonim": [
+    "menara transmisi",
+    "tower",
+    "sutet",
+    "jaringan",
+    "telekomunikasi",
+    "teknik jaringan komputer",
+    "TKJ",
+    "kabel",
+    "infrastruktur",
+    "BTS",
+    "listrik",
+    "sinyal"
+   ],
+   "deskripsi": "tiga menara transmisi dengan kabel",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "mikrofon_video",
+   "nama": "Mikrofon & Video / Broadcasting",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "broadcasting",
+    "perfilman"
+   ],
+   "sinonim": [
+    "broadcasting",
+    "perfilman",
+    "mikrofon",
+    "video",
+    "siaran",
+    "penyiar",
+    "podcast",
+    "jurnalistik",
+    "multimedia",
+    "film",
+    "rekaman",
+    "media"
+   ],
+   "deskripsi": "mikrofon studio dan balon berisi pemutar video",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "mobil_bengkel",
+   "nama": "Mobil & Kunci / Teknik Otomotif",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "teknik otomotif"
+   ],
+   "sinonim": [
+    "otomotif",
+    "teknik otomotif",
+    "mobil",
+    "bengkel",
+    "kunci pas",
+    "servis kendaraan",
+    "mekanik",
+    "kendaraan",
+    "TKR",
+    "SMK otomotif",
+    "perbaikan",
+    "automotive"
+   ],
+   "deskripsi": "mobil dengan roda gigi dan kunci pas",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "monitor_desain",
+   "nama": "Monitor Desain / DKV",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "desain komunikasi visual"
+   ],
+   "sinonim": [
+    "desain komunikasi visual",
+    "DKV",
+    "desain grafis",
+    "ilustrasi",
+    "multimedia",
+    "kreatif",
+    "seni digital",
+    "graphic design",
+    "editing",
+    "UI/UX",
+    "layout",
+    "pen tablet"
+   ],
+   "deskripsi": "monitor menampilkan ilustrasi gunung dan panel desain dengan pena",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "monitor_jaringan",
+   "nama": "Monitor Diagram / Informatika",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "informatika"
+   ],
+   "sinonim": [
+    "informatika",
+    "komputer",
+    "jaringan",
+    "algoritma",
+    "diagram alir",
+    "data",
+    "IT",
+    "teknologi informasi",
+    "pemrograman",
+    "sistem informasi",
+    "ilmu komputer",
+    "TIK"
+   ],
+   "deskripsi": "monitor menampilkan diagram simpul yang saling terhubung",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "monitor_kode",
+   "nama": "Monitor Kode / Rekayasa Perangkat Lunak",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "pengembangan perangkat lunak",
+    "game"
+   ],
+   "sinonim": [
+    "pemrograman",
+    "coding",
+    "kode",
+    "perangkat lunak",
+    "software",
+    "game",
+    "RPL",
+    "developer",
+    "programmer",
+    "web",
+    "aplikasi",
+    "informatika"
+   ],
+   "deskripsi": "monitor menampilkan simbol </> dan baris kode berwarna",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "obat_tablet",
+   "nama": "Tablet Obat / Farmasi",
+   "kategori": "lembaga",
+   "alias": [
+    "kimia farma"
+   ],
+   "sinonim": [
+    "obat",
+    "tablet",
+    "farmasi",
+    "apotek",
+    "kimia farma",
+    "BUMN farmasi",
+    "kesehatan",
+    "pil",
+    "industri farmasi",
+    "apoteker",
+    "obat-obatan",
+    "BUMN kesehatan"
+   ],
+   "deskripsi": "dua tablet obat berbentuk cakram",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "pangkat_akmil",
+   "nama": "Pangkat Akmil",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "akmil"
+   ],
+   "sinonim": [
+    "akmil",
+    "akademi militer",
+    "perwira",
+    "taruna",
+    "TNI",
+    "tentara",
+    "lencana pangkat",
+    "prajurit",
+    "seleksi akmil",
+    "karier militer",
+    "pangkat",
+    "AAL AAU"
+   ],
+   "deskripsi": "lencana pangkat hijau berbentuk lengkung runcing",
+   "official": [
+    "jadiprajurit"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "pangkat_bintara",
+   "nama": "Pangkat Bintara",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "bintara"
+   ],
+   "sinonim": [
+    "bintara",
+    "pangkat bintara",
+    "chevron",
+    "TNI",
+    "prajurit",
+    "seleksi bintara",
+    "sersan",
+    "militer",
+    "tentara",
+    "pangkat",
+    "karier militer",
+    "bintara polri"
+   ],
+   "deskripsi": "tiga chevron hijau bertumpuk",
+   "official": [
+    "jadiprajurit"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "pangkat_tamtama",
+   "nama": "Pangkat Tamtama",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "tamtama"
+   ],
+   "sinonim": [
+    "tamtama",
+    "pangkat tamtama",
+    "prajurit",
+    "TNI",
+    "militer",
+    "tentara",
+    "seleksi tamtama",
+    "balok pangkat",
+    "pangkat",
+    "kopral",
+    "karier militer",
+    "prada"
+   ],
+   "deskripsi": "tiga balok hijau mendatar",
+   "official": [
+    "jadiprajurit"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "perisai_gembok",
+   "nama": "Perisai Gembok / Keamanan",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "keamanan dan keselamatan"
+   ],
+   "sinonim": [
+    "keamanan",
+    "keselamatan",
+    "gembok",
+    "perisai gembok",
+    "K3",
+    "security",
+    "perlindungan",
+    "privasi",
+    "proteksi data",
+    "keamanan siber",
+    "safety",
+    "satpam"
+   ],
+   "deskripsi": "perisai dengan gembok di tengah",
+   "official": [
+    "jadipppk"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "piston_mesin",
+   "nama": "Piston & Gir / Teknik Mesin",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "teknik mesin"
+   ],
+   "sinonim": [
+    "teknik mesin",
+    "mesin",
+    "piston",
+    "roda gigi",
+    "otomotif",
+    "mekanik",
+    "manufaktur",
+    "bengkel",
+    "engine",
+    "SMK teknik",
+    "permesinan",
+    "mechanical engineering"
+   ],
+   "deskripsi": "dua piston bersilang di atas roda gigi",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "push_up",
+   "nama": "Push Up / Tes Jasmani",
+   "kategori": "subtes",
+   "alias": [
+    "jasmani"
+   ],
+   "sinonim": [
+    "jasmani",
+    "tes jasmani",
+    "push up",
+    "kesamaptaan",
+    "samapta",
+    "kebugaran",
+    "olahraga",
+    "latihan fisik",
+    "tes fisik",
+    "TNI polri",
+    "fitness",
+    "garjas"
+   ],
+   "deskripsi": "pria berkaus hijau sedang push up dengan pegangan",
+   "official": [
+    "jadiprajurit"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "puzzle_listrik",
+   "nama": "Puzzle Listrik / TKP PLN",
+   "kategori": "subtes",
+   "alias": [
+    "tkp pln"
+   ],
+   "sinonim": [
+    "puzzle listrik",
+    "TKP PLN",
+    "PLN",
+    "kelistrikan",
+    "energi",
+    "tes karakteristik pribadi",
+    "rekrutmen PLN",
+    "steker",
+    "petir",
+    "BUMN energi",
+    "listrik"
+   ],
+   "deskripsi": "tiga keping puzzle dengan simbol petir dan steker",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "quran_rehal",
+   "nama": "Kitab di Rehal / Pendidikan Agama Islam",
+   "kategori": "mapel",
+   "alias": [
+    "pendidikan agama islam"
+   ],
+   "sinonim": [
+    "pendidikan agama islam",
+    "PAI",
+    "al quran",
+    "rehal",
+    "kitab suci",
+    "mengaji",
+    "agama islam",
+    "madrasah",
+    "tahfidz",
+    "kemenag",
+    "religi",
+    "PPG PAI"
+   ],
+   "deskripsi": "kitab terbuka di atas rehal dengan bulan sabit",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "rbb_d3_s2",
+   "nama": "RBB D3–S2",
+   "kategori": "subtes",
+   "alias": [
+    "rbb"
+   ],
+   "sinonim": [
+    "RBB",
+    "rekrutmen bersama BUMN",
+    "D3-S2",
+    "fresh graduate",
+    "lulusan diploma",
+    "sarjana",
+    "magister",
+    "BUMN",
+    "RBB D3 S2",
+    "lowongan BUMN",
+    "tes BUMN",
+    "FHCI"
+   ],
+   "deskripsi": "panel abstraksi ruang dengan tulisan D3-S2 di bagian atas",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "rbb_sma",
+   "nama": "RBB SMA",
+   "kategori": "subtes",
+   "alias": [
+    "rbb sma"
+   ],
+   "sinonim": [
+    "RBB",
+    "rekrutmen bersama BUMN",
+    "SMA",
+    "SMK",
+    "lulusan SMA",
+    "BUMN",
+    "RBB SMA",
+    "lowongan BUMN",
+    "tes BUMN",
+    "FHCI",
+    "sederajat",
+    "jalur SMA"
+   ],
+   "deskripsi": "panel abstraksi ruang dengan tulisan SMA di bagian atas",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "sempoa",
+   "nama": "Sempoa / Aritmetika",
+   "kategori": "subtes",
+   "alias": [
+    "aritmetic"
+   ],
+   "sinonim": [
+    "sempoa",
+    "abakus",
+    "aritmetika",
+    "arithmetic",
+    "berhitung",
+    "hitung cepat",
+    "numerik",
+    "matematika dasar",
+    "kalkulasi",
+    "operasi hitung",
+    "kecepatan hitung",
+    "tes aritmetika"
+   ],
+   "deskripsi": "sempoa (abakus) dengan dua manik pada batang",
+   "official": [
+    "jadibumn"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "tangan_ikrar",
+   "nama": "Tangan Ikrar / Anti Radikalisme",
+   "kategori": "subtes",
+   "alias": [
+    "tkp anti radikalisme"
+   ],
+   "sinonim": [
+    "anti radikalisme",
+    "TKP",
+    "ikrar",
+    "sumpah",
+    "janji setia",
+    "deradikalisasi",
+    "toleransi",
+    "nasionalisme",
+    "integritas",
+    "tangan",
+    "pledge",
+    "moderasi"
+   ],
+   "deskripsi": "tangan mengacungkan tiga jari di dalam lingkaran",
+   "official": [
+    "jadisekdin"
+   ],
+   "brandCount": 1
+  },
+  {
+   "id": "tukang_las",
+   "nama": "Tukang Las / Pengelasan",
+   "kategori": "profesi_bidang",
+   "alias": [
+    "teknik pengelasan",
+    "fabrikasi logam"
+   ],
+   "sinonim": [
+    "pengelasan",
+    "las",
+    "welder",
+    "fabrikasi logam",
+    "teknik pengelasan",
+    "bengkel las",
+    "K3",
+    "logam",
+    "konstruksi",
+    "SMK teknik",
+    "industri",
+    "welding"
+   ],
+   "deskripsi": "pekerja berhelm las dan rompi memegang obor las",
+   "official": [
+    "jadippg"
+   ],
+   "brandCount": 1
+  }
+ ]
+}

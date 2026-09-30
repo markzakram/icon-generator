@@ -1,0 +1,807 @@
+{
+  "catatan": "Keputusan pengelompokan hasil review visual (contact sheet di build/catalog_review/). Setiap file sumber muncul tepat satu kali. 'varian' = catatan opsional per instance.",
+  "glyphs": {
+    "materi": [
+      {"file": "Cerebrum/Icon-Materi-Biru.png", "varian": "warna alternatif dalam brand yang sama: aksen biru muda"},
+      {"file": "Cerebrum/Icon-Materi-Kuning.png", "varian": "warna alternatif dalam brand yang sama: aksen kuning"},
+      {"file": "Cerebrum/Icon-Materi.png"},
+      {"file": "JadiASN/Menu-Materi.png"},
+      {"file": "JadiBUMN/Materi-Icon.png"},
+      {"file": "JadiOJK/icon_Materi.png"},
+      {"file": "JadiPCPM/icon_Materi.png"},
+      {"file": "JadiPPG/Icon_Materi.png"},
+      {"file": "JadiPPPK/icon_Materi.png"},
+      {"file": "JadiPrajurit/Menu-Materi.png"},
+      {"file": "JadiSekdin/icon_Mater.png"},
+      {"file": "Jago TPA/icon_Materi.png"},
+      {"file": "TOEFL Academy/icon_Course.png"}
+    ],
+    "tryout": [
+      {"file": "Cerebrum/Icon-Tryout.png"},
+      {"file": "JadiASN/Menu-Tryout.png"},
+      {"file": "JadiBUMN/Tryout-Icon.png"},
+      {"file": "JadiOJK/TryOut.png"},
+      {"file": "JadiPCPM/icon_Tryout.png"},
+      {"file": "JadiPPG/Icon_Tryout.png"},
+      {"file": "JadiPPPK/icon_Tryout.png"},
+      {"file": "JadiPolisi/icon_Latsol.png"},
+      {"file": "JadiPrajurit/Menu-Tryout.png"},
+      {"file": "JadiSekdin/icon_Tryout.png"},
+      {"file": "Jago TPA/icon_TryOut.png"},
+      {"file": "TOEFL Academy/icon_TryOut.png"}
+    ],
+    "latsol": [
+      {"file": "Cerebrum/Icon-Latsol.png"},
+      {"file": "JadiASN/Menu-Latsol.png"},
+      {"file": "JadiBUMN/Latsol-Icon.png"},
+      {"file": "JadiOJK/Latsol.png"},
+      {"file": "JadiPCPM/icon_Latsol.png"},
+      {"file": "JadiPPG/Icon_Latsol.png"},
+      {"file": "JadiPPPK/icon_Latsol.png"},
+      {"file": "JadiPrajurit/Menu-Latsol.png"},
+      {"file": "JadiSekdin/icon_Latsol.png"},
+      {"file": "Jago TPA/icon_Latsol.png"},
+      {"file": "TOEFL Academy/icon_Latsol.png"}
+    ],
+    "rapor": [
+      {"file": "Cerebrum/Icon-Rapot.png"},
+      {"file": "JadiASN/icon_rapor.png"},
+      {"file": "JadiBUMN/icon_rapor.png"},
+      {"file": "JadiBeasiswa/icon_rapor.png"},
+      {"file": "JadiOJK/Rapor.png"},
+      {"file": "JadiOJK/icon_Latihan soal.png"},
+      {"file": "JadiPCPM/icon_Latsol harian Assesment.png"},
+      {"file": "JadiPCPM/icon_rapor.png"},
+      {"file": "JadiPPG/icon_rapor.png"},
+      {"file": "JadiPPPK/icon_rapor.png"},
+      {"file": "JadiPolisi/icon_rapor.png"},
+      {"file": "JadiPrajurit/icon_blanko .png"},
+      {"file": "JadiPrajurit/icon_rapor.png"},
+      {"file": "JadiSekdin/icon_rapor.png"},
+      {"file": "Jago TPA/icon_rapor.png"},
+      {"file": "Psikotes kerja/icon_rapor.png"},
+      {"file": "TOEFL Academy/icon_rapor.png"}
+    ],
+    "lapor_masalah": [
+      {"file": "Cerebrum/Icon-Masalah.png"},
+      {"file": "JadiASN/Menu-Lapor.png"},
+      {"file": "JadiBUMN/Masalah-Icon.png"},
+      {"file": "JadiOJK/Masalah.png"},
+      {"file": "JadiPCPM/icon_Laporkan masalah.png"},
+      {"file": "JadiPPG/Icon_masalah.png"},
+      {"file": "JadiPPPK/icon_Masalah.png"},
+      {"file": "JadiPrajurit/Menu-Lapor.png"},
+      {"file": "JadiSekdin/icon_Masalah.png"},
+      {"file": "Jago TPA/icon_Masalah .png"},
+      {"file": "TOEFL Academy/icon_Masalah .png"}
+    ],
+    "pdf": [
+      {"file": "Cerebrum/Icon-PDF.png"},
+      {"file": "JadiASN/Menu-Pdf.png"},
+      {"file": "JadiBUMN/PDF-Icon.png"},
+      {"file": "JadiOJK/PDF.png"},
+      {"file": "JadiPCPM/icon_PDF.png"},
+      {"file": "JadiPPG/Icon_PDF gratis.png"},
+      {"file": "JadiPPPK/icon_PDF.png"},
+      {"file": "JadiPrajurit/Menu-Pdf.png"},
+      {"file": "JadiSekdin/icon_PDF.png"},
+      {"file": "Jago TPA/icon_PDF.png"},
+      {"file": "TOEFL Academy/icon_PDF.png"}
+    ],
+    "promo": [
+      {"file": "Cerebrum/Icon-Promo.png"},
+      {"file": "JadiASN/Menu-Promo.png"},
+      {"file": "JadiBUMN/Promo-Icon.png"},
+      {"file": "JadiOJK/Promo.png"},
+      {"file": "JadiPCPM/icon_Promo.png"},
+      {"file": "JadiPPG/Icon_Promo.png"},
+      {"file": "JadiPPPK/icon_Promo.png"},
+      {"file": "JadiPrajurit/Menu-Promo.png"},
+      {"file": "JadiSekdin/icon_Promo.png"},
+      {"file": "Jago TPA/icon_Promo.png"},
+      {"file": "TOEFL Academy/icon_Promo.png"}
+    ],
+    "kalender": [
+      {"file": "Cerebrum/Icon-Kalender.png"},
+      {"file": "JadiASN/Menu-Kalender.png"},
+      {"file": "JadiBUMN/Kalender-Icon.png"},
+      {"file": "JadiOJK/icon_Kalender.png"},
+      {"file": "JadiPCPM/icon_Kalender.png"},
+      {"file": "JadiPPG/Icon_Kalender.png"},
+      {"file": "JadiPPPK/icon_Kalender.png"},
+      {"file": "JadiPrajurit/Menu-Kalender.png"},
+      {"file": "JadiSekdin/icon_Kalender.png"},
+      {"file": "Jago TPA/icon_Kalender.png"},
+      {"file": "TOEFL Academy/icon_Kalender.png"}
+    ],
+    "live_class": [
+      {"file": "Cerebrum/Icon-Live.png"},
+      {"file": "JadiASN/Menu-Live.png"},
+      {"file": "JadiBUMN/Live-Icon.png"},
+      {"file": "JadiOJK/Live class.png"},
+      {"file": "JadiPCPM/icon_Live class.png"},
+      {"file": "JadiPPG/Icon_Live Class.png"},
+      {"file": "JadiPPPK/icon_Live class.png"},
+      {"file": "JadiPrajurit/Menu-Live.png"},
+      {"file": "JadiSekdin/icon_Live class.png"},
+      {"file": "Jago TPA/icon_Live class.png"},
+      {"file": "TOEFL Academy/icon_Live class.png"}
+    ],
+    "grup": [
+      {"file": "Cerebrum/Icon-Group.png"},
+      {"file": "JadiASN/Menu-Group.png"},
+      {"file": "JadiBUMN/Group-Icon.png"},
+      {"file": "JadiBUMN/Icon - Manajemen Bidang.png"},
+      {"file": "JadiOJK/icon_Grup.png"},
+      {"file": "JadiPPG/Icon_Grup gratis.png"},
+      {"file": "JadiPPPK/icon_Grup dan PDF & jejaring kerja.png"},
+      {"file": "JadiPrajurit/Menu-Group.png"},
+      {"file": "JadiSekdin/TKP - Jejaring kerja.png"},
+      {"file": "JadiSekdin/icon_Grup & PDF.png"},
+      {"file": "Jago TPA/icon_Grup.png"}
+    ],
+    "journey": [
+      {"file": "Cerebrum/Icon-Journey.png", "varian": "variasi gambar: alas peta dan pin sedikit berbeda (sama dengan JadiBUMN)"},
+      {"file": "JadiASN/Menu-Journey.png"},
+      {"file": "JadiBUMN/Journey-Icon.png", "varian": "variasi gambar: alas peta dan pin sedikit berbeda (sama dengan Cerebrum)"},
+      {"file": "JadiOJK/Dibimbing.png"},
+      {"file": "JadiPCPM/icon_Dibimbing.png"},
+      {"file": "JadiPPG/Icon_Dibimbing.png"},
+      {"file": "JadiPPPK/icon_Journey.png"},
+      {"file": "JadiPrajurit/Menu-Journey.png"},
+      {"file": "JadiSekdin/icon_Journey.png"}
+    ],
+    "info": [
+      {"file": "Cerebrum/Icon-Info.png"},
+      {"file": "JadiASN/Menu-Info.png"},
+      {"file": "JadiBUMN/Info-Icon.png"},
+      {"file": "JadiPPG/9.png"},
+      {"file": "JadiPrajurit/Menu-Info.png"},
+      {"file": "JadiSekdin/icon_Info.png"}
+    ],
+    "tips": [
+      {"file": "Cerebrum/Icon-Tips.png"},
+      {"file": "JadiASN/Menu-Tips.png", "varian": "variasi gambar: susunan dua balon sedikit berbeda (sama dengan JadiPrajurit)"},
+      {"file": "JadiBUMN/Tips-Icon.png"},
+      {"file": "JadiOJK/icon_Verbal silogisme.png"},
+      {"file": "JadiPPG/11.png"},
+      {"file": "JadiPPPK/icon_Bahasa dan komunikasi.png"},
+      {"file": "JadiPrajurit/Menu-Tips.png", "varian": "variasi gambar: susunan dua balon sedikit berbeda (sama dengan JadiASN)"},
+      {"file": "Jago TPA/icon_Latsol TPA verbal.png"}
+    ],
+    "link": [
+      {"file": "JadiASN/Menu-Link.png"},
+      {"file": "JadiBUMN/Link-Icon.png"},
+      {"file": "JadiOJK/icon_Gabungan bagian.png"},
+      {"file": "JadiPPG/7.png"},
+      {"file": "JadiPrajurit/Menu-Link.png"}
+    ],
+    "drilling_soal": [
+      {"file": "JadiASN/Drilling soal Jadi ASN.png"},
+      {"file": "JadiPCPM/Drilling soal Jadi PCPM Revisi.png"},
+      {"file": "JadiSekdin/Drilling soal.png"},
+      {"file": "Jago TPA/Drilling soal Jago TPA.png"}
+    ],
+    "kertas_soal": [
+      {"file": "Cerebrum/Icon-Reading.png"},
+      {"file": "Cerebrum/Icon-TO.png"},
+      {"file": "JadiASN/icon-TO.png"},
+      {"file": "JadiBUMN/icon_TO.png"},
+      {"file": "JadiOJK/icon_Uji kemampuan 1&2.png"},
+      {"file": "JadiPCPM/icon_Uji kemampuan.png"},
+      {"file": "JadiPPG/Icon_Latsol pedagogik.png"},
+      {"file": "JadiPPPK/icon_Tryout PPPK .png"},
+      {"file": "JadiPrajurit/icon_tes.png"},
+      {"file": "JadiSekdin/icon_Latihan soal tes .png"},
+      {"file": "Jago TPA/icon_TO Gratis Tes Potensi Akademik.png"},
+      {"file": "TOEFL Academy/icon_latsol Structure and Written Expression.png"}
+    ],
+    "tutup": [
+      {"file": "JadiBUMN/Close=Icon.png"},
+      {"file": "JadiPrajurit/Menu-Close.png", "varian": "variasi gambar: proporsi lebih lebar, perspektif berbeda"}
+    ],
+    "layar_video": [
+      {"file": "JadiPrajurit/Artboard 14@4x.png"}
+    ],
+    "buku_video": [
+      {"file": "JadiOJK/icon_E book OJK.png"},
+      {"file": "JadiPPG/10.png"},
+      {"file": "JadiPrajurit/icon_blanko2.png"}
+    ],
+    "monitor": [
+      {"file": "Cerebrum/Icon-Test.png"},
+      {"file": "JadiASN/Icon_Direktori formasi CPNS.png"},
+      {"file": "JadiBUMN/Manajemen-Icon.png"},
+      {"file": "JadiOJK/icon_Pengenalan.png"},
+      {"file": "JadiPCPM/icon_Mengenal atau perkenalan PCPM.png"},
+      {"file": "JadiPPG/Icon_Substantif umum.png"},
+      {"file": "JadiPPPK/icon_Belajar manajerial.png"},
+      {"file": "JadiPrajurit/icon_tes pusat.png"},
+      {"file": "JadiSekdin/icon_TPA.png"},
+      {"file": "Jago TPA/icon_Progres belajar .png"},
+      {"file": "TOEFL Academy/icon_Materi toefl.png"}
+    ],
+    "buku_pensil": [
+      {"file": "JadiPPPK/Icon_Latsol PPPK Sekolah Rakyat.png"}
+    ],
+    "lencana_tingkat_1": [
+      {"file": "TOEFL Academy/icon_Starter test.png"}
+    ],
+    "lencana_tingkat_2": [
+      {"file": "TOEFL Academy/icon_Booster test.png"}
+    ],
+    "lencana_tingkat_3": [
+      {"file": "TOEFL Academy/icon_Ace test.png"}
+    ],
+    "numerik": [
+      {"file": "Cerebrum/Icon-Math.png"},
+      {"file": "Cerebrum/Saintek/Saintek_matematika.png"},
+      {"file": "JadiASN/Icon_TIU 2026.png"},
+      {"file": "JadiBUMN/NUmerik-Icon.png"},
+      {"file": "JadiOJK/icon_Verbal logic reasoning.png"},
+      {"file": "JadiPCPM/icon_Numerik.png"},
+      {"file": "JadiPPG/Icon_Saintek_Matematika revisi.png", "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"},
+      {"file": "JadiPPG/Icon_Saintek_Matematika.png"},
+      {"file": "JadiPPPK/icon_Deret angka.png"},
+      {"file": "JadiPolisi/icon_Angka hilang.png"},
+      {"file": "JadiPrajurit/icon-matematika.png"},
+      {"file": "JadiSekdin/icon_Deret angka.png"},
+      {"file": "Jago TPA/icon_Latsol TPA Numerik.png"}
+    ],
+    "kalkulator": [
+      {"file": "Cerebrum/Icon-Kalkulator.png"},
+      {"file": "JadiASN/Icon_TIU 2025.png"},
+      {"file": "JadiBUMN/TKD-Icon.png"},
+      {"file": "JadiOJK/icon_Calculation test.png"},
+      {"file": "JadiPPPK/icon_Numerik berhitung.png"},
+      {"file": "JadiPrajurit/icon-kecerdasan.png"},
+      {"file": "JadiSekdin/icon_Numerik berhitung.png"}
+    ],
+    "soal_cerita": [
+      {"file": "JadiBUMN/Logic Reasoning-Icon.png", "varian": "variasi gambar: ubin keempat berisi dua titik (bukan tiga)"},
+      {"file": "JadiOJK/icon_Numerik soal cerita.png"},
+      {"file": "JadiPPG/Icon_Latsol Substantif numerik.png"},
+      {"file": "JadiPPPK/icon_Soal cerita.png"},
+      {"file": "JadiPolisi/icon_Huruf hilang.png"},
+      {"file": "JadiSekdin/icon_ Soal cerita.png"},
+      {"file": "TOEFL Academy/icon_Grammer.png"}
+    ],
+    "kuantitatif": [
+      {"file": "Cerebrum/Icon-PK.png", "varian": "variasi gambar: ubin (x) dimiringkan"},
+      {"file": "JadiASN/Icon_TIU 2024.png"},
+      {"file": "JadiBUMN/icon_Hitungan.png"},
+      {"file": "JadiPPG/Icon_Studi Matematika.png"},
+      {"file": "JadiPPPK/icon_Perbandingan kuantitatif.png"},
+      {"file": "JadiSekdin/icon_Perbandingan Kuantitatif.png"},
+      {"file": "Jago TPA/Icon_Kuantitatif.png"}
+    ],
+    "figural_serial": [
+      {"file": "JadiBUMN/icon_Pola gambar.png"},
+      {"file": "JadiOJK/icon_Kemampuan penalaran induktif.png"},
+      {"file": "JadiPCPM/icon_Figural.png"},
+      {"file": "JadiPPPK/icon_Figural serial.png"},
+      {"file": "JadiPolisi/icon_Simbol hilang.png"},
+      {"file": "JadiPrajurit/icon-tkp.png"},
+      {"file": "JadiSekdin/icon_Figural serial.png"},
+      {"file": "Jago TPA/Icon_Penalaran.png"}
+    ],
+    "figural_ketidaksamaan": [
+      {"file": "JadiPCPM/icon_Latsol Error Recognition.png"},
+      {"file": "JadiPPG/12.png"},
+      {"file": "JadiPPPK/icon_Figural ketidaksamaan.png"},
+      {"file": "JadiSekdin/icon_Figural ketidaksamaan.png"}
+    ],
+    "figural_analogi": [
+      {"file": "Cerebrum/Icon-PPU.png"},
+      {"file": "JadiOJK/icon_Tes Kraepelin atau Pauli.png"},
+      {"file": "JadiPPPK/icon_Figural analogi.png"},
+      {"file": "JadiSekdin/icon_Figural analogi.png"}
+    ],
+    "puzzle": [
+      {"file": "JadiASN/Icon_SKD CPNS.png"},
+      {"file": "JadiBUMN/SKD-Icon.png"},
+      {"file": "JadiOJK/icon_TryOut_Tahap 2.png"},
+      {"file": "JadiPPPK/icon_Tryout PPPK.png"},
+      {"file": "JadiSekdin/icon_Tryout SKD.png"}
+    ],
+    "puzzle_matematika": [
+      {"file": "JadiOJK/icon_Kemampuan umum numerik.png"},
+      {"file": "JadiSekdin/icon_Materi matematika.png"}
+    ],
+    "puzzle_listrik": [
+      {"file": "JadiBUMN/TKP PLN-Icon.png"}
+    ],
+    "topeng_drama": [
+      {"file": "JadiASN/Icon_TKP 2025.png"},
+      {"file": "JadiBUMN/Akhlak-Icon.png"},
+      {"file": "JadiOJK/icon_Tes kepribadian.png"},
+      {"file": "JadiPCPM/icon_Psikologi kepribadian.png"},
+      {"file": "JadiPPPK/icon_TKP.png"},
+      {"file": "JadiPrajurit/icon-kepribadian.png"},
+      {"file": "JadiSekdin/icon_Profesionalisme.png"}
+    ],
+    "garuda": [
+      {"file": "Cerebrum/Icon-PKn.png"},
+      {"file": "JadiASN/Icon_TWK 2026.png"},
+      {"file": "JadiPPG/Icon_Studi PPKN.png"},
+      {"file": "JadiPPPK/icon_TWK.png"},
+      {"file": "JadiPrajurit/icon-ppkn.png"},
+      {"file": "JadiSekdin/TWK - Nasionalisme.png"},
+      {"file": "JadiSekdin/icon_Kebangsaan.png"}
+    ],
+    "tengkorak_lup": [
+      {"file": "Cerebrum/Icon-Antopologi.png"},
+      {"file": "JadiOJK/icon_Kepribadian.png"},
+      {"file": "JadiPCPM/icon_Psikologi.png"},
+      {"file": "JadiPPG/Icon_Latsol situational judgemental test (SJT).png"},
+      {"file": "JadiPPPK/icon_Mental ideologi.png"},
+      {"file": "JadiPrajurit/Icon_Psikologi tamtama.png"},
+      {"file": "JadiSekdin/icon_Kepribadian.png"}
+    ],
+    "buku_psi": [
+      {"file": "JadiBUMN/Psikologi-Icon.png"},
+      {"file": "JadiOJK/Psikotes.png"},
+      {"file": "JadiPCPM/icon_Latsol Penarikan Kesimpulan.png"},
+      {"file": "JadiPPG/1.png"},
+      {"file": "JadiPrajurit/icon_Psikologi.png"},
+      {"file": "JadiSekdin/icon_Psikotes.png"}
+    ],
+    "verbal": [
+      {"file": "JadiBUMN/Verbal.png"},
+      {"file": "JadiOJK/icon_Kemampuan umum verbal.png"},
+      {"file": "JadiPPPK/icon_Verbal.png"},
+      {"file": "JadiSekdin/icon_Verbal.png"}
+    ],
+    "kubus_bertumpuk": [
+      {"file": "JadiBUMN/Agility-Icon.png"},
+      {"file": "JadiBUMN/Icon - Menentukan Bentuk.png"},
+      {"file": "JadiPPPK/icon_Tata ruang.png"},
+      {"file": "JadiPrajurit/icon_kompetensi bidang.png"},
+      {"file": "JadiSekdin/icon_9 kotak.png"},
+      {"file": "Jago TPA/icon_Penalaran(1).png"}
+    ],
+    "abstraksi_ruang": [
+      {"file": "JadiASN/Icon_TWK 2024.png"},
+      {"file": "JadiBUMN/icon_Abstraksi Ruang.png"},
+      {"file": "JadiPPPK/icon_Integritas.png"},
+      {"file": "JadiSekdin/icon_Integritas.png"}
+    ],
+    "rbb_d3_s2": [
+      {"file": "JadiBUMN/RBB-Icon.png"}
+    ],
+    "rbb_sma": [
+      {"file": "JadiBUMN/RBB-SMA-Icon.png"}
+    ],
+    "perisai": [
+      {"file": "JadiASN/Icon_SKB CPNS.png"},
+      {"file": "JadiPCPM/icon_Teknis Makroprudensial.png"},
+      {"file": "JadiPPG/2.png"},
+      {"file": "JadiPPPK/icon_Bela negara.png"},
+      {"file": "JadiSekdin/icon_Bela negara.png"}
+    ],
+    "akhlak_a": [
+      {"file": "JadiBUMN/AKHLAK-A-icon.png"}
+    ],
+    "akhlak_h": [
+      {"file": "JadiBUMN/AKHLAK-H-Icon.png"}
+    ],
+    "akhlak_k": [
+      {"file": "JadiBUMN/AKHLAK-K-icon.png"}
+    ],
+    "akhlak_l": [
+      {"file": "JadiBUMN/AKHLAK-L-Icon.png"}
+    ],
+    "diagram_pai": [
+      {"file": "JadiBUMN/TPA-Icon.png"},
+      {"file": "JadiOJK/icon_TPA.png"}
+    ],
+    "sempoa": [
+      {"file": "JadiBUMN/Aritmetic-Icon.png"}
+    ],
+    "mata_coret": [
+      {"file": "JadiBUMN/Blind-Icon.png"},
+      {"file": "JadiPCPM/icon_Buta warna.png"}
+    ],
+    "buku_lup": [
+      {"file": "JadiPCPM/icon_Ketelitian.png"},
+      {"file": "JadiPrajurit/icon_Kecermatan.png"}
+    ],
+    "bulu": [
+      {"file": "JadiASN/Icon_TKP 2024.png"},
+      {"file": "JadiOJK/icon_Bedah soal FR TPD.png"},
+      {"file": "JadiPCPM/icon_Tes Psikiatri.png"},
+      {"file": "JadiPPG/Icon_Studi Seni rupa.png"},
+      {"file": "JadiPPPK/icon_Latsol PPPK.png"},
+      {"file": "JadiPPPK/icon_Sosial budaya .png"},
+      {"file": "JadiPrajurit/icon_tes skb.png"},
+      {"file": "JadiSekdin/icon_Sosial budaya.png"},
+      {"file": "TOEFL Academy/icon_Toefl Tryout.png"}
+    ],
+    "buku_terbuka": [
+      {"file": "JadiPCPM/icon_Verbal.png"},
+      {"file": "JadiPPG/Icon_Latsol substantif literasi.png"},
+      {"file": "JadiSekdin/icon_Reading.png"},
+      {"file": "Jago TPA/Icon_Verbal.png"},
+      {"file": "TOEFL Academy/icon_Reading .png"}
+    ],
+    "headphone": [
+      {"file": "TOEFL Academy/Icon_Listening Comprehension.png"}
+    ],
+    "push_up": [
+      {"file": "JadiPrajurit/Icon_jasmani2.png"}
+    ],
+    "hati_tangan": [
+      {"file": "JadiPrajurit/icon_Kesehatan jiwa.png"}
+    ],
+    "tangan_ikrar": [
+      {"file": "JadiSekdin/Icon_TKP - Anti Radikalisme.png"}
+    ],
+    "bendera_indonesia": [
+      {"file": "JadiPPG/Icon_Studi bahasa inggris.png"},
+      {"file": "JadiPPPK/icon_Bahasa negara.png"},
+      {"file": "JadiPrajurit/icon-twk.png"},
+      {"file": "JadiSekdin/icon_Bahasa negara.png"}
+    ],
+    "atom": [
+      {"file": "Cerebrum/Icon-Fisika.png"},
+      {"file": "Cerebrum/Saintek/Saintek_Fisika.png"},
+      {"file": "JadiPPG/Icon_Saintek_Fisika.png"},
+      {"file": "JadiPPG/Icon_Studi Fisika.png"},
+      {"file": "JadiSekdin/icon_Fisika.png"}
+    ],
+    "dna": [
+      {"file": "Cerebrum/Icon-Biologi.png"},
+      {"file": "Cerebrum/Saintek/Saintek_Biologi.png"},
+      {"file": "JadiPPG/Icon_Saintek_Biologi revisi.png", "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"},
+      {"file": "JadiPPG/Icon_Saintek_Biologi.png"},
+      {"file": "JadiPPG/Icon_Studi Biologi.png"},
+      {"file": "JadiPrajurit/icon_jasmani.png"}
+    ],
+    "mikroskop": [
+      {"file": "Cerebrum/Icon-Skolastik.png"},
+      {"file": "Cerebrum/Saintek/Saintek_Kimia.png"},
+      {"file": "JadiPPG/Icon_Saintek_Kimia.png"},
+      {"file": "JadiPPG/Icon_Studi Kimia.png"}
+    ],
+    "globe": [
+      {"file": "Cerebrum/Icon-PU.png"},
+      {"file": "Cerebrum/Soshum/Soshum_Geografi.png"},
+      {"file": "JadiBUMN/icon_Pengetahuan umum.png"},
+      {"file": "JadiOJK/icon_Tes kemampuan umum .png"},
+      {"file": "JadiPPG/Icon_Soshum_Geografi revisi.png", "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"},
+      {"file": "JadiPPG/Icon_Soshum_Geografi.png"},
+      {"file": "JadiPPG/Icon_Studi IPA.png"},
+      {"file": "JadiPPG/Icon_Studi geografi.png"},
+      {"file": "JadiPrajurit/icon-tiu.png"},
+      {"file": "JadiSekdin/icon_.png"}
+    ],
+    "uang": [
+      {"file": "Cerebrum/Icon-Ekonomi.png"},
+      {"file": "Cerebrum/Soshum/Soshum_Ekonomi.png"},
+      {"file": "JadiBUMN/Keuangan-Icon.png"},
+      {"file": "JadiOJK/icon_Sektor jasa keuangan.png"},
+      {"file": "JadiPPG/Icon_Soshum_Ekonomi revisi .png", "varian": "versi revisi: distribusi warna berbeda (aksen oranye)"},
+      {"file": "JadiPPG/Icon_Soshum_Ekonomi.png"},
+      {"file": "JadiPPG/Icon_Studi ekonomi.png"},
+      {"file": "JadiPPPK/icon_Ekonomi dan koperasi.png"}
+    ],
+    "museum": [
+      {"file": "Cerebrum/Soshum/Soshum_Sejarah.png"},
+      {"file": "JadiPPG/Icon_Soshum_Sejarah.png"},
+      {"file": "JadiPPG/Icon_Studi sejarah.png"}
+    ],
+    "keluarga": [
+      {"file": "Cerebrum/Icon-Sosiology.png"},
+      {"file": "Cerebrum/Soshum/Soshum_Sosiologi.png"},
+      {"file": "JadiPCPM/icon_Grup.png"},
+      {"file": "JadiPPG/Icon_Soshum_Sosiologi.png"},
+      {"file": "JadiPPG/Icon_Studi sosiologi.png"},
+      {"file": "JadiPPPK/icon_Sosiokultural & sosial dan pelayanan.png"}
+    ],
+    "bahasa_inggris": [
+      {"file": "Cerebrum/Icon-Eng.png"},
+      {"file": "JadiBUMN/Icon - Bahasa Ingg.png"},
+      {"file": "JadiOJK/bahasa ingg.png"},
+      {"file": "JadiPCPM/icon_B.inggris Sruktur.png"},
+      {"file": "JadiSekdin/Icon_TBI - Structure.png"},
+      {"file": "JadiSekdin/icon_Inggris.png"},
+      {"file": "TOEFL Academy/icon_EN.png"}
+    ],
+    "bahasa_indonesia": [
+      {"file": "Cerebrum/Icon-Ina.png"},
+      {"file": "JadiBUMN/Icon - Bahasa Indo.png"},
+      {"file": "JadiOJK/bahasa ind.png"},
+      {"file": "JadiPPG/Icon_Wawancara.png"},
+      {"file": "JadiPrajurit/b.indonesia.png"}
+    ],
+    "bendera_inggris": [
+      {"file": "JadiOJK/icon_Inggris.png"},
+      {"file": "JadiPCPM/icon_B.inggris & Tes toefl.png"},
+      {"file": "JadiPPG/Icon_Studi bahasa indonesia.png"},
+      {"file": "JadiSekdin/icon_Written Expression.png"},
+      {"file": "TOEFL Academy/icon_inggris.png"}
+    ],
+    "bendera_arab": [
+      {"file": "JadiPPG/Icon_Studi Bahasa arab.png"}
+    ],
+    "quran_rehal": [
+      {"file": "JadiPPG/Icon_Studi Pendidikan agama islam.png"}
+    ],
+    "alkitab_salib": [
+      {"file": "JadiPPG/Icon_Studi Pendidikan agama kristen.png"}
+    ],
+    "guru_olahraga": [
+      {"file": "JadiPPG/Icon_Studi PJOK.png"}
+    ],
+    "tas_medis": [
+      {"file": "Cerebrum/Icon-Poltekes.png"},
+      {"file": "JadiBUMN/Kesehatan-Icon.png"},
+      {"file": "JadiOJK/icon_Kesehatan.png"},
+      {"file": "JadiPCPM/icon_Kesehatan & Tahapan 4 PCPM.png"},
+      {"file": "JadiPPG/4.png"},
+      {"file": "JadiPPPK/icon_Kesehatan dan medis.png"},
+      {"file": "JadiPrajurit/icon-kesehatan.png"}
+    ],
+    "koper": [
+      {"file": "Cerebrum/Icon-Wirausaha.png"},
+      {"file": "JadiBUMN/Loker-Icon.png"},
+      {"file": "JadiOJK/icon_Pendaftaran.png"},
+      {"file": "JadiPCPM/icon_Lowongan kerja.png"},
+      {"file": "JadiPPG/Icon_Studi Manajemen perkantoran & layanan bisnis.png"},
+      {"file": "JadiPPPK/icon_Administrasi.png"}
+    ],
+    "palu_hakim": [
+      {"file": "Cerebrum/Icon-Soshum.png"},
+      {"file": "JadiBUMN/Hukum-Icon.png", "varian": "variasi gambar: palu dan alas digambar ulang dengan sudut berbeda"},
+      {"file": "JadiOJK/icon_ke OJKan pada TKU .png"},
+      {"file": "JadiPPG/8.png"},
+      {"file": "JadiPPPK/icon_Hukum dan kebijakan.png"},
+      {"file": "JadiSekdin/icon.png"}
+    ],
+    "satelit": [
+      {"file": "Cerebrum/Icon-Saintek.png"},
+      {"file": "JadiBUMN/TIK-Icon.png"},
+      {"file": "JadiPPG/6.png"},
+      {"file": "JadiPPPK/icon_Teknologi dan komunikasi.png"},
+      {"file": "JadiSekdin/icon_Teknologi Informasi.png"}
+    ],
+    "tanda_listrik": [
+      {"file": "JadiBUMN/PLN-Icon.png"},
+      {"file": "JadiPPG/Icon_Studi teknik elektronika.png"}
+    ],
+    "menara_listrik": [
+      {"file": "JadiPPG/Icon_Studi Teknik jaringan komputer & telekomunikasi.png"}
+    ],
+    "piston_mesin": [
+      {"file": "JadiPPG/Icon_Studi Teknik mesin.png"}
+    ],
+    "mobil_bengkel": [
+      {"file": "JadiPPG/Icon_Studi teknik otomotif.png"}
+    ],
+    "tukang_las": [
+      {"file": "JadiPPG/Icon_Studi Teknik pengelasan & fabrikasi logam.png"}
+    ],
+    "koki": [
+      {"file": "JadiPPG/Icon_Studi Kuliner.png"}
+    ],
+    "monitor_desain": [
+      {"file": "JadiPPG/Icon_Studi Desain komunikasi visual.png"}
+    ],
+    "monitor_jaringan": [
+      {"file": "JadiPPG/Icon_Studi Informatika.png"}
+    ],
+    "monitor_kode": [
+      {"file": "JadiPPG/Icon_Studi pengembangan perangkat lunak & game.png"}
+    ],
+    "mikrofon_video": [
+      {"file": "JadiPPG/Icon_Studi Broadcasting & perfilman.png"}
+    ],
+    "produk_pangan": [
+      {"file": "JadiPPG/Icon_Studi Agreteknologi pengolahan hasil pertanian.png"},
+      {"file": "JadiPPPK/icon_Badan Gizi Nasiona.png"}
+    ],
+    "perisai_gembok": [
+      {"file": "JadiPPPK/icon_Keamanan dan keselamatan.png"}
+    ],
+    "roda_gigi": [
+      {"file": "JadiBUMN/Teknik-op-Icon.png"},
+      {"file": "JadiOJK/icon_Checking test.png"},
+      {"file": "JadiPCPM/icon_Latsol Psikometri.png"},
+      {"file": "JadiPPPK/icon_Manajerial & Operasional BGN.png"},
+      {"file": "JadiSekdin/icon_SSN.png"}
+    ],
+    "bulan_bintang": [
+      {"file": "Cerebrum/Icon-UMPTKIN.png"},
+      {"file": "JadiPPG/14.png"},
+      {"file": "JadiPPPK/icon_Keagamaan.png"}
+    ],
+    "pangkat_akmil": [
+      {"file": "JadiPrajurit/icon_akmil.png"}
+    ],
+    "pangkat_bintara": [
+      {"file": "JadiPrajurit/icon_bintara.png"}
+    ],
+    "pangkat_tamtama": [
+      {"file": "JadiPrajurit/icon_tamtama.png"}
+    ],
+    "gedung_pilar": [
+      {"file": "JadiASN/Icon_TWK 2025.png"},
+      {"file": "JadiBUMN/Infrastruktur.png"},
+      {"file": "JadiPCPM/icon_Bank indonesia & Kebangsentralan.png"},
+      {"file": "JadiPPG/5.png"},
+      {"file": "JadiPPPK/icon_Pilar negara.png"},
+      {"file": "JadiSekdin/icon_Pilar negara.png"}
+    ],
+    "obat_tablet": [
+      {"file": "JadiBUMN/kimia farma-icon.png"}
+    ],
+    "toga": [
+      {"file": "Cerebrum/Icon-TKA.png"},
+      {"file": "JadiBUMN/Pendidikan-Icon.png"},
+      {"file": "JadiPPG/3.png"},
+      {"file": "JadiPPPK/icon_Pendidikan, pelatihan, dan penelitian.png"},
+      {"file": "JadiPrajurit/icon_akademik.png"},
+      {"file": "JadiSekdin/icon_SKB Kemenhub.png"},
+      {"file": "Jago TPA/icon_Tes potensi akademik.png"}
+    ],
+    "toga_pria": [
+      {"file": "JadiPPG/Icon_Studi pendidikan luar biasa.png"},
+      {"file": "JadiPPPK/Icon_Tryout PPPK Sekolah Rakyat 2026.png", "varian": "variasi warna: kulit lebih terang"}
+    ],
+    "headset_cs": [
+      {"file": "JadiASN/Icon_TKP 2026.png"},
+      {"file": "JadiOJK/Wawancara psikologi.png"},
+      {"file": "JadiPPG/Icon_Studi bimbingan dan konseling.png"},
+      {"file": "JadiPPPK/icon_Wawancara & pelayanan publik.png"},
+      {"file": "JadiSekdin/icon_Pelayanan publik.png"},
+      {"file": "TOEFL Academy/icon_Scoring Guidance.png"}
+    ],
+    "guru": [
+      {"file": "JadiPPG/Icon_Dalam jabatan.png", "varian": "variasi warna dalam brand yang sama: dasi merah muda"},
+      {"file": "JadiPPG/Icon_Prajabatan.png", "varian": "variasi warna dalam brand yang sama: dasi biru"}
+    ],
+    "guru_sd": [
+      {"file": "JadiPPG/Icon_Guru PGSD.png"}
+    ],
+    "guru_paud": [
+      {"file": "JadiPPG/Icon_PGPAUD.png"}
+    ],
+    "kerumunan": [
+      {"file": "JadiPPG/Icon_Studi guru IPS.png"},
+      {"file": "JadiPrajurit/icon-mental ideologi.png"}
+    ],
+    "kristal": [
+      {"file": "JadiOJK/icon_TryOut_Tahap 1.png"},
+      {"file": "JadiPPG/13.png"},
+      {"file": "JadiSekdin/icon_Stmkg.png"}
+    ],
+    "logo_gunadarma": [
+      {"file": "Cerebrum/Gundar.png"}
+    ],
+    "logo_uad": [
+      {"file": "Cerebrum/Icon-Agmad Dahlan.png"}
+    ],
+    "logo_binus": [
+      {"file": "Cerebrum/Icon-Binus.png"}
+    ],
+    "logo_ipb": [
+      {"file": "Cerebrum/Icon-IPB.png"}
+    ],
+    "logo_itb": [
+      {"file": "Cerebrum/Icon-ITB.png"}
+    ],
+    "logo_its": [
+      {"file": "Cerebrum/Icon-ITS.png"}
+    ],
+    "logo_mercu_buana": [
+      {"file": "Cerebrum/Icon-Mercu.png"}
+    ],
+    "logo_petra": [
+      {"file": "Cerebrum/Icon-Petra.png"}
+    ],
+    "logo_telkom_university": [
+      {"file": "Cerebrum/Icon-Telkom.png"}
+    ],
+    "logo_trisakti": [
+      {"file": "Cerebrum/Icon-Trisakti.png"},
+      {"file": "Cerebrum/Untitled-2.png", "varian": "variasi gambar: logo yang sama versi datar tanpa bayangan 3D"}
+    ],
+    "logo_ugm": [
+      {"file": "Cerebrum/Icon-UGM.png"}
+    ],
+    "logo_ui": [
+      {"file": "Cerebrum/Icon-UI.png"}
+    ],
+    "logo_umy": [
+      {"file": "Cerebrum/Icon-UMY.png"}
+    ],
+    "logo_unj": [
+      {"file": "Cerebrum/Icon-UNJ.png"}
+    ],
+    "logo_uny": [
+      {"file": "Cerebrum/Icon-UNY.png"}
+    ],
+    "logo_upi": [
+      {"file": "Cerebrum/Icon-UPI.png"}
+    ],
+    "logo_uns": [
+      {"file": "Cerebrum/Icon-USM.png"}
+    ],
+    "logo_surabaya": [
+      {"file": "Cerebrum/Icon-USU.png"}
+    ],
+    "logo_udayana": [
+      {"file": "Cerebrum/Icon-Udayana.png"}
+    ],
+    "logo_unair": [
+      {"file": "Cerebrum/Icon-Unair.png"}
+    ],
+    "logo_undip": [
+      {"file": "Cerebrum/Icon-Undip.png"}
+    ],
+    "logo_unnes": [
+      {"file": "Cerebrum/Icon-Unnes.png"}
+    ],
+    "logo_unpad": [
+      {"file": "Cerebrum/Icon-Unpad.png"}
+    ],
+    "logo_unpas": [
+      {"file": "Cerebrum/Icon-Unpas.png"}
+    ],
+    "logo_untar": [
+      {"file": "Cerebrum/Icon-Untar.png"}
+    ],
+    "logo_smm_ptn_barat": [
+      {"file": "Cerebrum/Icon-smm.png"}
+    ],
+    "logo_bni": [
+      {"file": "JadiBUMN/BNI.png"}
+    ],
+    "logo_bpjs": [
+      {"file": "JadiBUMN/BPJS-Icon.png"}
+    ],
+    "logo_bulog": [
+      {"file": "JadiBUMN/Bulog-Icon.png"}
+    ],
+    "logo_freeport": [
+      {"file": "JadiBUMN/Freeport-Icon.png"}
+    ],
+    "logo_mind_id": [
+      {"file": "JadiBUMN/Mind-icon.png"},
+      {"file": "JadiBUMN/mind-id-logo-e1650472609768.png"}
+    ],
+    "logo_pln": [
+      {"file": "JadiBUMN/PLN-Icon2.png"}
+    ],
+    "logo_pertamina": [
+      {"file": "JadiBUMN/Pertamina-Icon.png"}
+    ],
+    "logo_pt_garam": [
+      {"file": "JadiBUMN/icon_PT garam.png"}
+    ],
+    "logo_jasa_raharja": [
+      {"file": "JadiBUMN/jasaraharja-icon.png"}
+    ],
+    "logo_kai": [
+      {"file": "JadiBUMN/kai-icon.png"}
+    ],
+    "logo_telkom_indonesia": [
+      {"file": "JadiBUMN/telkom-icon.png"}
+    ],
+    "logo_ipdn": [
+      {"file": "JadiSekdin/SKB IPDN.png"}
+    ],
+    "logo_poltekim": [
+      {"file": "JadiSekdin/SKB POLTEKIM.png"}
+    ],
+    "logo_pkn_stan": [
+      {"file": "JadiSekdin/SKB STAN.png"}
+    ],
+    "logo_stin": [
+      {"file": "JadiSekdin/SKB STIN.png"}
+    ],
+    "logo_stis": [
+      {"file": "JadiSekdin/SKB STIS.png"}
+    ]
+  }
+}

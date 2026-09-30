@@ -1,0 +1,152 @@
+[
+ {
+  "glyph": "materi",
+  "brand": "JadiPCPM",
+  "area_correct": 0.8951
+ },
+ {
+  "glyph": "materi",
+  "brand": "JadiASN",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "materi",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.8954
+ },
+ {
+  "glyph": "tryout",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "tryout",
+  "brand": "JadiASN",
+  "area_correct": 0.9835
+ },
+ {
+  "glyph": "tryout",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.8926
+ },
+ {
+  "glyph": "latsol",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "latsol",
+  "brand": "JadiASN",
+  "area_correct": 0.7116
+ },
+ {
+  "glyph": "latsol",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9462
+ },
+ {
+  "glyph": "rapor",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "rapor",
+  "brand": "JadiASN",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "rapor",
+  "brand": "TOEFL Academy",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "lapor_masalah",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "lapor_masalah",
+  "brand": "JadiASN",
+  "area_correct": 0.9467
+ },
+ {
+  "glyph": "lapor_masalah",
+  "brand": "TOEFL Academy",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "pdf",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "pdf",
+  "brand": "JadiASN",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "pdf",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9703
+ },
+ {
+  "glyph": "promo",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "promo",
+  "brand": "JadiASN",
+  "area_correct": 0.951
+ },
+ {
+  "glyph": "promo",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.9822
+ },
+ {
+  "glyph": "kalender",
+  "brand": "JadiPCPM",
+  "area_correct": 0.9163
+ },
+ {
+  "glyph": "kalender",
+  "brand": "JadiASN",
+  "area_correct": 0.9771
+ },
+ {
+  "glyph": "kalender",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.8773
+ },
+ {
+  "glyph": "live_class",
+  "brand": "JadiPCPM",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "live_class",
+  "brand": "JadiASN",
+  "area_correct": 1.0
+ },
+ {
+  "glyph": "live_class",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.5564
+ },
+ {
+  "glyph": "kertas_soal",
+  "brand": "JadiPCPM",
+  "area_correct": 0.8633
+ },
+ {
+  "glyph": "kertas_soal",
+  "brand": "JadiASN",
+  "area_correct": 0.4806
+ },
+ {
+  "glyph": "kertas_soal",
+  "brand": "TOEFL Academy",
+  "area_correct": 0.7628
+ }
+]
